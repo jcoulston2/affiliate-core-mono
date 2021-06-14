@@ -1,0 +1,1 @@
+# affilaite-core-mono
