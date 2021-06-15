@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './main';","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/cms/payments/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,QAAxB","sourcesContent":["export { default } from './main';\n"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /api/
+Disallow: /search/
+Disallow: */params/
+
+# Sitemaps
+Sitemap: https://www.fliik.co.uk/sitemap.xml

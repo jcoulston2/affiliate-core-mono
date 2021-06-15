@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "brand": "Dorothy Perkins",
+    "domain": "https://www.dorothyperkins.com"
+  },
+  
+  "categories": [
+    {
+      "urls": [
+        "/womens/dresses?start=160&sz=80"
+      ],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/coats-jackets?start=160&sz=80"
+      ],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/jeans?start=160&sz=80"
+      ],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/knitwear?start=160&sz=80"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/nightwear?start=160&sz=80"
+      ],
+      "category": "nightwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/shorts?start=160&sz=80"
+      ],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/skirts?start=160&sz=80"
+      ],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/swimwear?start=160&sz=80"
+      ],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/tops?start=160&sz=80"
+      ],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/trousers?start=160&sz=80"
+      ],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/clothing/tops/tunics?start=160&sz=80"
+      ],
+      "category": "tunics",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/maternity?start=160&sz=80"
+      ],
+      "category": "maternity",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/denim?start=160&sz=80"
+      ],
+      "category": "denim",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": [
+        "/womens/work-wear?start=160&sz=80"
+      ],
+      "category": "blazers & formalwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    }
+  ]
+}

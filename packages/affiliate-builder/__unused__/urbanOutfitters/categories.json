@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "brand": "Urban Outfitters",
+    "domain": "https://www.urbanoutfitters.com"
+  },
+  "categories": [
+    {
+      "urls": [
+        "/en-gb/new-in-dresses"
+      ],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/new-in-womens-tops-jackets"
+      ],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/new-in-womens-accessories-shoes"
+      ],
+      "category": "shoes",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/new-in-lingerie-swimwear"
+      ],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-tops"
+      ],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-tshirts"
+      ],
+      "category": "t-shirts & vests",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/blouses-shirts"
+      ],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-hoodies-sweatshirts"
+      ],
+      "category": "hoodies & sweatshirts",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/jumpers-cardigans"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/dresses"
+      ],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/playsuits-jumpsuits"
+      ],
+      "category": "jumpsuits & playsuits",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-co-ords-sets"
+      ],
+      "category": "co-ords & sets",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-coats-jackets"
+      ],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-jeans"
+      ],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/skirts"
+      ],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-trousers"
+      ],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-joggers"
+      ],
+      "category": "Joggers",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-shorts"
+      ],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/swimwear"
+      ],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/en-gb/womens-shoes"
+      ],
+      "category": "shoes",
+      "section": "womens",
+      "label": "clothing"
+    }
+  ]
+}

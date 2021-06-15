@@ -1,0 +1,62 @@
+{
+  "urls": [
+    "/l/women/trousers/fs5/leggings#intid=gnav_women_clothing_leggings"
+  ],
+  "category": "leggings",
+  "section": "womens",
+  "label": "clothing",
+  "brand": "M&S",
+  "domain": "https://www.marksandspencer.com",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 15000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": "#fesk-find ul.grid li.grid__tile"
+      },
+      "data": {
+        "name": {
+          "selector": ".product__title",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".product__price .price.product__price--current",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".price.price--previous",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".price.price--reduced",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": "a.product[href]",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": ".product__image--display img.product__image--view[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "delay": 2000,
+      "data": {
+        "images": {
+          "selector": ".container .image-grid .image-grid__item img",
+          "getDataFrom": "attr: data-src"
+        },
+        "selectedColor": {
+          "selector": ".colour-picker__information .colour-picker__name",
+          "getDataFrom": "text"
+        }
+      }
+    }
+  }
+}

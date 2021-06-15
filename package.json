@@ -1,0 +1,12 @@
+{
+  "name": "affiliate-mono",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "link": "lerna link",
+    "dev": "lerna run dev --stream" 
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

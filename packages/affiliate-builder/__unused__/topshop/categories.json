@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "brand": "topshop",
+    "domain": "https://www.topshop.com"
+  },
+  "categories": [
+    {
+      "urls": ["/en/tsuk/category/clothing-427/dresses-442"],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/jeans-6877054/"],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/trousers-leggings-4075710/joggers/N-8c0ZqgnZdgl"],
+      "category": "joggers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/shorts-448"],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/denim-4889473"],
+      "category": "denim",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/jackets-coats-2390889"],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/jackets-coats-2390889/blazers/N-86tZ1yeoZdgl"],
+      "category": "blazers & formalwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/jumpers-cardigans-6924635"],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/shirts-blouses-4650801"],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/t-shirts-6864659"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/hoodies-sweats-6864676"],
+      "category": "hoodies & sweatshirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/tops-443"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/playsuits-jumpsuits-2159081"],
+      "category": "jumpsuits & playsuits",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/skirts-449"],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/suits-co-ords-4062329"],
+      "category": "co-ords & sets",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/lingerie-nightwear-6914422"],
+      "category": "nightwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/loungewear-2624035"],
+      "category": "loungewear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "urls": ["/en/tsuk/category/clothing-427/swimwear-beachwear-3163078"],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?currentPage=",
+        "interval": 1,
+        "start": 1,
+        "end": 1
+      }
+    }
+  ]
+}

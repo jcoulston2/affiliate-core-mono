@@ -1,0 +1,58 @@
+{
+  "urls": [
+    "/womens/skirts?start=160&sz=80"
+  ],
+  "category": "skirts",
+  "section": "womens",
+  "label": "clothing",
+  "multipleUrls": null,
+  "brand": "Dorothy Perkins",
+  "domain": "https://www.dorothyperkins.com",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 10000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": "[data-ref='productGrid']"
+      },
+      "data": {
+        "name": {
+          "selector": ".b-product_tile-link",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".b-price-item",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".b-price-item.m-old",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".b-price-item.m-new",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": ".b-product_tile-link[href]",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": ".b-product_tile-image_image[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "data": {
+        "images": {
+          "selector": ".b-product_gallery-track .b-product_image source:first-child",
+          "getDataFrom": "attr: srcset"
+        }
+      }
+    }
+  }
+}

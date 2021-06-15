@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from '@containers/WishList/hook';","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/hooks/useWishListAction.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,2BAAxB","sourcesContent":["export { default } from '@containers/WishList/hook';\n"]},"metadata":{},"sourceType":"module"}

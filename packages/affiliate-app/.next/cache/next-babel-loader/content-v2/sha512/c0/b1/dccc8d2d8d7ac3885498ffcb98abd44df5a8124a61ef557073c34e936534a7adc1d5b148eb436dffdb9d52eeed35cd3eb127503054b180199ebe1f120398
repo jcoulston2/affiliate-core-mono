@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from \"../app/Root\";","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/pages/_app.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,aAAxB","sourcesContent":["export { default } from \"../app/Root\";\n"]},"metadata":{},"sourceType":"module"}

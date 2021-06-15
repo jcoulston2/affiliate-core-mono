@@ -1,0 +1,64 @@
+{
+  "urls": [
+    "/c/women/tops?f-cat=blouses&f-cat=shirts&icid=mu/women/blouses-shirts"
+  ],
+  "category": "shirts & blouses",
+  "section": "womens",
+  "label": "clothing",
+  "multipleUrls": {
+    "queryString": "?pgsz=60&pg=",
+    "interval": 1,
+    "start": 1,
+    "end": 2
+  },
+  "brand": "River Island",
+  "domain": "https://www.riverisland.com",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 20000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": "[data-qa='product-card']"
+      },
+      "data": {
+        "name": {
+          "selector": "[data-qa='product-title']",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": "[data-qa='product-price']",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": "[data-qa='product-original-price']",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": "[data-qa='product-price']",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": "self",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": "[data-qa='product-image']",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "delay": 2000,
+      "data": {
+        "images": {
+          "selector": ".product-main .gallery__main-image[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    }
+  }
+}

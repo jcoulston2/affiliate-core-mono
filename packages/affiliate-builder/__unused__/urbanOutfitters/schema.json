@@ -1,0 +1,50 @@
+{
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 15000,
+      "waitForCookies": true,
+      "waitForNode": null,
+      "productsSelector": {
+        "selector": ".c-pwa-tile-tiles .c-pwa-tile-grid-inner"
+      },
+      "data": {
+        "name": {
+          "selector": ".c-pwa-product-tile__heading",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".c-pwa-product-price__current",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".c-pwa-product-price__original",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".c-pwa-product-price__current--sale-temporary",
+          "getDataFrom": "text",
+          "isConditional": true
+        },                
+        "link": {
+          "selector": ".c-pwa-product-tile__link[href]",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": "img.c-pwa-product-tile__image",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "delay": 4000,
+      "data": {
+        "images": {
+          "selector": ".c-pwa-image-viewer__img[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    }
+  }
+}

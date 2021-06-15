@@ -1,0 +1,64 @@
+{
+  "urls": [
+    "/uk/womens/clothing/knitwear/c/uk-womens-clothing-knitwear"
+  ],
+  "category": "jumpers & knitwear",
+  "section": "womens",
+  "label": "clothing",
+  "multipleUrls": {
+    "queryString": "?page=",
+    "interval": 1,
+    "start": 1,
+    "end": 3
+  },
+  "brand": "New Look",
+  "domain": "https://www.newlook.com",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 15000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": ".plp-item__wrapper .plp-item"
+      },
+      "data": {
+        "name": {
+          "selector": ".product-item__name",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".product-item__price .price",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".product-item__price .price--previous-price",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".product-item__price .price--marked-down",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": ".plp-carousel__item:first-child .plp-carousel__img-link",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": ".plp-carousel__img[data-srcset]",
+          "getDataFrom": "attr: data-srcset"
+        }
+      }
+    },
+    "details": {
+      "delay": 2000,
+      "data": {
+        "images": {
+          "selector": ".product-details-page .product-gallery__image[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    }
+  }
+}

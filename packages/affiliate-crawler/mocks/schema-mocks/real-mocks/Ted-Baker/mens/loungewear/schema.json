@@ -1,0 +1,62 @@
+{
+  "urls": [
+    "/uk/mens/clothing/loungewear/c/casual-clothes-mens?int_cmpid=_m_mn_clothing_loungewear"
+  ],
+  "category": "loungewear",
+  "section": "mens",
+  "label": "clothing",
+  "brand": "Ted Baker",
+  "domain": "https://www.tedbaker.com",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 15000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": ".product-wrap.plp_page"
+      },
+      "data": {
+        "name": {
+          "selector": ".details .summary.ng-binding",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".pricing li.price.unit",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".pricing li.price.previous",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".pricing li.price.unit:not(.previous)",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": "a.image[href]",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": "a.image[href] img[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "delay": 2000,
+      "data": {
+        "images": {
+          "selector": ".viewport .image img.lazy-image__img-pdp[src]",
+          "getDataFrom": "attr: src"
+        },
+        "selectedColor": {
+          "selector": ".pdp_colour_name",
+          "getDataFrom": "text"
+        }
+      }
+    }
+  }
+}
