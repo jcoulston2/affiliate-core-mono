@@ -1,0 +1,48 @@
+{
+  "name": "@affiliate-master/builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "new-schema": "babel-node scripts/new-schema.js",
+    "build": "babel-node scripts/build.js",
+    "build-static-paths": "babel-node scripts/build-listing-paths.js",
+    "transmit-store": "babel-node test-fs-script.js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcoulston2/affiliate-builder.git"
+  },
+  "author": "justin coulston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcoulston2/affiliate-builder/issues"
+  },
+  "homepage": "https://github.com/jcoulston2/affiliate-builder#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "chrome-aws-lambda": "^2.1.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "flow-bin": "^0.115.0",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "modern-random-ua": "^1.0.3",
+    "pretty-ms": "^7.0.0",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-aws": "^1.0.2",
+    "puppeteer-extra-plugin-stealth": "^2.5.0",
+    "regenerator-runtime": "^0.13.3",
+    "require-context": "^1.1.0",
+    "stopwatch-node": "^1.0.2"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "cross-env": "^7.0.2"
+  }
+}

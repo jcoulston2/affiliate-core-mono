@@ -1,0 +1,23 @@
+[ignore]
+.*/__tests__/.*
+
+[include]
+../../node_modules/
+.*/\@affiliate-master/.*
+
+[options]
+module.name_mapper='@modules' -> '<PROJECT_ROOT>/components/modules'
+module.name_mapper='@cmsContext' -> '<PROJECT_ROOT>/app/CmsContext'
+module.name_mapper='@units' -> '<PROJECT_ROOT>/components/units'
+module.name_mapper='@document' -> '<PROJECT_ROOT>/document'
+module.name_mapper='@styles' -> '<PROJECT_ROOT>/styles'
+module.name_mapper='@layouts' -> '<PROJECT_ROOT>/layouts'
+module.name_mapper='@helpers' -> '<PROJECT_ROOT>/helpers'
+module.name_mapper='@images' -> '<PROJECT_ROOT>/images'
+module.name_mapper='@containers' -> '<PROJECT_ROOT>/containers'
+module.name_mapper='@types' -> '<PROJECT_ROOT>/types'
+module.name_mapper='@constants' -> '<PROJECT_ROOT>/constants'
+module.name_mapper='@hooks' -> '<PROJECT_ROOT>/hooks'
+module.name_mapper='@config' -> '<PROJECT_ROOT>/config'
+module.name_mapper='@server' -> '<PROJECT_ROOT>/server'
+esproposal.optional_chaining=enable
