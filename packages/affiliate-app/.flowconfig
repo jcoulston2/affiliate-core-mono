@@ -1,6 +1,8 @@
 [ignore]
 .*/__tests__/.*
-.*/__node_modules__/.*
+
+[include]
+../../node_modules/
 
 [options]
 module.name_mapper='@modules' -> '<PROJECT_ROOT>/components/modules'

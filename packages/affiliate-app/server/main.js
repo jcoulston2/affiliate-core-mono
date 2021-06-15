@@ -4,42 +4,24 @@ import next from 'next';
 import { NODE_ENV, NEXT_PUBLIC_PORT } from '../constants';
 import { parse } from 'url';
 
-class Server {
-  port: number;
-  dev: boolean;
-  handle: Function;
-  app: Object;
-  server: Object;
+async function initServer(): Promise<void> {
+  const port = parseInt(NEXT_PUBLIC_PORT, 10) || 3000;
+  const dev = NODE_ENV !== 'production';
+  const app = next({ dev });
+  const handle = app.getRequestHandler();
+  const server = express();
 
-  constructor(): void {
-    this.port = parseInt(NEXT_PUBLIC_PORT, 10) || 3000;
-    this.dev = NODE_ENV !== 'production';
-    this.app = next({ dev: this.dev });
-    this.handle = this.app.getRequestHandler();
-  }
+  await app.prepare();
 
-  setUpRoutes(): void {
-    this.server.all('*', (req, res) => {
-      const parsedUrl = parse(req.url, true);
-      return this.handle(req, res, parsedUrl, req?.query);
-    });
-  }
+  server.all('*', (req, res) => {
+    const parsedUrl = parse(req.url, true);
+    return handle(req, res, parsedUrl, req?.query);
+  });
 
-  async initCore(): Promise<any> {
-    this.server = express();
-    await this.app.prepare();
-    this.setUpRoutes();
-
-    this.server.listen(this.port, (err) => {
-      if (err) throw err;
-      console.log(`> Ready on http://localhost:${this.port}`);
-    });
-  }
+  server.listen(port, (err) => {
+    if (err) throw err;
+    console.log(`App running on http://localhost:${port}`);
+  });
 }
 
-function init(): void {
-  const Core = new Server();
-  Core.initCore();
-}
-
-init();
+initServer();

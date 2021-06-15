@@ -3,7 +3,7 @@ import Cors from 'cors';
 import { API_WHITELIST } from '@constants/secrets';
 
 const whitelist: Array<string> = JSON.parse(API_WHITELIST);
-const corsConfig = {
+const corsConfig: Object = {
   origin: (origin, cb) => {
     if (!whitelist.length || whitelist.includes(origin)) {
       cb(null, true);

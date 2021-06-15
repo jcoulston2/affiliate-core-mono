@@ -16,7 +16,6 @@ export function zipParseIncrements(zipped: Array<string>): CommonJson {
   zipped.forEach((chunk) => {
     zip.parseIncremental(chunk);
   });
-
   return zip.parseIncremental(null);
 }
 
