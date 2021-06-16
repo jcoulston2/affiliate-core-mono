@@ -2,7 +2,7 @@
   "name": "affiliate-mono",
   "private": true,
   "scripts": {
-    "boot": "lerna bootstrap --hoist",
+    "boot": "lerna run compile --stream && lerna bootstrap --hoist",
     "link": "lerna link",
     "dev": "lerna run dev --stream"
   },

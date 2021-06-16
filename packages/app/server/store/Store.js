@@ -1,6 +1,6 @@
 //@flow
-import storeCache from '../../__store-cache__/store-cache.json';
-import { zipParse } from '../../helpers/common';
+import { storeCache } from '@affiliate-master/store';
+import { zipParse } from '@affiliate-master/common';
 import { type Store } from '@types/store';
 
 function getStore(): Store {

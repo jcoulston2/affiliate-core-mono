@@ -14,7 +14,9 @@
     "clear-dev": "babel-node scripts/refresh-dev-seed.js"
   },
   "dependencies": {
-    "@affiliate-master/config": "^1.0.0", 
+    "@affiliate-master/common": "^1.0.0",
+    "@affiliate-master/config": "^1.0.0",     
+    "@affiliate-master/store": "^1.0.0",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",

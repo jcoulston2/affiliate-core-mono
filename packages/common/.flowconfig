@@ -1,0 +1,10 @@
+[ignore]
+.*/__tests__/.*
+.*/__store-cache__/.*
+.*/__predictive-search__/.*
+
+[include]
+../../node_modules/
+.*/\@affiliate-master/.*
+
+esproposal.optional_chaining=enable

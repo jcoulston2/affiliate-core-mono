@@ -1,6 +1,4 @@
 export {
-  zipParse,
-  zipParseIncrements,
   fastClone,
   toArray,
   toArrayNullable,

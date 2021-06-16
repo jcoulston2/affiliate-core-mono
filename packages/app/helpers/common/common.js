@@ -1,22 +1,10 @@
 //@flow
-import * as zip from 'zipson';
 import { type CommonJson } from '../../types/other';
 
 declare var require: any;
 
 export function fastClone(json: CommonJson): CommonJson {
   return JSON.parse(JSON.stringify(json));
-}
-
-export function zipParse(zipped: string): CommonJson {
-  return zip.parse(zipped);
-}
-
-export function zipParseIncrements(zipped: Array<string>): CommonJson {
-  zipped.forEach((chunk) => {
-    zip.parseIncremental(chunk);
-  });
-  return zip.parseIncremental(null);
 }
 
 export const navigateToUrl = (url: string): void => {

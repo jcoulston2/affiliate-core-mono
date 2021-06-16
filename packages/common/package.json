@@ -1,0 +1,15 @@
+{
+  "name": "@affiliate-master/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel lib/index.js --out-file dist/index.js"
+  },
+  "author": "justin coulston",
+  "license": "ISC",
+  "dependencies": {
+    "zipson": "^0.2.12"
+  }
+}

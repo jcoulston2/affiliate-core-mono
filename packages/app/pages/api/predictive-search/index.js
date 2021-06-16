@@ -1,6 +1,6 @@
 //@flow
 export { config } from '../../../apiUtil';
-import predictiveSearch from '../../../__predictive-search__/predictive-search.json';
+import predictiveSearch from '@affiliate-master/store';
 import { type xhr } from '@types/other';
 import { type PredictiveSearch } from '@types/search';
 import { commonMultiMatch } from '@helpers/common';
