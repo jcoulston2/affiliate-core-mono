@@ -9,7 +9,7 @@ import { type CmsResponsiveMixed } from '../../types/cms';
  * const cmsContext = useCmsContext();
  * const cmsContent = getCmsContent(cmsContext, 'theme');
  *
- * When linking to the cms it's preferred to the hook as easier
+ * When linking to the cms it's preferred using the hook.
  *
  */
 export function getCmsContent(

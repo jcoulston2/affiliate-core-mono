@@ -1,20 +1,21 @@
+import {
+  writeStoreCache,
+  assignToExtract,
+  zipParse,
+  separateCautiousProducts,
+} from '@affiliate-master/common';
+import { storeCache } from '@affiliate-master/store';
 import chunk from 'lodash/chunk';
 import shuffle from 'lodash/shuffle';
 import set from 'lodash/set';
 import SingleCycle from './Cycle';
 import clock from 'pretty-ms';
 import { StopWatch } from 'stopwatch-node';
-import {
-  writeStoreCache,
-  assignToExtract,
-  parseStoreCache,
-  separateCautiousProducts,
-} from '../helpers';
 import { transmitExtractsToCore, transmitLogsToSlack } from '../api';
 import messages from '../logger/logTypes';
 import Logger from '../logger/Logger';
-import storeCache from '../__store-cache__/store-cache.json';
 import BatchPipe from '../batching/BatchPipe';
+import { AFF_DATA_PATH, BATCH_LOG } from '../constants';
 
 export default class FullCycle {
   constructor({
@@ -88,7 +89,7 @@ export default class FullCycle {
   }
 
   parseStore() {
-    return parseStoreCache(this.store);
+    return zipParse(this.store);
   }
 
   batchDataWithExistingStore(extracts) {
@@ -106,8 +107,7 @@ export default class FullCycle {
   }
 
   logBatchMetrics(metrics) {
-    const batchOutputDir = `${__dirname}/../__log__/batchMetrics.log`;
-    Logger.setWritableLogs(batchOutputDir);
+    Logger.setWritableLogs(BATCH_LOG);
     Logger.publicLog(messages.batchSuccess(metrics), 'green', true);
     this.sendSlackNotification(messages.slackBatchMetrics(metrics));
   }
@@ -138,7 +138,7 @@ export default class FullCycle {
   async writeStoreToCache(extracts) {
     if (!this.writeStoreCache) return;
     try {
-      await writeStoreCache(extracts);
+      await writeStoreCache(AFF_DATA_PATH, extracts);
     } catch (e) {
       Logger.publicLog(messages.writeStoreToCacheFail(e), 'red');
     }
@@ -176,7 +176,12 @@ export default class FullCycle {
 
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
+
+    console.log('WORK TO ORDER CATS NEEDED');
+
+    return;
     this.orderProductCategories(concludedExtracts);
+
     await this.writeStoreToCache(concludedExtracts);
 
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');

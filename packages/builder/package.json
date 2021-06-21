@@ -6,9 +6,9 @@
   "scripts": {
     "test": "jest",
     "new-schema": "babel-node scripts/new-schema.js",
-    "build": "babel-node scripts/build.js",
-    "build-static-paths": "babel-node scripts/build-listing-paths.js",
-    "transmit-store": "babel-node test-fs-script.js"    
+    "build-schemas": "babel-node scripts/build.js",
+    "build-predictive-search": "babel-node scripts/build-search.js",
+    "transmit-store": "babel-node test-fs-script.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,10 @@
   },
   "homepage": "https://github.com/jcoulston2/affiliate-builder#readme",
   "dependencies": {
+    "@affiliate-master/common": "^1.0.0",
+    "@affiliate-master/config": "^1.0.0",
     "axios": "^0.19.2",
     "bluebird": "^3.7.2",
-    "chrome-aws-lambda": "^2.1.1",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
@@ -42,6 +43,7 @@
     "stopwatch-node": "^1.0.2"
   },
   "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0",
     "chalk": "^3.0.0",
     "cross-env": "^7.0.2"
   }

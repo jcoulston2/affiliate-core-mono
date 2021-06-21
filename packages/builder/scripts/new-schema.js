@@ -1,5 +1,6 @@
 import fs from 'fs';
-
+import { createOutput } from '@affiliate-master/common';
+import { AFF_DATA } from '../constants/errors';
 const templateSchema = {
   extracts: {
     topLevel: {
@@ -56,15 +57,11 @@ const templateSchema = {
   },
 };
 
-export function createFolder(dir) {
-  return new Promise((resolve) => fs.mkdir(dir, { recursive: true }, (err) => resolve(dir)));
-}
-
-export async function writeSchemaFolder(extracts) {
+export async function writeSchemaFolder() {
   try {
     const brandName = process.argv[2];
-    const outputFileDir = __dirname + `/../affiliate-data/${brandName || 'TEMPLATE'}`;
-    await createFolder(outputFileDir);
+    const outputFileDir = `${AFF_DATA}${brandName || 'TEMPLATE'}`;
+    await createOutput(outputFileDir);
     const promises = [
       {
         dir: `${outputFileDir}/categories.json`,

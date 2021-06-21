@@ -1,10 +1,11 @@
-import { getAffiliateSchema } from './directoryHelpers';
-import 'regenerator-runtime/runtime';
+import { getAffiliateSchema } from '@affiliate-master/common';
 import brandsList from '../integration/setUpMocks';
+import 'regenerator-runtime/runtime';
+import { MOCKS } from '../constants';
 
 async function getFiles({ brand, ...rest }) {
-  const pdp = await getAffiliateSchema(`mocks/page-mocks/real-mocks/${brand}/pdp`, 'txt');
-  const plp = await getAffiliateSchema(`mocks/page-mocks/real-mocks/${brand}/plp`, 'txt');
+  const pdp = await getAffiliateSchema(`${MOCKS}/page-mocks/real-mocks/${brand}/pdp`, 'txt');
+  const plp = await getAffiliateSchema(`${MOCKS}/page-mocks/real-mocks/${brand}/plp`, 'txt');
 
   return {
     ...rest,

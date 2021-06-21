@@ -1,5 +1,5 @@
-import storeCache from '../__store-cache__/store-cache.json';
-import { parseStoreCache } from '../helpers';
+import storeCache from '@affiliate-master/store';
+import { zipParse as parseStoreCache } from '@affiliate-master/common';
 
 function logStoreCache() {
   console.log(':::::: STARTING PARSE ::::::');

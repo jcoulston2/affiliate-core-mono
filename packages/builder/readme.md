@@ -129,6 +129,10 @@ IMPORTANT - when running a scrape, make sure the laptop does not hibernate or sl
 
 - the app is hosted in the vercel platform. Develop is hooked into the preview environment (we can call this staging even though technically it's not a staging env) and master is hooked into the production environment. To push to staging simple push to develop, and to deply to production, create a PR to merge develop into master. (https://vercel.com/fliik)
 
+# More information on brands can be found here:
+
+https://docs.google.com/document/d/1vYYjcFCb3vAScBtT14cGk_tS2e12opxZwr-04CIb6mI/edit
+
 # Quick crawl cheatsheet (without testing)
 
 1. Make a new branch for Core before starting (off develop)

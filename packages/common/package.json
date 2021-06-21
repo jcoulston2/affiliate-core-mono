@@ -5,11 +5,21 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "npx babel lib/index.js --out-file dist/index.js"
+    "compile": "npx webpack --config webpack.config.js"
   },
   "author": "justin coulston",
   "license": "ISC",
   "dependencies": {
     "zipson": "^0.2.12"
+  },
+  "_moduleAliases": {
+    "web": "dist/common",
+    "full": "dist/index"
+  },
+  "devDependencies": {
+    "module-alias": "^2.2.2",
+    "webpack": "4.20.2",
+    "webpack-cli": "^3.0.0",
+    "webpack-node-externals": "^3.0.0"
   }
 }

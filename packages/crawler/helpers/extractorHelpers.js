@@ -1,11 +1,5 @@
-import {
-  getCurrentDateTime,
-  srcToHttp,
-  getSingle,
-  normalizePrice,
-  isValidImageSrc,
-  toArray,
-} from './common';
+import moment from 'moment';
+import { srcToHttp, toArray, getSingle } from '@affiliate-master/common';
 
 /**
  * @Info Sculpts the data into our required format structure and organizes the data between schemas
@@ -33,7 +27,7 @@ export function assignToExtract(
 
       secData.push({
         category: preAssignedCat,
-        categoryLastUpdated: getCurrentDateTime(),
+        categoryLastUpdated: moment().format(),
         label: preAssignedLabel,
         data: preAssignedData,
       });
@@ -47,7 +41,7 @@ export function assignToExtract(
     data: [
       {
         category: preAssignedCat,
-        categoryLastUpdated: getCurrentDateTime(),
+        categoryLastUpdated: moment().format(),
         label: preAssignedLabel,
         data: preAssignedData,
       },
@@ -55,6 +49,22 @@ export function assignToExtract(
   });
 
   return extracts;
+}
+
+export function isValidImageSrc(src) {
+  if (!src) return false;
+  try {
+    new URL(src);
+    return !/^data|image\/svg;base64|\[gif\]/.test(src);
+  } catch (e) {
+    return false;
+  }
+}
+
+export function normalizePrice(price) {
+  if (!price) return null;
+  const singlePrice = getSingle(price);
+  return /£/.test(singlePrice) ? singlePrice : `£${singlePrice}`;
 }
 
 /**

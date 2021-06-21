@@ -4,7 +4,6 @@ import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import Logger from '../logger/Logger';
 import messages from '../logger/logTypes';
-import randomUA from 'modern-random-ua';
 import 'regenerator-runtime/runtime';
 import { assignToExtract, normalizeProductDetail, normalizeProductTopLevel } from '../helpers';
 

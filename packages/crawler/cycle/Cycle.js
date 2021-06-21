@@ -119,7 +119,6 @@ export default class ExtractorCycle {
 
   async init() {
     const affilaiteSchemas = this.affilaiteSchemas;
-
     this.setNumberOfSchemas(affilaiteSchemas && affilaiteSchemas.length);
 
     // If the extractor broke previously, we don't want to give back the schemas the extractor

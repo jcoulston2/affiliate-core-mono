@@ -26,7 +26,6 @@ export {
   keyWordsToString,
   isServer,
   betterThrottle,
-  getImg,
   crossIncludes,
   createEvent,
   urlReverseCase,
@@ -35,4 +34,5 @@ export {
   isChrome,
   urlContainsQuery,
   deDupeArray,
-} from './common';
+} from '@affiliate-master/common/web';
+export { getImg } from './common';

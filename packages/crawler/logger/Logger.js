@@ -21,7 +21,7 @@ export default class Logger {
   }
 
   static setWritableLogs(outputDirectory) {
-    const logDir = outputDirectory || `${__dirname}/../__log__/logs.log`;
+    const logDir = outputDirectory || `${__dirname}_log_/logs.log`;
     const logFile = fs.createWriteStream(logDir, {
       flags: 'w',
     });

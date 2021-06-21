@@ -1,8 +1,34 @@
-import { getAffiliateSchema, prettyJson } from '../helpers';
 import { mapSeries } from 'bluebird';
-import affiliateCategoryList from '../affiliate-categories';
+import {
+  getAffiliateSchema,
+  prettyJson,
+  writeFileToOutput,
+  cleanOutput,
+  createOutput,
+  urlCase,
+} from '@affiliate-master/common';
+import { affiliateCategories as affiliateCategoryList } from '@affiliate-master/config';
 import { INCORRECT_CATEGORY_SCHEMA, INCORRECT_SECTION_SCHEMA } from '../constants/errors';
-import { writeFileToOutput, cleanOutput, createOutput } from '../helpers/common';
+import { BUILD_DATA_INPUT, BUILD_DATA_OUTPUT, BUILD_STATIC_PATHS_OUTPUT } from '../constants/paths';
+
+function getStaticListingPaths() {
+  const paths = [];
+  for (const section of Object.keys(affiliateCategoryList)) {
+    for (const category of affiliateCategoryList[section]) {
+      paths.push({ params: { slug: [urlCase(section), urlCase(category)] } });
+    }
+  }
+
+  return paths;
+}
+
+async function generateStaticListingPaths() {
+  await cleanOutput(BUILD_STATIC_PATHS_OUTPUT);
+  await createOutput(BUILD_STATIC_PATHS_OUTPUT);
+  const pathsJson = getStaticListingPaths();
+  await writeFileToOutput(`${BUILD_STATIC_PATHS_OUTPUT}static-paths.json`, pathsJson);
+  console.log('::: Built static paths :::');
+}
 
 function getCategoryLists() {
   const affiliateSections = [];
@@ -70,15 +96,13 @@ function constructBrandSchemas({ categories, schema }) {
 }
 
 async function outputSchemaFiles(chunkedDataByBrand) {
-  const outputFileDir = __dirname + '/../output/affiliate-data-output/';
-
-  await cleanOutput(outputFileDir);
-  await createOutput(outputFileDir);
+  await cleanOutput(BUILD_DATA_OUTPUT);
+  await createOutput(BUILD_DATA_OUTPUT);
 
   chunkedDataByBrand.forEach(async (brand) => {
     try {
       const brandSchemas = constructBrandSchemas(brand);
-      await outputSchema(brandSchemas, outputFileDir);
+      await outputSchema(brandSchemas, BUILD_DATA_OUTPUT);
       console.log(`Schema output built for: \n${prettyJson(brand.categories.meta)}\n`);
     } catch (error) {
       console.log(error);
@@ -87,9 +111,13 @@ async function outputSchemaFiles(chunkedDataByBrand) {
 }
 
 async function init() {
-  const affilaiteSchemas = await getAffiliateSchema('affiliate-data', 'json');
+  const affilaiteSchemas = await getAffiliateSchema(BUILD_DATA_INPUT, 'json');
   const chunkedDataByBrand = chunkCategoriesAndSchema(affilaiteSchemas);
-  outputSchemaFiles(chunkedDataByBrand);
+  await outputSchemaFiles(chunkedDataByBrand);
+  await generateStaticListingPaths();
+  console.log(
+    'Built affiliate definitions in packages/store. We will now need a package reboot to update dependencies'
+  );
 }
 
 init();

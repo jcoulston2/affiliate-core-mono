@@ -1,0 +1,52 @@
+FOR: https://www.marksandspencer.com/, womens, dresses
+SUCCESS crawl PLP: /l/women/dresses#intid=gnav_women_clothing_dresses at https://www.marksandspencer.com
+SUCCESS crawl PLP (warnings: /gap/women/clothing/coats-and-jackets/ at https://www.gap.co.uk
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw4ff9d780/webcontent/0019/896/858/cn19896858.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw240e595f/webcontent/0020/345/643/cn20345643.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw4fa79314/webcontent/0019/796/953/cn19796953.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw2e16bb03/webcontent/0019/898/592/cn19898592.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw1ca54b30/webcontent/0019/708/118/cn19708118.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw706a6a16/webcontent/0019/932/972/cn19932972.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwee698f0e/webcontent/0020/419/126/cn20419126.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwf206e568/webcontent/0020/370/311/cn20370311.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw38e4c40d/webcontent/0019/059/127/cn19059127.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
+ - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwaaa03de9/webcontent/0019/173/597/cn19173597.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true.
+SUCCESS crawl PDP (warnings): /floral-round-neck-midaxi-waisted-dress/p/clp60516327?color=PINKMIX
+ - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
+FOR: https://www.cosstores.com/, mens, accessories
+SUCCESS crawl PLP: /en_gbp/men/small-accessories.html at https://www.cosstores.com
+FOR: https://www.tedbaker.com/, womens, swimwear
+SUCCESS crawl PLP: /uk/Womens/Swimwear-and-Beachwear/c/beachwear-swimwear at https://www.tedbaker.com
+SUCCESS crawl PDP (warnings): /floral-puff-sleeve-midaxi-tea-dress/p/clp60518557?color=MULTI#intid=prodColourId-60518557
+ - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
+SUCCESS crawl PDP: https://www.gap.co.uk/gap/100pct-recycled-quilted-jacket-/000614978.html?dwvar_000614978_color=000614978001&dwvar_000614978_fit=regular&cgid=68138
+SUCCESS crawl PLP (warnings: /w/womens-trousers-tights-2kq19z5e1x6 at https://www.nike.com/gb
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
+ - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false.
+SUCCESS crawl PDP (warnings): /polka-dot-puff-sleeve-midaxi-tea-dress/p/clp60518556?color=IVORYMIX
+ - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
+SUCCESS crawl PDP: https://www.cosstores.com/en_gbp/men/accessories/product.leather-iphone-12-pouch-beige.0960168002.html
+SUCCESS crawl PDP: //www.tedbaker.com/uk/Womens/Accessories/Shoes/Sandals/SELANAS-Scalloped-wedge-espadrille-sandal-Pink/p/251801-PINK
+SUCCESS crawl PDP (warnings): /linen-animal-print-knee-length-shift-dress/p/clp60489041?color=CAMELMIX#intid=prodColourId-60489041
+ - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
+SUCCESS crawl PDP: https://www.gap.co.uk/gap/gap-and--jean-redesign-icon-denim-jacket-with-washwell/000631611.html?dwvar_000631611_color=000631611000&dwvar_000631611_fit=regular&cgid=68138

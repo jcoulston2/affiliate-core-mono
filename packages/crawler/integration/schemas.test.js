@@ -1,9 +1,11 @@
-import { getAffiliateSchema } from '../helpers';
+import { getAffiliateSchema } from '@affiliate-master/common';
 import 'regenerator-runtime/runtime';
+import { AFF_DATA } from '../constants';
+
 let schemas;
 
 beforeAll(async () => {
-  schemas = await getAffiliateSchema('affiliate-data', 'json');
+  schemas = await getAffiliateSchema(AFF_DATA, 'json');
 });
 
 describe('Given a schema in a directory', () => {

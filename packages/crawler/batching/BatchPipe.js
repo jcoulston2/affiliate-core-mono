@@ -1,6 +1,6 @@
+import { fastClone as clone } from '@affiliate-master/common';
 import set from 'lodash/set';
 import get from 'lodash/get';
-import { clone } from '../helpers';
 import Logger from '../logger/Logger';
 import messages from '../logger/logTypes';
 

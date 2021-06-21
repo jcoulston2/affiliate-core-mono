@@ -1,4 +1,5 @@
-import { getAffiliateSchema, validateUrl, getFullSchemaUrl } from '../helpers';
+import { getAffiliateSchema, getFullSchemaUrl } from '@affiliate-master/common';
+import { validateUrl } from './helper';
 import { mapSeries } from 'bluebird';
 
 // Configure testOne to run only on brand (brand name prop), if setting this to null, the integration test
@@ -21,7 +22,8 @@ async function validateUrls() {
 }
 
 beforeAll(async () => {
-  affilaiteSchemas = await getAffiliateSchema('output', 'json');
+  const buildDataOutput = __dirname + '/../../store/__affiliate-definitions__/';
+  affilaiteSchemas = await getAffiliateSchema(buildDataOutput, 'json');
   validation = validateUrl();
   await validation.setUpBrowser();
 });

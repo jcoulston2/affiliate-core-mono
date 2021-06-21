@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /__store-cache-dev-seed__
+node_modules/
+**/node_modules
 
 # testing
 /coverage

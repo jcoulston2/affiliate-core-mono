@@ -1,1 +1,1 @@
-export { transmitExtractsToCore, getExtractsFromCore, transmitLogsToSlack } from './api';
+export { transmitLogsToSlack } from './api';

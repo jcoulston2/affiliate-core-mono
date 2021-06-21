@@ -1,6 +1,5 @@
-import { writeStoreCache } from '../helpers';
-import storeCache from '../__store-cache__/store-cache.json';
-import { parseStoreCache } from '../helpers';
+import { writeStoreCache, zipParse as parseStoreCache } from '@affiliate-master/common';
+import { storeCache } from '@affiliate-master/store';
 import BatchPipe from '../batching/BatchPipe';
 import moment from 'moment';
 

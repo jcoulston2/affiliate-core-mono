@@ -1,4 +1,6 @@
-import { constructMockPages, getPageHtml, getAffiliateSchema, getSampleSchemas } from '../helpers';
+import { constructMockPages, getPageHtml, getSampleSchemas } from '../helpers';
+import { getAffiliateSchema } from '@affiliate-master/common';
+import { AFF_DATA } from '../constants';
 import Extractor from '../Extractor';
 import 'regenerator-runtime/runtime';
 
@@ -49,7 +51,7 @@ jest.mock('puppeteer-extra', () => {
 });
 
 beforeAll(async () => {
-  const allSchemas = await getAffiliateSchema('affiliate-data', 'json');
+  const allSchemas = await getAffiliateSchema(AFF_DATA, 'json');
   realPageMocks = await constructMockPages();
   targetSchemas = getSampleSchemas(allSchemas, realPageMocks);
   const Ext = mockExtractor(targetSchemas);

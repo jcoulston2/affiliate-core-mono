@@ -6,15 +6,6 @@
 
 export default [
   {
-    brand: 'TK Maxx',
-    domain: 'https://www.tkmaxx.com/uk/en',
-    plpExample: '/men/clothing/jeans/c/02020800',
-    containerSelectorPlp: '[data-product-list-container] .container',
-    pdpExample: '/men/clothing/jeans/blue-slim-fit-denim-jeans/p/29315596',
-    containerSelectorPdp: '.content-wrapper',
-    scrollPage: true,
-  },
-  {
     brand: 'nike',
     domain: 'https://www.nike.com/gb',
     plpExample: '/w/mens-shorts-38fphznik1',
