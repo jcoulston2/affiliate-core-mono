@@ -1,8 +1,8 @@
 //@flow
 declare var require: any;
 
-export function prettyJson(str) {
-  return JSON.stringify(str, null, 2);
+export function prettyJson(obj: Object): string {
+  return JSON.stringify(obj, null, 2);
 }
 
 export function fastClone(json: Array<any> | Object): Array<any> | Object {

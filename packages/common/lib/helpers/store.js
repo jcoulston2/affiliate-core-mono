@@ -13,7 +13,10 @@ export function zipParseIncrements(zipped: Array<string>): Array<any> | Object {
   return zip.parseIncremental(null);
 }
 
-export async function writeStoreCache(outputFileDir, extracts) {
+export async function writeStoreCache(
+  outputFileDir: string,
+  extracts: Object | Array<any>
+): Promise<void> {
   const zipped = zip.stringify(extracts);
   const store = JSON.stringify({ store: zipped });
 

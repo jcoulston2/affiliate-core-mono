@@ -42,9 +42,9 @@ const Cycle = new FullCycle({
 });
 
 const setSpies = (Cycle) => {
+  transmitLogsToSlack.mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'sendSlackNotification').mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'writeStoreToCache').mockImplementation((extracts) => mockPromise(extracts));
-  transmitLogsToSlack.mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'orderProductCategories');
   jest.spyOn(Cycle, 'setStopWatch');
   jest.spyOn(Cycle, 'sendSlackNotification');
