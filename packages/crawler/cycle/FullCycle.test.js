@@ -1,13 +1,13 @@
 import 'regenerator-runtime/runtime';
 import FullCycle from './FullCycle';
-import { transmitExtractsToCore, transmitLogsToSlack } from '../api';
+import { transmitLogsToSlack } from '../api';
 import commonSchema from '../mocks/schema-mocks/test-mocks/commonSchema';
 import extractResponse from '../mocks/response-mocks/cycle-response-mock';
 
 jest.mock('../Extractor');
 jest.mock('../logger/Logger');
 jest.mock('../api');
-jest.mock('../__store-cache__/store-cache.json', () => ({
+jest.mock('../../store/__store-cache__/store-cache.json', () => ({
   store: global.mockZippedStore,
 }));
 
@@ -30,14 +30,12 @@ const Cycle = new FullCycle({
   schemas,
   numberOfChunks,
   cycleRunTime: 'linear',
-  useTransmitStoreApi: false,
 });
 
 const setSpies = (Cycle) => {
   jest.spyOn(Cycle, 'sendSlackNotification').mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'writeStoreToCache').mockImplementation((extracts) => mockPromise(extracts));
   transmitLogsToSlack.mockImplementation(() => mockPromise);
-  transmitExtractsToCore.mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'writeStoreToCache');
   jest.spyOn(Cycle, 'setStopWatch');
   jest.spyOn(Cycle, 'sendSlackNotification');
@@ -174,7 +172,6 @@ describe('When there is no initial store or opting out of batching', () => {
       schemas,
       numberOfChunks,
       cycleRunTime: 'linear',
-      useTransmitStoreApi: false,
       useBatching: false,
     });
     setSpies(Cycle);

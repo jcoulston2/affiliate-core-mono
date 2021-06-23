@@ -4,8 +4,8 @@ import 'regenerator-runtime/runtime';
 import { MOCKS } from '../constants';
 
 async function getFiles({ brand, ...rest }) {
-  const pdp = await getAffiliateSchema(`${MOCKS}/page-mocks/real-mocks/${brand}/pdp`, 'txt');
-  const plp = await getAffiliateSchema(`${MOCKS}/page-mocks/real-mocks/${brand}/plp`, 'txt');
+  const pdp = await getAffiliateSchema(`${MOCKS}page-mocks/real-mocks/${brand}/pdp`, 'txt');
+  const plp = await getAffiliateSchema(`${MOCKS}page-mocks/real-mocks/${brand}/plp`, 'txt');
 
   return {
     ...rest,
@@ -56,6 +56,7 @@ export function getPageHtml(mockPages, url, param) {
 
 export function getSampleSchemas(allSchemas, realPageMocks) {
   const matchedDomains = [];
+
   return allSchemas
     .filter((schema) =>
       Object.keys(realPageMocks).some((domain) => {

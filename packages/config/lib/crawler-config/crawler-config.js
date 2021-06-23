@@ -1,5 +1,4 @@
 export default {
-  useTransmitStoreApi: false,
   numberOfConcurrentCycles: 4,
   cycleRunTime: 'linear',
   transmitExtractsViaApi: false,

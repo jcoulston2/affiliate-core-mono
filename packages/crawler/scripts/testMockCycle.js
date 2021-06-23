@@ -16,7 +16,6 @@ export async function startFullCycle() {
     schemas: [schemas[0]],
     chunks: 1,
     cycleRunTime: 'linear',
-    useTransmitStoreApi: false,
     useBatching: false,
     writeStoreCache: false,
     headless: false,

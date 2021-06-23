@@ -9,23 +9,24 @@ import Extractor from './Extractor';
 import 'regenerator-runtime/runtime';
 
 // prepare test specific mocks
-
 const createPage = (markup) => (document.body.innerHTML = markup);
 const mockPromise = (res) => Promise.resolve(res);
-const mockExtractor = (pageMockPlp = commonPageMockPlp) => (...args) => {
-  const Ext = new Extractor(...args);
-  jest.spyOn(Ext, 'crawlInterval').mockImplementation(() => {});
-  jest.spyOn(Ext, 'gotoPage').mockImplementation(async (url) => {
-    if (/products/.test(url)) {
-      createPage(commonPageMockPdp);
-    } else {
-      createPage(pageMockPlp);
-    }
+const mockExtractor =
+  (pageMockPlp = commonPageMockPlp) =>
+  (...args) => {
+    const Ext = new Extractor(...args);
+    jest.spyOn(Ext, 'crawlInterval').mockImplementation(() => {});
+    jest.spyOn(Ext, 'gotoPage').mockImplementation(async (url) => {
+      if (/products/.test(url)) {
+        createPage(commonPageMockPdp);
+      } else {
+        createPage(pageMockPlp);
+      }
 
-    return mockPromise();
-  });
-  return Ext;
-};
+      return mockPromise();
+    });
+    return Ext;
+  };
 
 const mockedPageMethods = {
   goto: jest.fn(),

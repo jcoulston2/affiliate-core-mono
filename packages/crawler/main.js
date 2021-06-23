@@ -7,7 +7,6 @@ import { AFF_DATA, CRAWL_LOG } from './constants';
 const {
   numberOfConcurrentCycles,
   cycleRunTime,
-  useTransmitStoreApi,
   useBatching,
   writeStoreCache,
   headless,
@@ -25,7 +24,6 @@ export async function startFullCycle() {
     schemas,
     chunks,
     cycleRunTime,
-    useTransmitStoreApi,
     useBatching,
     writeStoreCache,
     headless,

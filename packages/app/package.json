@@ -10,7 +10,6 @@
     "build": "next build",
     "start": "NODE_ENV=production babel-node server/main.js",
     "build-dev-store": "babel-node scripts/build-store-cache-dev-seed.js",
-    "test": "babel-node server/index.js",
     "clear-dev": "babel-node scripts/refresh-dev-seed.js"
   },
   "dependencies": {

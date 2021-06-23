@@ -8,6 +8,9 @@
     "new-schema": "lerna run new-schema --stream",
     "start-crawl": "lerna run start-crawl --stream && npm run build-predictive-search",
     "build-predictive-search": "lerna run build-predictive-search --stream",
+    "pull-page-mocks": "lerna run pull-page-mocks --stream",
+    "test": "lerna run test --stream",
+    "crawler:test-e2e": "lerna run test-e2e --stream",
     "link": "lerna link",
     "dev": "lerna run dev --stream",
     "build": "lerna run build --stream"

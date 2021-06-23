@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start-crawl": "babel-node index.js",
-    "pull-mocks": "NODE_ENV=test babel-node pullAllMocks.js",
+    "start-crawl": "FORCE_COLOR=1 babel-node index.js",
+    "pull-page-mocks": "NODE_ENV=test babel-node pullAllMocks.js",
     "lint": "prettier --write '**/*.js'",
     "test": "cross-env NODE_ENV=test PREVENT_LOGS=true jest --collect-coverage",
     "test:integration": "cross-env NODE_ENV=test npm run pull-mocks && npm run test",

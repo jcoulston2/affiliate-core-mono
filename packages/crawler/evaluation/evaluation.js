@@ -421,7 +421,9 @@ export async function scrollPageBeforeExtract() {
     setTimeout(() => {
       nextScroll += scrollBy;
       counter++;
-      document.scrollingElement.scrollTop = nextScroll;
+      if (document.scrollingElement) {
+        document.scrollingElement.scrollTop = nextScroll;
+      }
       initScroll(counter);
     }, 150);
   };

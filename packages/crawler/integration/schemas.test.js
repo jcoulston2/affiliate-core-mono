@@ -1,6 +1,6 @@
 import { getAffiliateSchema } from '@affiliate-master/common';
-import 'regenerator-runtime/runtime';
 import { AFF_DATA } from '../constants';
+import 'regenerator-runtime/runtime';
 
 let schemas;
 

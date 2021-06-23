@@ -1,4 +1,5 @@
-import { writeStoreCache, assignToExtract, zipParse } from '@affiliate-master/common';
+import { writeStoreCache, zipParse } from '@affiliate-master/common';
+import { affiliateCategories } from '@affiliate-master/config';
 import { storeCache } from '@affiliate-master/store';
 import chunk from 'lodash/chunk';
 import shuffle from 'lodash/shuffle';
@@ -6,19 +7,18 @@ import set from 'lodash/set';
 import SingleCycle from './Cycle';
 import clock from 'pretty-ms';
 import { StopWatch } from 'stopwatch-node';
-import { transmitExtractsToCore, transmitLogsToSlack } from '../api';
+import { transmitLogsToSlack } from '../api';
 import messages from '../logger/logTypes';
 import Logger from '../logger/Logger';
 import BatchPipe from '../batching/BatchPipe';
 import { AFF_DATA_PATH, BATCH_LOG } from '../constants';
-import { separateCautiousProducts } from '../helpers';
+import { separateCautiousProducts, assignToExtract } from '../helpers';
 
 export default class FullCycle {
   constructor({
     chunks,
     schemas,
     cycleRunTime,
-    useTransmitStoreApi,
     persistOldProductsUntilRound = 5,
     useBatching = true,
     writeStoreCache = true,
@@ -29,7 +29,6 @@ export default class FullCycle {
     this.schemas = schemas;
     this.cycleRunTime = cycleRunTime;
     this.chunkedSchemas = chunk(schemas, chunks);
-    this.useTransmitStoreApi = useTransmitStoreApi;
     this.stopWatch;
     this.store = (useBatching && storeCache?.store) || null;
     this.writeStoreCache = writeStoreCache;
@@ -76,14 +75,6 @@ export default class FullCycle {
     });
   }
 
-  handleCoreResponseNotifications(coreResponse) {
-    return transmitLogsToSlack({
-      text: coreResponse.success
-        ? messages.slackExtractCoreSuccess
-        : messages.slackExtractCoreFailure,
-    });
-  }
-
   parseStore() {
     return zipParse(this.store);
   }
@@ -120,11 +111,12 @@ export default class FullCycle {
     return extracts;
   }
 
-  // TODO: we'll need to make use of the aff builder package here
   orderProductCategories(extracts) {
-    extracts.forEach(({ data: secData }, secIndex) => {
-      secData.forEach(({ data: catData }, catIndex) => {
-        console.log('catData', catData);
+    extracts.forEach(({ data: secData, section }, secIndex) => {
+      const requiredOrder = affiliateCategories[section];
+      secData.forEach((catData) => {
+        const indexOrder = requiredOrder.indexOf(catData.category);
+        set(extracts, `[${secIndex}].data[${indexOrder}]`, catData);
       });
     });
 
@@ -143,11 +135,6 @@ export default class FullCycle {
   async startSingleCycleChunk(affilaiteSchemaChunk) {
     const Cycle = new SingleCycle(affilaiteSchemaChunk, this.headless);
     return await Cycle.init();
-  }
-
-  async transmitExtractsViaApi() {
-    const toCoreResponse = await transmitExtractsToCore();
-    this.handleCoreResponseNotifications(toCoreResponse);
   }
 
   async startCycleChunks() {
@@ -173,14 +160,9 @@ export default class FullCycle {
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
 
-    this.orderProductCategories(concludedExtracts);
+    // this.orderProductCategories(concludedExtracts);
     await this.writeStoreToCache(concludedExtracts);
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');
-
-    if (this.useTransmitStoreApi) {
-      const coreResponse = await this.transmitExtractsViaApi();
-      this.handleCoreResponseNotifications(coreResponse);
-    }
 
     this.sendSlackNotification(
       messages.slackFinishedCycle(

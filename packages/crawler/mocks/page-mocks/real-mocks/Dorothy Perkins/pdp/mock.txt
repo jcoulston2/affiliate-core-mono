@@ -1,1 +1,466 @@
-<div class="ProductDetail"><div class="row ProductDetail-columnContainer"><div class="col-md-6 col-lg-7 ProductDetail-mediaColumn"><div class="ProductDetails-mediaContainer"><div class="Carousel-container  Carousel-container--thumbnailEnabled"><div class="ProductCarouselThumbnails"><ul class="ProductCarouselThumbnails-thumbList "><li class="ProductCarouselThumbnails-thumbList--item"><picture><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/webp"><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/jpeg"><img class="ProductCarouselThumbnails-thumb " src="//images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w700$&amp;qlt=80" srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px"></picture></li><li class="ProductCarouselThumbnails-thumbList--item"><picture><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/webp"><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/jpeg"><img class="ProductCarouselThumbnails-thumb " src="//images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w700$&amp;qlt=80" srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_1.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px"></picture></li><li class="ProductCarouselThumbnails-thumbList--item"><picture><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt=webp&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/webp"><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px" type="image/jpeg"><img class="ProductCarouselThumbnails-thumb " src="//images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w700$&amp;qlt=80" srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_M_2.jpg?$w100$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 100w" sizes="(max-width: 767px) 100px, (max-width: 991px) 100px, 100px"></picture></li></ul></div><div class="ProductDetail-media"><div class=""><div role="presentation" class="Carousel Carousel-imageCarousel"><p class="screen-reader-text" tabindex="0">Image carousel, press Enter to cycle through the images, press the Z key to zoom in and out of an image. Once zoomed in, use WASD keys to pan around image.</p><div><div class="Carousel-images" aria-hidden="true"><ul class="Carousel-list" tabindex="-1"><li role="presentation" class="Carousel-item is-selected Carousel-initialItem"><div style="transform:translate(0px, 0px);-webkit-transform:translate(0px, 0px)"><picture><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt=webp&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt=webp&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1300$&amp;fmt=webp&amp;qlt=80 1300w" sizes="(max-width: 767px) 750px, (max-width: 991px) 710px, 1060px" type="image/webp"><source srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1300$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1300w" sizes="(max-width: 767px) 750px, (max-width: 991px) 710px, 1060px" type="image/jpeg"><img class="Carousel-image" src="//images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w700$&amp;qlt=80" style="transform:scale(1);-webkit-transform:scale(1);transition:none" draggable="false" srcset="https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1000$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1000w, https://images.dorothyperkins.com/i/DorothyPerkins/DP70737513_F_1.jpg?$w1300$&amp;fmt.jpeg.interlaced=true&amp;qlt=80 1300w" sizes="(max-width: 767px) 750px, (max-width: 991px) 710px, 1060px" alt="Carousel Image 0" title="Carousel Image 0"></picture></div></li><li role="presentation" class="Carousel-item is-inactive Carousel-rightItem"><div></div></li><li role="presentation" class="Carousel-item is-inactive Carousel-rightItem"><div></div></li></ul><div class="CarouselImagesOverlay"></div><button class="Carousel-zoom"></button></div></div><ul class="Carousel-selectors" aria-hidden="true"><li role="presentation" class="Carousel-selector is-selected"></li><li role="presentation" class="Carousel-selector"></li><li role="presentation" class="Carousel-selector"></li></ul><button class="Carousel-arrow Carousel-arrow--left" aria-hidden="true" tabindex="-1">View previous image</button><button class="Carousel-arrow Carousel-arrow--right" aria-hidden="true" tabindex="-1">View next image</button></div></div></div></div></div></div><div class="col-md-6 col-lg-5 ProductDetail-details"><div><h1 class="ProductDetail-title">Black ‘Lyla’ High Waist Skinny Denim Jeans</h1><div class="ProductDetail-priceWrapper"><span class="HistoricalPrice HistoricalPrice--pdp"><span class="HistoricalPrice-label">Price<!-- -->:<!-- --> </span><span class="Price  notranslate">£22.00</span></span></div><div class="BazaarVoice ProductDetail-writeReview"><div id="BVRRSummaryContainer"></div></div><div class="ProductDetail-topGroupRightInner"><div><div class="ProductDetail-sizeAndQuantity"><div class="ProductSizes ProductSizes--dropdown ProductSizes--pdp ProductSizes--sizeGuideDropdown"><div class=" FormComponent-productSizes Select ProductSizes-sizes Select--inlineLabel"><div class="Select-head"><label class="Select-label " for="productSizes">Select size</label></div><div class="Select-container "><select class="Select-select" name="productSizes" id="productSizes" aria-label="Select size" role="listbox"><option selected="" disabled="" class="Select-select--option ">Select size</option><option class="Select-select--option " value="6" role="option" aria-selected="false">Size 6</option><option class="Select-select--option " value="8" role="option" aria-selected="false">Size 8</option><option class="Select-select--option " value="10" role="option" aria-selected="false">Size 10</option><option class="Select-select--option " value="12" role="option" aria-selected="false">Size 12</option><option class="Select-select--option " value="14" role="option" aria-selected="false">Size 14</option><option class="Select-select--option " value="16" role="option" aria-selected="false">Size 16</option><option class="Select-select--option " value="18" role="option" aria-selected="false">Size 18</option><option class="Select-select--option " value="20" role="option" aria-selected="false">Size 20</option><option class="Select-select--option " value="22" role="option" aria-selected="false">Size 22: Low stock</option><option class="Select-select--option " value="6S" role="option" aria-selected="false">Size 6S</option><option class="Select-select--option " value="8S" role="option" aria-selected="false">Size 8S</option><option class="Select-select--option " value="10S" role="option" aria-selected="false">Size 10S</option><option class="Select-select--option " value="12S" role="option" aria-selected="false">Size 12S</option><option class="Select-select--option " value="14S" role="option" aria-selected="false">Size 14S</option><option class="Select-select--option " value="16S" role="option" aria-selected="false">Size 16S</option><option class="Select-select--option " value="18S" role="option" aria-selected="false">Size 18S</option><option class="Select-select--option " value="20S" role="option" aria-selected="false">Size 20S</option><option class="Select-select--option " value="22S" role="option" aria-selected="false">Size 22S</option><option class="Select-select--option " value="6L" role="option" aria-selected="false">Size 6L</option><option class="Select-select--option " value="8L" role="option" aria-selected="false">Size 8L</option><option class="Select-select--option " value="10L" role="option" aria-selected="false">Size 10L</option><option class="Select-select--option " value="12L" role="option" aria-selected="false">Size 12L</option><option class="Select-select--option " value="14L" role="option" aria-selected="false">Size 14L</option><option class="Select-select--option " value="16L" role="option" aria-selected="false">Size 16L</option><option class="Select-select--option " value="18L" role="option" aria-selected="false">Size 18L</option><option class="Select-select--option " value="20L" role="option" aria-selected="false">Size 20L: Low stock</option><option class="Select-select--option " disabled="" value="22L" role="option" aria-selected="false">Size 22L: Out of stock</option></select></div></div></div><div class="ProductDetail-sizeGuide ProductDetail-sizeGuide--narrow"><div class="SizeGuide SizeGuide--pdp"><a class="SizeGuide-link" href="/size-guide/DenimFitGuide"><i class="SizeGuide-icon"></i><span class="SizeGuide-label">Size guide</span></a></div></div><div class="LowStock-container "></div></div></div><div class="ProductDetail-ctas"><div class="ProductDetail-secondaryButtonGroup"><div class="AddToBag  "><button class="Button notranslate" type="button" role="button" aria-disabled="false" aria-hidden="false"><span class="translate">Add to bag</span></button></div><button class="WishlistButton notranslate WishlistButton--pdp"><div><span class="WishlistButton-icon"><i id="wishlistIcon" class="WishListIcon WishListIcon--pdp"></i></span></div></button></div></div></div></div></div></div><div class="row"><div class="col-12"><div class="ProductDescription "><div class="ProductDescription-productDetails"><h3 class="ProductDescription-title">Product details</h3><div class="ProductDescription-productDetailText"><div class="ProductDescription-content">Our ultra high-waist skinny jeans is flat fronted with zip-fly fastening for a smooth silhouette. This super-stretch skinny is the perfect jeans to take you from day to night.  70% Cotton, 28% Polyester, 2% Elastane. Machine washable. <br><br>Model is 5'10 (178cm) and wears a size 10.</div><ul class="ProductDescriptionExtras-list"><li class="ProductDescriptionExtras-item">Colour<!-- -->: <!-- -->Black</li><li class="ProductDescriptionExtras-item">Product Code<!-- -->: <!-- -->70737513</li></ul></div></div></div></div></div><div class="row"><div class="col-12"><div class="CmsFrame "><div id="Sandbox-%2Fcms%2Fpages%2Fjson%2Fjson-0000159002%2Fjson-0000159002.json"><div data-reactroot=""><div class="ResponsiveCmsRoute ResponsiveMontyCmsGrid CmsRoute-159002"><div class="ResponsiveCmsComponent"><div class="ResponsiveContainer container"><style>.ResponsiveCmsComponent .css-3aigop,.ResponsiveCmsComponent [data-css-3aigop]{background-color:;background-image:;background-size:cover;background-position:center;background-repeat:no-repeat;margin-top:;margin-right:;margin-bottom:;margin-left:;border-top-width:;border-right-width:;border-bottom-width:;border-left-width:;border-color:;border-style:none;padding-top:;padding-right:;padding-bottom:;padding-left:;}</style><div class="ResponsiveRow row" data-css-3aigop=""><style>.ResponsiveCmsComponent .css-n2e0za,.ResponsiveCmsComponent [data-css-n2e0za]{background-color:;background-image:;background-size:cover;background-position:center;background-repeat:no-repeat;border-top-width:;border-right-width:;border-bottom-width:;border-left-width:;border-color:;border-style:none;padding-top:;padding-right:;padding-bottom:;padding-left:;}</style><div class="ResponsiveColumn col-sm-4" data-css-n2e0za=""><style>.ResponsiveCmsComponent .css-dfhsa1,.ResponsiveCmsComponent [data-css-dfhsa1]{margin-top:;margin-right:;margin-bottom:;margin-left:;border-top-width:;border-right-width:;border-bottom-width:;border-left-width:;border-color:;border-style:none;padding-top:;padding-right:;padding-bottom:;padding-left:;}</style><div class="ResponsiveCopy" id="" data-css-dfhsa1=""><h4 style="text-align: center;"><span style="font-family: Montserrat; font-size: 16px;">Free Delivery</span></h4><p style="text-align: center;"><span style="font-family: Montserrat; font-size: 12px;"><strong>FREE Standard Delivery when you spend £50 otherwise £2.99</strong></span></p><p style="text-align: center;"><span style="font-size: 12px;"><span style="font-family: Montserrat; font-weight: 400;">Free Delivery applied at checkout</span></span><span style="font-size: 12px;"><span style="font-family: Montserrat; font-weight: 400;">&nbsp;</span></span></p><p style="text-align: center;"><span style="font-size: 12px;"><span style="font-family: Montserrat; font-weight: 400;"><strong>FREE Collect from Parcelshop when you spend £50 otherwise £3.95</strong></span></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-size: 12px;">Pick up from 4,500+ locations</span></p><p style="text-align: center;"><a href="/en/dpuk/category/delivery-returns-4585012/home?TS=1437641229267&amp;intnav=footer#fragment-1" title=""><span style="font-family: Montserrat; font-weight: 400; font-size: 12px;">FIND OUT MORE</span></a></p></div></div><div class="ResponsiveColumn col-sm-4" data-css-n2e0za=""><div class="ResponsiveCopy" id="" data-css-dfhsa1=""><h4 style="text-align: center;"><span style="font-family: Montserrat; font-size: 16px;">Fast Delivery</span></h4><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400;"><strong><span style="font-size: 12px;">Next Day, Express or Named Day Delivery* £5.95</span></strong></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 700;"><span style="font-size: 12px;"><strong>Collect from ParcelShop Express, £3.95</strong></span></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400;"><span style="font-size: 12px;">Order by 8:30pm for Next Day Delivery*</span></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400;"><span style="font-size: 12px;">Free when you spend £50</span></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 700;"><span style="font-size: 12px;">Express Delivery to Home £5.95</span></span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400;"><span style="font-size: 12px;">Order by 8:30pm Sunday to Friday, or 4pm on Saturdays for Next Day UK Mainland Delivery</span></span></p><p style="text-align: center;"><a href="/en/dpuk/category/delivery-returns-4585012/home?TS=1437641229267&amp;intnav=footer#fragment-1" title=""><span style="font-family: Montserrat; font-weight: 400; font-size: 12px;">FIND OUT MORE</span></a></p></div></div><div class="ResponsiveColumn col-sm-4" data-css-n2e0za=""><div class="ResponsiveCopy" id="" data-css-dfhsa1=""><h4 style="text-align: center;"><span style="font-family: Montserrat; font-size: 16px;">Free Returns</span></h4><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 700;"><strong><span style="font-size: 12px;">FREE and convenient returns via post or ParcelShop</span></strong></span></p><p style="text-align: center;"><span style="font-size: 12px; font-family: Montserrat; font-weight: 400;">Within 14 days</span></p><p style="text-align: center;"><a href="/en/dpuk/category/delivery-returns-4585012/home?TS=1437641229267&amp;intnav=footer#fragment-3" title=""><span style="font-family: Montserrat; font-weight: 400; font-size: 12px;">FIND OUT MORE</span></a></p></div></div></div></div></div><div class="ResponsiveCmsComponent"><div class="ResponsiveContainer container"><div class="ResponsiveRow row" data-css-3aigop=""><div class="ResponsiveColumn col-sm-12" data-css-n2e0za=""><div class="ResponsiveCopy" id="" data-css-dfhsa1=""><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400; font-size: 12px;">We deliver to over 100 destinations around the world. The details here apply to the UK.</span></p><p style="text-align: center;"><span style="font-family: Montserrat; font-weight: 400; font-size: 12px;">For delivery elsewhere, please &nbsp;read our&nbsp;<a href="/en/dpuk/category/delivery-returns-4585012/home?TS=1437641229267&amp;intnav=footer#fragment-2" title="">International Delivery Details</a>.</span></p></div></div></div></div></div></div></div></div></div></div></div><div class="row ProductDetail-bazaarVoice ProductDetail-bvRow"><div class="col-12"><div class="BazaarVoice "><div id="BVRRContainer"></div></div></div></div></div>
+<div class="l-pdp-top  " data-tau="product_details">
+<aside class="l-pdp-image" aria-label="Product images">
+<div data-widget="productImages" data-active-viewtype="product_image_main" data-thumbnails-per-frame="4" data-event-keydown="handleKeydown" data-predefined-height="1773" data-predefined-width="1333" id="productImages" class="b-product_gallery" data-tau="product_gallery" data-is-product-set-item="false" data-pdp-url="/indigo-rip-mom-jean/AQQ02916.html" data-off-badge-text="{0}% OFF" data-product="{&quot;uuid&quot;:&quot;d1da6f1a554ca54dcd73ed6a80&quot;,&quot;id&quot;:&quot;AQQ02916&quot;,&quot;productName&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;productType&quot;:&quot;master&quot;,&quot;brand&quot;:null,&quot;price&quot;:{&quot;sales&quot;:{&quot;value&quot;:27,&quot;currency&quot;:&quot;GBP&quot;,&quot;formatted&quot;:&quot;£27.00&quot;,&quot;decimalPrice&quot;:&quot;27.00&quot;},&quot;list&quot;:{&quot;value&quot;:30,&quot;currency&quot;:&quot;GBP&quot;,&quot;formatted&quot;:&quot;£30.00&quot;,&quot;decimalPrice&quot;:&quot;30.00&quot;},&quot;isDefaultPrice&quot;:true,&quot;discountPercent&quot;:&quot;10&quot;},&quot;images&quot;:{&quot;product_image_main&quot;:[{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1500&quot;,&quot;index&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1500&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=2100 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1800 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1500 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]},{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1500&quot;,&quot;index&quot;:&quot;1&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1500&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=2100 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1800 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1500 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]}],&quot;large&quot;:[{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714&quot;,&quot;index&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=346&amp;h=459 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=336&amp;h=447 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]},{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714&quot;,&quot;index&quot;:&quot;1&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=346&amp;h=459 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=336&amp;h=447 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]}],&quot;small&quot;:[{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116&quot;,&quot;index&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]},{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116&quot;,&quot;index&quot;:&quot;1&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]}]},&quot;selectedQuantity&quot;:1,&quot;minOrderQuantity&quot;:1,&quot;maxOrderQuantity&quot;:&quot;10&quot;,&quot;variationAttributes&quot;:[{&quot;attributeId&quot;:&quot;color&quot;,&quot;displayName&quot;:&quot;Colour&quot;,&quot;id&quot;:&quot;color&quot;,&quot;values&quot;:[{&quot;id&quot;:&quot;132&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;indigo&quot;,&quot;value&quot;:&quot;132&quot;,&quot;selected&quot;:true,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=&amp;pid=AQQ02916&amp;quantity=1&quot;,&quot;code&quot;:null,&quot;images&quot;:{&quot;swatch&quot;:[{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32&quot;,&quot;index&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]},{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=32&amp;h=32&quot;,&quot;index&quot;:&quot;1&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=32&amp;h=32&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=32&amp;h=32 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=32&amp;h=32 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s_1?w=32&amp;h=32 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]}]}}],&quot;swatchable&quot;:true},{&quot;attributeId&quot;:&quot;size&quot;,&quot;displayName&quot;:&quot;Size&quot;,&quot;id&quot;:&quot;size&quot;,&quot;values&quot;:[{&quot;id&quot;:&quot;14&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;6&quot;,&quot;value&quot;:&quot;14&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=14&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;16&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;8&quot;,&quot;value&quot;:&quot;16&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=16&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;18&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;10&quot;,&quot;value&quot;:&quot;18&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=18&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;20&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;12&quot;,&quot;value&quot;:&quot;20&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=20&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;22&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;14&quot;,&quot;value&quot;:&quot;22&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=22&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;24&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;16&quot;,&quot;value&quot;:&quot;24&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:false,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=24&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;51&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;18&quot;,&quot;value&quot;:&quot;51&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:false,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=51&amp;pid=AQQ02916&amp;quantity=1&quot;},{&quot;id&quot;:&quot;68&quot;,&quot;description&quot;:null,&quot;displayValue&quot;:&quot;20&quot;,&quot;value&quot;:&quot;68&quot;,&quot;selected&quot;:false,&quot;selectable&quot;:true,&quot;url&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=68&amp;pid=AQQ02916&amp;quantity=1&quot;}],&quot;swatchable&quot;:false,&quot;resetUrl&quot;:&quot;https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=&amp;pid=AQQ02916&amp;quantity=1&quot;}],&quot;sizeSelected&quot;:false,&quot;longDescription&quot;:null,&quot;shortDescription&quot;:null,&quot;composition&quot;:&quot;99% Cotton, 1% Elastane.&quot;,&quot;rating&quot;:5,&quot;promotions&quot;:[{&quot;calloutMsg&quot;:&quot;&quot;,&quot;details&quot;:&quot;&quot;,&quot;detailsJSONSafe&quot;:&quot;&quot;,&quot;enabled&quot;:true,&quot;id&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;name&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;promotionClass&quot;:&quot;PRODUCT&quot;,&quot;rank&quot;:100,&quot;custom&quot;:{&quot;position&quot;:&quot;positionB&quot;,&quot;pdpCalloutMsg&quot;:&quot;<p><img class=\&quot;is-desktop\&quot; alt=\&quot;\&quot; src=\&quot;https://media.boohoo.com/i/boohooamplience/DP-PDPBanner-2021-06-22-WK25-Tuesday\&quot; title=\&quot;\&quot; /></p>&quot;,&quot;isPDPTimer&quot;:false,&quot;skipPDPCallout&quot;:false,&quot;timerTimeOnly&quot;:false},&quot;endDate&quot;:&quot;2021-06-24T23:00:00.000Z&quot;,&quot;gtmInfo&quot;:{&quot;id&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;name&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;creative&quot;:&quot;&quot;}}],&quot;attributes&quot;:null,&quot;availability&quot;:{&quot;messages&quot;:[&quot;In stock&quot;],&quot;inStockDate&quot;:null,&quot;stock&quot;:1,&quot;quantityAvailableToSell&quot;:null,&quot;class&quot;:&quot;m-instock&quot;,&quot;inStock&quot;:true},&quot;available&quot;:true,&quot;options&quot;:[],&quot;quantities&quot;:{&quot;max&quot;:&quot;10&quot;,&quot;min&quot;:&quot;1&quot;,&quot;step&quot;:&quot;1&quot;,&quot;currentValue&quot;:&quot;1&quot;,&quot;actionUrl&quot;:&quot;/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?pid=AQQ02916&amp;quantity=1&amp;ajax=true&quot;},&quot;selectedProductUrl&quot;:&quot;/indigo-rip-mom-jean/AQQ02916.html?dwvar_AQQ02916_color=132&amp;quantity=undefined&quot;,&quot;readyToOrder&quot;:false,&quot;online&quot;:true,&quot;pageTitle&quot;:null,&quot;pageDescription&quot;:null,&quot;pageKeywords&quot;:null,&quot;pageMetaTags&quot;:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}],&quot;template&quot;:null,&quot;deliveryAndReturns&quot;:null,&quot;socialLinks&quot;:{&quot;twitter&quot;:&quot;https://twitter.com/share?url=https://www.dorothyperkins.com/indigo-rip-mom-jean/AQQ02916.html&amp;text=Indigo%20Rip%20Mom%20Jean&quot;,&quot;pinterest&quot;:&quot;https://pinterest.com/pin/create/button/?url=https://www.dorothyperkins.com/indigo-rip-mom-jean/AQQ02916.html&amp;description=Indigo%20Rip%20Mom%20Jean&amp;media=https%3A%2F%2Fwww.dorothyperkins.com%2Fon%2Fdemandware.static%2FSites-dorothy-perkins-UK-Site%2F-%2Fen_GB%2Fv1624456380741%2F%2Fmedia.nastygal.com%2Fi%2Fnastygal%2Faqq02916_indigo_xl%3Fw%3D537%26h%3D714&quot;,&quot;facebook&quot;:&quot;https://www.facebook.com/share.php?u=https://www.dorothyperkins.com/indigo-rip-mom-jean/AQQ02916.html&quot;},&quot;lastModified&quot;:&quot;2021-06-16T12:18:29.000Z&quot;,&quot;backInStockSubscription&quot;:{&quot;isEnabled&quot;:false},&quot;priceValidUntil&quot;:&quot;2021-06-24T23:00:00.000Z&quot;,&quot;offerCount&quot;:8,&quot;masterPid&quot;:&quot;AQQ02916&quot;,&quot;zoomImages&quot;:{&quot;zoom&quot;:[{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80&quot;,&quot;index&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]},{&quot;alt&quot;:&quot;132 Indigo Rip Mom Jean&quot;,&quot;url&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80&quot;,&quot;index&quot;:&quot;1&quot;,&quot;title&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;absURL&quot;:&quot;https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80&quot;,&quot;sources&quot;:[{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(max-width: 767px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=87&amp;h=116 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=224&amp;h=298 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=537&amp;h=714 3x&quot;,&quot;media&quot;:&quot;(min-width: 768px) and (max-width: 1024px)&quot;},{&quot;srcset&quot;:&quot;//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80 3x&quot;,&quot;media&quot;:&quot;(min-width: 1025px)&quot;}]}]},&quot;gtmInfo&quot;:{&quot;id&quot;:&quot;AQQ02916&quot;,&quot;name&quot;:&quot;Indigo Rip Mom Jean&quot;,&quot;category&quot;:&quot;clothing&quot;,&quot;category1&quot;:&quot;CLOTHING&quot;,&quot;categoryPath&quot;:&quot;clothing&quot;,&quot;brand&quot;:&quot;Dorothy Perkins&quot;,&quot;price&quot;:&quot;27.00&quot;,&quot;discount&quot;:&quot;3.00&quot;,&quot;markdown&quot;:&quot;10&quot;,&quot;variant&quot;:&quot;indigo|6&quot;,&quot;dimension65&quot;:&quot;indigo&quot;,&quot;dimension64&quot;:&quot;Colour&quot;,&quot;dimension68&quot;:&quot;6&quot;,&quot;itemId&quot;:&quot;AQQ02916-132-14&quot;,&quot;dimension60&quot;:&quot;Casual&quot;,&quot;dimension62&quot;:&quot;Mom Jeans&quot;,&quot;dimension61&quot;:&quot;Female&quot;,&quot;metric36&quot;:16,&quot;metric37&quot;:16},&quot;gtmInfoStr&quot;:&quot;{\&quot;id\&quot;:\&quot;AQQ02916\&quot;,\&quot;name\&quot;:\&quot;Indigo Rip Mom Jean\&quot;,\&quot;category\&quot;:\&quot;clothing\&quot;,\&quot;category1\&quot;:\&quot;CLOTHING\&quot;,\&quot;categoryPath\&quot;:\&quot;clothing\&quot;,\&quot;brand\&quot;:\&quot;Dorothy Perkins\&quot;,\&quot;price\&quot;:\&quot;27.00\&quot;,\&quot;discount\&quot;:\&quot;3.00\&quot;,\&quot;markdown\&quot;:\&quot;10\&quot;,\&quot;variant\&quot;:\&quot;indigo|6\&quot;,\&quot;dimension65\&quot;:\&quot;indigo\&quot;,\&quot;dimension64\&quot;:\&quot;Colour\&quot;,\&quot;dimension68\&quot;:\&quot;6\&quot;,\&quot;itemId\&quot;:\&quot;AQQ02916-132-14\&quot;,\&quot;dimension60\&quot;:\&quot;Casual\&quot;,\&quot;dimension62\&quot;:\&quot;Mom Jeans\&quot;,\&quot;dimension61\&quot;:\&quot;Female\&quot;,\&quot;metric36\&quot;:16,\&quot;metric37\&quot;:16}&quot;,&quot;isPremierProduct&quot;:false,&quot;dropdownQuantities&quot;:[{&quot;value&quot;:&quot;1&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;2&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;3&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;4&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;5&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;6&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;7&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;8&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;9&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;10&quot;,&quot;selected&quot;:false}],&quot;renderedAttributesSelectors&quot;:&quot;&quot;,&quot;isComingSoon&quot;:false,&quot;badges&quot;:{&quot;textBadge&quot;:null,&quot;localizedBadge&quot;:null,&quot;badge&quot;:null,&quot;badgePosition&quot;:{},&quot;preferableBadge&quot;:{&quot;value&quot;:null,&quot;position&quot;:null}},&quot;isHazmat&quot;:false}" data-amplience-host-url="//media.nastygal.com/i/nastygal/" data-amplience-allowed="true" data-initialized="1">
+<div class="b-product_gallery-inner" data-ref="carouselInner"><div class="b-product_gallery-main m-no_scroll m-inited" data-tau="product_gallery_main" id="imagesCarousel" data-widget="carousel" data-widget-event-pagechanged="onImageCarouselPageChanged" data-widget-event-pageclicked="onImageCarouselPageClicked" data-initialized="1"><div class="b-product_gallery-track" data-ref="elemCarouselTrack" data-event-scroll.passive="onScroll" data-event-touchstart="onScroll" data-event-mousedown.prevent="onMouseDown" data-event-mouseup="onMouseUp"><div class="b-product_gallery-item " role="button" tabindex="0" data-event-click.prevent="onPageClick" data-event-keydown="handleKeydown"><picture class="b-product_image"><source media="(max-width: 767px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=2100 3x"><source media="(min-width: 768px) and (max-width: 1024px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1800 3x"><source media="(min-width: 1025px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1500 3x"><img id="product-image-0" src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?w=1500" class="b-product_image-img" alt="132 Indigo Rip Mom Jean image number 0" data-original-src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl?qlt=80" width="580" height="772" loading="lazy"></picture></div><div class="b-product_gallery-item " role="button" tabindex="0" data-event-click.prevent="onPageClick" data-event-keydown="handleKeydown"><picture class="b-product_image"><source media="(max-width: 767px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=2100 3x"><source media="(min-width: 768px) and (max-width: 1024px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1800 3x"><source media="(min-width: 1025px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1500 3x"><img id="product-image-1" src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?w=1500" class="b-product_image-img" alt="132 Indigo Rip Mom Jean image number 1" data-original-src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_1?qlt=80" width="580" height="772" loading="lazy"></picture></div><div class="b-product_gallery-item " role="button" tabindex="0" data-event-click.prevent="onPageClick" data-event-keydown="handleKeydown"><picture class="b-product_image"><source media="(max-width: 767px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=2100 3x"><source media="(min-width: 768px) and (max-width: 1024px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=1800 3x"><source media="(min-width: 1025px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500?w=1500 3x"><img id="product-image-2" src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?w=1500" class="b-product_image-img" alt="132 Indigo Rip Mom Jean image number 2" data-original-src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_2?qlt=80" width="580" height="772" loading="lazy"></picture></div><div class="b-product_gallery-item " role="button" tabindex="0" data-event-click.prevent="onPageClick" data-event-keydown="handleKeydown"><picture class="b-product_image"><source media="(max-width: 767px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=700 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=1400&amp;h=2181 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=2100 3x"><source media="(min-width: 768px) and (max-width: 1024px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=600 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=1200 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=1800 3x"><source media="(min-width: 1025px)" srcset="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=500 1x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=1000 2x, //media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500?w=1500 3x"><img id="product-image-3" src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?w=1500" class="b-product_image-img" alt="132 Indigo Rip Mom Jean image number 3" data-original-src="//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_3?qlt=80" width="580" height="772" loading="lazy"></picture></div></div><div class="b-product_gallery-label"><span class="b-product_gallery-label_text">Scroll for more</span><span class="b-product_gallery-label_icon"><svg role="img" class="i-icon i-icon-arrowDown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="rotate(-90 12 12)"></path>
+</svg></span></div><button class="b-product_gallery-ctrl m-prev" aria-label="Scroll to previous image" title="Previous" data-ref="elemPrevButton" data-thumbnails-arrow="prev" data-event-keydown="handleKeydown" data-event-click="scrollToPrevPage" aria-hidden="true" tabindex="-1" disabled=""><svg role="img" class="i-icon i-icon-arrowCarouselLeft" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="translate(1)" fill="currentColor"></path>
+</svg></button><button class="b-product_gallery-ctrl m-next" aria-label="Scroll to next image" title="Next" data-ref="elemNextButton" data-thumbnails-arrow="next" data-event-keydown="handleKeydown" data-event-click="scrollToNextPage" aria-hidden="true" tabindex="-1" disabled=""><svg role="img" class="i-icon i-icon-arrowCarouselRight" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="rotate(180 12 12)" fill="currentColor"></path>
+</svg></button><div class="b-product_gallery-pagination" data-ref="pagination"><button class="b-product_gallery-pagination_bullet" data-page="0" tabindex="-1" data-event-click.prevent="handlePaginationClick"></button><button class="b-product_gallery-pagination_bullet" data-page="1" tabindex="-1" data-event-click.prevent="handlePaginationClick"></button><button class="b-product_gallery-pagination_bullet" data-page="2" tabindex="-1" data-event-click.prevent="handlePaginationClick"></button><button class="b-product_gallery-pagination_bullet" data-page="3" tabindex="-1" data-event-click.prevent="handlePaginationClick"></button></div></div></div>
+<script type="template/mustache" data-ref="galleryTemplate"><divclass="b-product_gallery-inner"data-ref="carouselInner"><divclass="b-product_gallery-main"data-tau="product_gallery_main"data-widget="carousel"data-widget-event-pagechanged="onImageCarouselPageChanged"id="imagesCarousel"data-widget-event-pageclicked="onImageCarouselPageClicked"{{#images.video}}data-has-video="true"data-amp-name="{{images.video.ampName}}"data-amp-api-url="https://www.dorothyperkins.com/on/demandware.static/Sites-dorothy-perkins-UK-Site/-/en_GB/v1624456380741/lib/js/amplience-api.min.js"data-client-id="boohooamplience"data-di-basepath="//i1.adis.ws/"{{/images.video}}><divclass="b-product_gallery-track"data-ref="elemCarouselTrack"data-event-scroll.passive="onScroll"data-event-touchstart="onScroll"data-event-mousedown.prevent="onMouseDown"data-event-mouseup="onMouseUp">{{#images.product_image_main}}<divclass="b-product_gallery-item {{#hasVideoEl}}m-video{{/hasVideoEl}}"role="button"tabindex="0"data-event-click.prevent="onPageClick"data-event-keydown="handleKeydown"{{#hasVideoEl}}data-has-video-el="true"data-ref="pdpVideoContainer"{{/hasVideoEl}}>{{#hasVideoEl}}<span class="b-product_gallery-play"></span>{{/hasVideoEl}}<pictureclass="b-product_image"{{#hasVideoEl}}data-ref="pdpVideoPicture"{{/hasVideoEl}}>{{#sources}}<source media="{{media}}" srcset="{{srcset}}">{{/sources}}{{^sources}}<source media="(max-width: 767px)" srcset="{{{url}}}?w=700 1x, {{{url}}}?w=1400&amp;h=2181 2x, {{{url}}}?w=2100 3x"><source media="(min-width: 768px) and (max-width: 1024px)" srcset="{{{url}}}?w=600 1x, {{{url}}}?w=1200 2x, {{{url}}}?w=1800 3x"><source media="(min-width: 1025px)" srcset="{{{url}}}?w=500 1x, {{{url}}}?w=1000 2x, {{{url}}}?w=1500 3x">{{/sources}}<imgid="product-image-{{index}}"src="{{url}}"class="b-product_image-img"alt="{{alt}} image number {{index}}"data-original-src="{{zoomUrl}}"width="580"height="772"loading="lazy"/></picture></div>{{/images.product_image_main}}</div>{{#loadMore}}<div class="b-product_gallery-label"><span class="b-product_gallery-label_text">Scroll for more</span><span class="b-product_gallery-label_icon"><svg role="img"class="i-icon i-icon-arrowDown"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="rotate(-90 12 12)"/>
+</svg></span></div>{{/loadMore}}<buttonclass="b-product_gallery-ctrl m-prev"aria-label="Scroll to previous image"title="Previous"data-ref="elemPrevButton"data-thumbnails-arrow="prev"data-event-keydown="handleKeydown"data-event-click="scrollToPrevPage"aria-hidden="true"tabindex="-1"><svg role="img"class="i-icon i-icon-arrowCarouselLeft"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="translate(1)" fill="currentColor" />
+</svg></button><buttonclass="b-product_gallery-ctrl m-next"aria-label="Scroll to next image"title="Next"data-ref="elemNextButton"data-thumbnails-arrow="next"data-event-keydown="handleKeydown"data-event-click="scrollToNextPage"aria-hidden="true"tabindex="-1"><svg role="img"class="i-icon i-icon-arrowCarouselRight"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 2.7l-.7-.7h-.01L6 11.98 16.29 22l.71-.71-9.59-9.31z" transform="rotate(180 12 12)" fill="currentColor" />
+</svg></button><div class="b-product_gallery-pagination" data-ref="pagination">{{#images.product_image_main}}<buttonclass="b-product_gallery-pagination_bullet"data-page="{{index}}"tabindex="-1"data-event-click.prevent="handlePaginationClick"></button>{{/images.product_image_main}}</div></div>{{#badges.offBadgeAmount}}<span class="b-product_badge m-accent">{{badges.offBadgeText}}</span>{{/badges.offBadgeAmount}}</div></script>
+<div class="b-photoswipe pswp" role="dialog" aria-hidden="true">
+<div class="b-photoswipe-info" data-ref="dialog">
+<span class="b-zoom_info">
+<span class="b-zoom_info-icon">
+<svg width="25" height="24" viewBox="0 0 25 24" focusable="false">
+<g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+<circle cx="9" cy="9" r="9" stroke="currentColor" stroke-width="2"></circle>
+<path fill="currentColor" d="M8 4h2v10H8zm6.8 11.2l1.4-1.4 7 7-1.4 1.4z"></path>
+<path fill="currentColor" d="M4 10V8h10v2z"></path>
+</g>
+</svg>
+</span>
+<span class="b-zoom_info-icon_sm">
+<svg width="30" height="37" viewBox="0 0 30 37" focusable="false">
+<g fill-rule="evenodd">
+<path d="M29.2 15a.8.8 0 01-.6-.2L15.2 1.4A.8.8 0 0116.4.2l13.4 13.4a.8.8 0 01-.6 1.4"></path>
+<path d="M29.1 15H24a.9.9 0 010-1.8h4.4V9a.9.9 0 011.7 0V14a.9.9 0 01-.9.9M16 7a.9.9 0 01-.9-.9V1c0-.5.4-.9.9-.9H21a.9.9 0 010 1.8h-4.4V6a.9.9 0 01-.8.9M2.5 19a.8.8 0 00-.8.8v6.7a5.8 5.8 0 005.8 5.8h2.8a4.2 4.2 0 003-1.3l6.8-7.4a.8.8 0 000-1 2.1 2.1 0 00-2.8-.5l-2.7 1.8a.8.8 0 01-1.3-.7V11.5a.8.8 0 00-1.6 0v9.2a.8.8 0 01-1.7 0v-4.2a.8.8 0 00-1.7 0v4.2a.8.8 0 01-1.6 0v-2.5a.8.8 0 00-1.7 0v2.5a.8.8 0 01-1.7 0v-.9a.8.8 0 00-.8-.8m7.8 15H7.5A7.5 7.5 0 010 26.5v-6.7a2.5 2.5 0 013.4-2.3 2.5 2.5 0 013.4-1.7 2.5 2.5 0 013.2-1.7v-2.6c0-1.4 1.1-2.5 2.5-2.5a2.5 2.5 0 012.5 2.5v10.1l1.4-1a3.8 3.8 0 015.1 1 2.5 2.5 0 01-.2 3.1l-6.7 7.4a5.9 5.9 0 01-4.3 1.9"></path><path d="M14.2 37a.8.8 0 01-.8-.8v-2.5H3.6v2.5c0 .4-.3.8-.8.8a.8.8 0 01-.8-.8v-3.4c0-.4.4-.8.8-.8h11.4c.4 0 .8.4.8.8v3.4c0 .4-.4.8-.8.8"></path>
+</g>
+</svg>
+</span>
+<span class="b-zoom_info-content">
+<span class="b-zoom_info-copy m-lg">
+Click
+</span>
+<span class="b-zoom_info-copy m-md">
+Double tap
+</span>
+<span class="b-zoom_info-copy m-sm">
+Pinch
+</span>
+to zoom
+</span>
+</span>
+<button class="b-photoswipe-close" data-event-click.prevent="closeZoom" data-event-keydown="closeZoomKeydown" title="Close" data-tau="zoom_dialog_close" data-ref="firstFocusElement">
+<svg role="img" class="i-icon i-icon-close" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" fill="currentColor">
+<path d="M21 3.71L20.29 3 12 11.29 3.71 3 3 3.71 11.29 12 3 20.29l.71.71L12 12.71 20.29 21l.71-.71L12.71 12z"></path>
+</svg>
+</button>
+</div>
+<div class="pswp__bg"></div>
+<div class="pswp__scroll-wrap">
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden" aria-hidden="true">
+<div class="pswp__top-bar">
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<main class="l-pdp-details b-product_details " aria-label="Product details">
+<section class="b-product_details-promotions" data-widget="widget" data-id="promotions-positionA" aria-label="Product promotions" data-initialized="1">
+<div data-ref="container">
+</div>
+<script type="template/mustache" data-ref="template"><div data-ref="container">{{#promotions}}<divclass="b-promotion js-promo-impression"data-tau-promo-id="{{id}}"data-promo-details="{{promoDetails}}">{{#showTimer}}<divclass="b-promotion-custom_message js-clock-timer"data-widget="promoCountdown"data-end-date="{{endDate}}"data-timer-time-only="{{custom.timerTimeOnly}}">{{{custom.pdpCalloutMsg}}}</div>{{/showTimer}}{{#showCalloutMsg}}<div class="b-promotion-custom_message">{{{calloutMsgToShow}}}</div>{{/showCalloutMsg}}</div>{{/promotions}}</div></script>
+</section>
+<div class="b-product_details-breadcrumbs">
+<script type="application/ld+json">{"@context":"http://schema.org/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://www.dorothyperkins.com/","name":"Home","position":1},{"@type":"ListItem","item":"https://www.dorothyperkins.com/womens/clothing","name":"CLOTHING","position":2},{"@type":"ListItem","item":"https://www.dorothyperkins.com/indigo-rip-mom-jean/AQQ02916.html","name":"Indigo Rip Mom Jean","position":3}],"numberOfItems":3}</script>
+<nav class="b-breadcrumbs" aria-label="Breadcrumbs" data-tau="breadcrumbs">
+<ul class="b-breadcrumbs-list" aria-label="Breadcrumbs">
+<li class="b-breadcrumbs-item">
+<a class="b-breadcrumbs-link" href="https://www.dorothyperkins.com/" data-tau="breadcrumbs_link">
+Home
+</a>
+</li>
+<li class="b-breadcrumbs-item">
+<span class="b-breadcrumbs-icon">/</span>
+<a class="b-breadcrumbs-link" href="https://www.dorothyperkins.com/womens/clothing" data-tau="breadcrumbs_link">
+CLOTHING
+</a>
+</li>
+<li class="b-breadcrumbs-item">
+<span class="b-breadcrumbs-icon">/</span>
+<a class="b-breadcrumbs-link" aria-current="page" href="https://www.dorothyperkins.com/indigo-rip-mom-jean/AQQ02916.html" data-tau="breadcrumbs_link">
+Indigo Rip Mom Jean
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<h1 class="b-product_details-name" id="editProductModalTitle" data-tau="product_details_name" data-ref="name">
+Indigo Rip Mom Jean
+</h1>
+<div class="b-product_details-form">
+<div class="b-product_details-price" data-tau="product_details_price">
+<div class="b-price" data-widget="label" data-id="priceBlock" data-tau-price="product_price" data-initialized="1">
+<span class="b-price-to b-sr_only">Was</span>
+<span class="b-price-item m-old" data-tau-price="old">
+£30.00
+</span>
+<span class="b-price-to b-sr_only">, is</span>
+<span class="b-price-item m-new" style="color: #d33100" data-tau-price="new">
+£27.00
+<span class="b-price-discount">
+(10% OFF)
+</span>
+</span>
+</div>
+</div>
+<div class="b-product_details-variations">
+<section class="b-variations_item m-swatch m-color" aria-label="Colour" data-widget="colorSwatch" data-tau="product_variations_color" data-widget-event-change="changeAttribute" data-id="attr-color" data-skip-validation="true" data-tau-unique="color-swatches" data-initialized="1">
+<div data-ref="container" class="b-variations_container">
+<div role="radiogroup" aria-label="Colour" aria-describedby="variation-error-1-color" class="b-variations_item-content m-list">
+<button id="variation-swatch-button-1-132" class="b-variation_swatch m-swatch " role="radio" aria-checked="true" aria-disabled="false" aria-label="indigo" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="indigo" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="true" data-tau="variation_swatch" data-tau-color-id="132" title="Colour: 132 " type="button">
+<span data-attr-value="132" class="b-variation_swatch-value">
+<span class="b-variation_swatch-color_value" style="background-image: url('//media.nastygal.com/i/nastygal/aqq02916_indigo_xl_s?w=32&amp;h=32')"></span>
+</span>
+</button>
+</div>
+<div role="alert" id="variation-error-1-color" class="b-variations_item-error" data-ref="errorFeedback" hidden="hidden"></div>
+</div>
+<script type="template/mustashe" data-ref="template"><div data-ref="container" class="b-variations_container"><divrole="radiogroup"aria-labelledby="variation-label-color variation-error-1-color"class="b-variations_item-content m-list">{{#attr.values}}<buttonid="variation-swatch-button-1-{{id}}"class="b-variation_swatch m-swatch {{#disabled}}m-disabled{{/disabled}}"role="radio"aria-checked="{{selected}}"aria-disabled="{{disabled}}"aria-label="{{displayValue}}"data-event-click.prevent="selectColor"data-global-event-click="pdp.swatch.select"data-swatch-name="{{displayValue}}"data-attr-url="{{url}}"data-attr-is-selected="{{selected}}"data-tau="variation_swatch"data-tau-color-id="{{id}}"title="Colour: {{displayValue}} {{#disabled}}(not available){{/disabled}}"><spandata-attr-value="{{value}}"class="b-variation_swatch-value"><spanclass="b-variation_swatch-color_value"{{#images.swatch.0}}style="background-image: url('{{images.swatch.0.url}}')"{{/images.swatch.0}}{{^images.swatch.0}}style="background-color: {{code}}"{{/images.swatch.0}}></span></span></button>{{/attr.values}}</div><divrole="alert"id="variation-error-1-color"class="b-variations_item-error"hidden="hidden"data-ref="errorFeedback"></div></div></script>
+</section>
+<section class="b-variations_item m-swatch m-size" aria-label="Size" data-widget="colorSwatch" data-tau="product_variations_size" data-widget-event-change="changeAttribute" data-id="attr-size" data-skip-validation="true" data-tau-unique="size-swatches" data-initialized="1">
+<div data-ref="container" class="b-variations_container">
+<div role="radiogroup" aria-label="Size" aria-describedby="variation-error-1-size" class="b-variations_item-content m-list">
+<button id="variation-swatch-button-1-14" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="14" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="6" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=14&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="14" title="Size: 14 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">6</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-16" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="16" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="8" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=16&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="16" title="Size: 16 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">8</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-18" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="18" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="10" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=18&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="18" title="Size: 18 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">10</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-20" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="20" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="12" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=20&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="20" title="Size: 20 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">12</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-22" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="22" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="14" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=22&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="22" title="Size: 22 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">14</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-24" class="b-variation_swatch m-disabled" role="radio" aria-checked="false" aria-disabled="true" aria-label="24" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="16" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=24&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="24" title="Size: 24 (not available)">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">16</span>
+</span>
+</button>
+
+<button id="variation-swatch-button-1-51" class="b-variation_swatch m-disabled" role="radio" aria-checked="false" aria-disabled="true" aria-label="51" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="18" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=51&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="51" title="Size: 51 (not available)">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">18</span>
+</span>
+</button>
+<button id="variation-swatch-button-1-68" class="b-variation_swatch " role="radio" aria-checked="false" aria-disabled="false" aria-label="68" data-event-click.prevent="selectColor" data-global-event-click="pdp.swatch.select" data-swatch-name="20" data-attr-url="https://www.dorothyperkins.com/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?dwvar_AQQ02916_color=132&amp;dwvar_AQQ02916_size=68&amp;pid=AQQ02916&amp;quantity=1" data-attr-is-selected="false" data-tau="variation_swatch" data-tau-size-id="68" title="Size: 68 ">
+<span class="b-variation_swatch-value">
+<span class="b-variation_swatch-value_text">20</span>
+</span>
+</button>
+</div>
+<div role="alert" id="variation-error-1-size" class="b-variations_item-error" data-ref="errorFeedback" hidden="hidden"></div>
+</div>
+<script type="template/mustashe" data-ref="template"><div data-ref="container" class="b-variations_container"><divrole="radiogroup"aria-labelledby="variation-label-size variation-error-1-size"class="b-variations_item-content m-list">{{#attr.values}}<buttonid="variation-swatch-button-1-{{id}}"class="b-variation_swatch {{#disabled}}m-disabled{{/disabled}}"role="radio"aria-checked="{{selected}}"aria-disabled="{{disabled}}"aria-label="{{value}}"data-event-click.prevent="selectColor"data-global-event-click="pdp.swatch.select"data-swatch-name="{{displayValue}}"data-attr-url="{{url}}"data-attr-is-selected="{{selected}}"data-tau="variation_swatch"data-tau-size-id="{{id}}"title="Size: {{displayValue}} {{#disabled}}(not available){{/disabled}}"><span class="b-variation_swatch-value"><span class="b-variation_swatch-value_text">{{displayValue}}</span></span></button>{{/attr.values}}</div><divrole="alert"id="variation-error-1-size"class="b-variations_item-error"hidden="hidden"data-ref="errorFeedback"></div></div></script>
+</section>
+</div>
+<div class="b-product_details-guide">
+<div class="b-product_details-guide_item m-hide" data-widget="label" data-id="availability" data-tau="product_availability" hidden="hidden" data-initialized="1">
+
+<div data-ready-to-order="false" data-available="true">
+<div data-ref="container" class="b-availability" aria-label="Availability" data-in-stock-msg="In stock" data-in-stock-pdp-msg="Currently in stock">
+</div>
+<script type="template/mustache" data-ref="template"><divdata-ref="container"class="b-availability"aria-label="Availability"data-in-stock-msg="In stock"data-in-stock-pdp-msg="Currently in stock">{{#message}}<div class="b-availability-status">{{message}}</div>{{/message}}</div>
+</script>
+</div>
+</div>
+</div>
+<div class="b-product_details-actions">
+<div class="b-coming_soon-pdp_form">
+<div data-ref="disclosureContent" class="m-hide" hidden="hidden" aria-hidden="true"></div>
+</div>
+<div class="b-product_actions">
+<div class="b-product_actions-inner">
+<div class="b-product_details-quantity">
+<div data-widget="inputStepper" data-attr-url="/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Product-Variation?pid=AQQ02916&amp;quantity=1&amp;ajax=true" data-widget-event-change="changeAttribute" data-widget-event-dissmiss="dissmissQty" data-skip-validation="true" data-id="quantity" data-initialized="1">
+<div data-ref="container">
+<label class="b-sr_only" for="quantity-null">
+Quantity
+</label>
+<div class="b-stepper">
+<div class="b-stepper-button" role="button" tabindex="-1" data-ref="buttonDecrease" data-event-click="decrement" disabled="disabled">
+<svg aria-hidden="true" width="12" height="12" viewBox="0 0 10 10" focusable="false">
+<path fill="currentColor" fill-rule="evenodd" d="M10 4v2H0V4z"></path>
+</svg>
+</div>
+<input id="quantity-null" class="b-stepper-input" role="spinbutton" aria-describedby="quantity-null-error" aria-valuemax="10" aria-valuemin="1" data-step="1" aria-valuenow="1" value="1" name="qty-null" required="required" type="text" inputmode="number" pattern="^[0-9]*$" data-ref="field" data-tau="product_quantity" data-event-input="handleInput" data-event-keydown="handleKeydown" data-event-change="handleChange" data-event-blur="handleBlur">
+<div class="b-stepper-button" role="button" tabindex="-1" data-ref="buttonIncrease" data-event-click="increment">
+<svg aria-hidden="true" width="12" height="12" viewBox="0 0 10 10" focusable="false">
+<path fill="currentColor" fill-rule="evenodd" d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2z"></path>
+</svg>
+</div>
+</div>
+ <div role="alert" class="b-variations_item-error" id="quantity-null-error" data-ref="errorFeedback" hidden="hidden"></div>
+</div>
+<script type="template/mustashe" data-ref="template"><div data-ref="container"><labelclass="b-sr_only"for="quantity-null">Quantity</label><div class="b-stepper"><divclass="b-stepper-button"role="button"tabindex="-1"data-ref="buttonDecrease"data-event-click="decrement"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 10 10" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M10 4v2H0V4z"/>
+</svg></div><inputid="quantity-null"class="b-stepper-input"role="spinbutton"aria-describedby="quantity-null-error"aria-valuemax="{{attr.max}}"aria-valuemin="{{attr.min}}"data-step="{{attr.step}}"aria-valuenow="{{attr.currentQty}}"value="{{attr.currentQty}}"name="qty-null"required="required"type="text"inputmode="number"pattern="^[0-9]*$"data-ref="field"data-tau="product_quantity"data-event-keydown="handleKeydown"data-event-input="handleInput"data-event-change="handleChange"data-event-blur="handleBlur"{{#isOutOfStock}} disabled {{/isOutOfStock}}/><divclass="b-stepper-button"role="button"tabindex="-1"data-ref="buttonIncrease"data-event-click="increment"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 10 10" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2z"/>
+</svg></div></div><divrole="alert"id="quantity-null-error"class="b-variations_item-error"data-ref="errorFeedback"hidden="hidden"></div></div></script>
+</div>
+</div>
+<button class="b-product_addtocard b-button m-outline m-width_full m-hide" hidden="hidden" data-event-click.prevent="showComingSoonForm" aria-label="Notify me when available" type="button" data-tau="product_openComingSoon" data-url="/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/ComingSoon-Start" aria-controls="notify-me-when-available-null" data-ref="disclosureButton" aria-expanded="false">
+Notify me when available
+</button>
+<button class="b-product_addtocard b-button m-width_full " type="button" data-widget="processButton" data-event-click="handleClick" data-ref="addToCart" data-id="addToCart" data-stock="1.0" data-is-out-of-stock="false" data-pid="AQQ02916" data-processing-label="Add to Bag" data-not-ready-label="Select Size" data-processing-class="m-processing" disabled="" data-tau="product_addToCart" data-tau-product-id="AQQ02916" data-widget-event-click="addToCart" data-add-to-cart-url="/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Cart-AddProduct" data-initialized="1">
+<span class="b-product_addtocard-availability" data-ref="container">
+Select Size
+</span>
+</button>
+</div>
+</div>
+<div class="b-product_actions m-auxiliary b-product_wishlist">
+<a href="#similarProductsSection" class="b-button m-info b-product_actions-see_similar" title="Scroll to section with similar products">
+<span class="b-button-icon">
+<svg role="img" class="i-icon i-icon-seeSimilar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+<g fill="currentColor">
+<path d="M12.323 4.9C6.23 4.9 2.1 12.128 2.1 12.128c3.821 5.369 7.331 7.228 10.429 7.228 6.092 0 10.223-7.228 10.223-7.228C19.034 6.655 15.42 4.9 12.323 4.9zm.207 13.424c-3.1 0-6.092-2.065-9.19-6.2 1.033-1.652 4.44-6.2 8.983-6.2 3.1 0 6.092 2.065 9.19 6.2-1.033 1.656-4.441 6.2-8.984 6.2z" transform="translate(2 5) translate(-2.1 -4.9)"></path>
+<path d="M13.676 8.4a2.467 2.467 0 0 0-1.446.516 2.467 2.467 0 0 0-1.445-.516A2.645 2.645 0 0 0 8.1 10.981c0 2.994 3.511 4.853 3.614 4.956l.516.207.516-.207c.1-.1 3.614-1.962 3.614-4.956A2.645 2.645 0 0 0 13.676 8.4zm-1.446 6.712s-3.1-1.755-3.1-4.13a1.436 1.436 0 0 1 1.136-1.446c1.342-.31 1.446 1.033 1.446 1.446v.1h1.033v-.1c0-.413.1-1.652 1.446-1.342a1.656 1.656 0 0 1 1.136 1.446c.001 2.27-3.097 4.026-3.097 4.026z" transform="translate(2 5) translate(-1.905 -4.786)"></path>
+</g>
+</svg>
+</span>
+<span data-ref="container">
+See similar
+</span>
+</a>
+<button type="button" class="b-button m-info b-product_wishlist-button b-wishlist_button " data-id="addToWishlist" data-widget="buttonWithIcon" data-event-click="handleClick" data-add-to-wishlist-url="/on/demandware.store/Sites-dorothy-perkins-UK-Site/en_GB/Wishlist-AddProduct" data-widget-event-click="addToWishlist" data-classes-active="m-added" data-tau="product_addToWishList" data-initialized="1">
+<i class="b-button-icon b-wishlist_button-icon"></i>
+<span data-ref="container">
+Save for later
+</span>
+</button>
+<div role="alert" hidden="hidden" data-widget="label" data-id="addToWishlistMsg" data-classes-error="m-error" data-classes-active="m-success" class="b-message m-error b-product_wishlist-action m-hide" data-tau="product_addToWishList_error" data-initialized="1">
+<div data-ref="container" class="b-message-inner">
+<div class="b-notifier-content" data-ref="labelContent"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="b-product_actions m-hide" role="alert" hidden="hidden" data-widget="label" data-id="addToCartMsg" data-initialized="1">
+<div data-ref="container"></div>
+<script data-ref="template" type="template/mustache"><div data-ref="container">{{#error}}<div class="b-product_actions-error_msg b-message m-error" data-tau="product_actions_error">{{msg}}</div>{{/error}}</div></script>
+</div>
+<section class="b-product_details-promotions" data-widget="widget" data-id="promotions-positionB" aria-label="Product promotions" data-initialized="1">
+<div data-ref="container">
+<div class="b-promotion js-promo-impression" data-tau-promo-id="TRADE_PO_10%OFF" data-promo-details="{&quot;id&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;name&quot;:&quot;TRADE_PO_10%OFF&quot;,&quot;creative&quot;:&quot;&quot;}">
+<div class="b-promotion-custom_message">
+<p><img class="is-desktop" alt="" src="https://media.boohoo.com/i/boohooamplience/DP-PDPBanner-2021-06-22-WK25-Tuesday" title=""></p>
+</div>
+</div>
+</div>
+<script type="template/mustache" data-ref="template"><div data-ref="container">{{#promotions}}<divclass="b-promotion js-promo-impression"data-tau-promo-id="{{id}}"data-promo-details="{{promoDetails}}">{{#showTimer}}<divclass="b-promotion-custom_message js-clock-timer"data-widget="promoCountdown"data-end-date="{{endDate}}"data-timer-time-only="{{custom.timerTimeOnly}}">{{{custom.pdpCalloutMsg}}}</div>{{/showTimer}}{{#showCalloutMsg}}<div class="b-promotion-custom_message">{{{calloutMsgToShow}}}</div>{{/showCalloutMsg}}</div>{{/promotions}}</div></script>
+</section>
+<div data-id="hazmat" data-widget="widget" data-initialized="1">
+<div data-ref="container">
+</div>
+<script type="template/mustache" data-ref="template"><div data-ref="container">{{#isHazmat}}<div class="b-product_details-restricted" data-tau="product_hazmat">Restricted item</div>{{/isHazmat}}</div></script>
+</div>
+<div data-id="descriptions" data-widget="widget" data-initialized="1">
+<div class="b-product_details-content" data-ref="container" data-tau="product_short_description">
+<p class="b-product_details-composition">99% Cotton, 1% Elastane.</p>
+<div class="b-product_details-skn">
+SKU:
+<span data-tau="b-product_details-id">#AQQ02916</span>
+</div>
+</div>
+<script type="template/mustache" data-ref="template"><div class="b-product_details-content" data-ref="container" data-tau="product_short_description">{{#shortDescription}}{{{shortDescription}}}{{#longDescription}}<divdata-tau="b-product_details-more"data-widget="more"class="b-more m-dots"data-text-more="Read More"data-text-less="Read Less">{{{longDescription}}}{{#composition}}<p class="b-product_details-composition">{{{composition}}}</p>{{/composition}}</div>{{/longDescription}}{{^longDescription}}{{#composition}}<p class="b-product_details-composition">{{{composition}}}</p>{{/composition}}{{/longDescription}}{{/shortDescription}}{{^shortDescription}}{{#composition}}<p class="b-product_details-composition">{{{composition}}}</p>{{/composition}}{{/shortDescription}}<div class="b-product_details-skn">SKU:<span data-tau="b-product_details-id">&#35;{{id}}</span></div></div></script>
+</div>
+<div class="b-product_details-tabs">
+<div class="b-tabs" data-widget.lg.xl="productTabs" data-auto-activation.lg.xl="true" data-active-panel.lg.xl="shippingAndReturns" data-event-keydown.lg.xl="handleKeydown" data-delivery-asset-enabled="true" data-size-guide-enabled="false" data-initialized="1">
+<div data-ref="tablist" role="tablist" class="b-tab_list">
+<button id="button-shippingAndReturns" aria-selected="true" class="b-tab_list-tab m-active" data-panel-name="shippingAndReturns" data-widget-event-click.lg.xl="handleTabClick" data-id="button-shippingAndReturns" data-event-click.prevent.lg.xl="handleClick" data-widget.lg.xl="button" role="tab" data-initialized="1">
+Shipping &amp; Returns
+</button>
+</div>
+<div role="tabpanel" tabindex="0" aria-expanded="true" class="b-tab_panel m-active" aria-labelledby="button-shippingAndReturns" data-widget.lg.xl="tabPanel" id="shippingAndReturns" data-initialized="1">
+<div data-ref="deliveryPromoBanner" class="b-promotion">
+<div class="b-promotion-custom_message">
+<div class="b-promotion-text" style="background-color: #eee">
+FREE DELIVERY OVER £50*
+</div>
+</div>
+</div>
+<div class="content-asset">
+<div class="b-product_returns">
+<div class="b-product_returns-item">
+<span class="b-product_returns-icon"><svg role="img" class="i-icon i-icon-return" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<path fill="currentColor" d="M12.375 3a9.337 9.337 0 0 0-7.292 3.542v-2.5H4.042v4.166h4.166V7.167H5.917a8.253 8.253 0 0 1 6.458-3.125 8.333 8.333 0 1 1-8.333 8.333H3A9.375 9.375 0 1 0 12.375 3z"></path>
+<path fill="none" d="M0 0H24V24H0z"></path>
+</svg></span>
+<span class="b-product_returns-text">Returns are free</span>
+</div>
+<div class="b-product_returns-item">
+<span class="b-product_returns-icon"><svg role="img" class="i-icon i-icon-calendar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+<g fill="currentColor">
+<path d="M21.792 19.53a1.045 1.045 0 0 1-1.042 1.042H4.083a1.045 1.045 0 0 1-1.041-1.042V7.03H2v12.5a2.089 2.089 0 0 0 2.083 2.083H20.75a2.089 2.089 0 0 0 2.083-2.083V7.03h-1.041z" transform="translate(2.083 3.156) translate(-2 -2.863)"></path>
+<path d="M0 0H20.833V1.042H0z" transform="translate(2.083 3.156) translate(0 2.083)"></path>
+<path d="M0 0H3.125V1.042H0z" transform="translate(2.083 3.156) translate(2.083)"></path>
+<path d="M0 0H3.125V1.042H0z" transform="translate(2.083 3.156) translate(15.625)"></path>
+<path d="M6 15.322v1.042h3.125v2.083h1.042v-2.084h4.167v2.083h1.042v-2.083H18.5v-1.041h-3.125v-4.167H18.5v-1.042h-3.125V8.03h-1.042v2.083h-4.166V8.03H9.125v2.083H6v1.042h3.125v4.167zm4.167-4.167h4.167v4.167h-4.167z" transform="translate(2.083 3.156) translate(-1.833 -2.822)"></path>
+</g>
+</svg></span>
+<span class="b-product_returns-text">Not happy? You have 28 days to return</span>
+</div>
+<p>Click <b><a href="https://www.dorothyperkins.com/page/returns-refunds-cs.html">here</a></b> for our full returns policy.</p>
+</div>
+</div> 
+<div class="content-asset">
+<div class="b-product_delivery">
+<div class="b-product_delivery-container">
+<div class="b-product_delivery-item">
+<div class="b-product_delivery-info">
+<div class="b-product_delivery-details">
+<div class="b-product_delivery-name">UK Standard Delivery</div>
+<div class="b-product_delivery-description">Up to 5 working days</div>
+</div>
+<div class="b-product_delivery-price">
+£3.99
+</div>
+</div>
+</div>
+<div class="b-product_delivery-item">
+<div class="b-product_delivery-info">
+<div class="b-product_delivery-details">
+<div class="b-product_delivery-name">UK Next Day Delivery</div>
+<div class="b-product_delivery-description">Order before 8pm Sunday to Friday</div>
+</div>
+<div class="b-product_delivery-price">
+£4.99
+</div>
+</div>
+</div>
+</div>
+<a href="https://www.dorothyperkins.com/page/delivery-details.html" class="b-product_delivery-link">View all delivery options</a>
+</div>
+</div> 
+</div>
+</div>
+</div>
+<div class="b-product_details-accordion">
+<div data-widget.sm.md="accordion" data-allow-toggle.sm.md="true" data-open-first.sm.md="false" data-allow-multiple.sm.md="true" class="b-accordion" data-delivery-asset-enabled="true" data-size-guide-enabled="false" data-initialized="1">
+<section data-widget.sm.md="accordionItem" data-widget-event-closeallitems.sm.md="closeItems" data-widget-event-accordionitemupdate.sm.md="updateFocusedItem" class="b-accordion-item" data-initialized="1">
+<h2 class="b-product_details-content_title">
+<button id="product-details-btn-shipping" data-ref="accordionItemBtn" data-event-click.prevent.sm.md="togglePanel" data-event-keydown.sm.md="handleKeydown" data-event-focus.sm.md="handleFocus" class="b-accordion-button" type="button">
+<span class="b-product_details-content_title_text m-shipp_return">
+Shipping &amp; Returns
+</span>
+<span class="b-icon_chevron"></span>
+</button>
+</h2>
+<div id="product-details-shipping" data-ref="accordionItemPanel" class="b-accordion-content">
+<div class="b-accordion-content_inner b-product_shipping" data-ref="accordionItemPanelInner">
+<div class="b-product_shipping-promo">
+<div data-ref="deliveryPromoBanner" class="b-promotion">
+<div class="b-promotion-custom_message">
+<div class="b-promotion-text" style="background-color: #eee">
+FREE DELIVERY OVER £50*
+</div>
+</div>
+</div>
+</div>
+<div class="b-product_shipping-delivery">
+<div class="content-asset">
+<div class="b-product_delivery">
+<div class="b-product_delivery-container">
+<div class="b-product_delivery-item">
+<div class="b-product_delivery-info">
+<div class="b-product_delivery-details">
+<div class="b-product_delivery-name">UK Standard Delivery</div>
+<div class="b-product_delivery-description">Up to 5 working days</div>
+</div>
+<div class="b-product_delivery-price">
+£3.99
+</div>
+</div>
+</div>
+<div class="b-product_delivery-item">
+<div class="b-product_delivery-info">
+<div class="b-product_delivery-details">
+<div class="b-product_delivery-name">UK Next Day Delivery</div>
+<div class="b-product_delivery-description">Order before 8pm Sunday to Friday</div>
+</div>
+<div class="b-product_delivery-price">
+£4.99
+</div>
+</div>
+</div>
+</div>
+<a href="https://www.dorothyperkins.com/page/delivery-details.html" class="b-product_delivery-link">View all delivery options</a>
+</div>
+</div> 
+</div>
+<div class="b-product_shipping-returns">
+<div class="content-asset">
+<div class="b-product_returns">
+<div class="b-product_returns-item">
+<span class="b-product_returns-icon"><svg role="img" class="i-icon i-icon-return" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<path fill="currentColor" d="M12.375 3a9.337 9.337 0 0 0-7.292 3.542v-2.5H4.042v4.166h4.166V7.167H5.917a8.253 8.253 0 0 1 6.458-3.125 8.333 8.333 0 1 1-8.333 8.333H3A9.375 9.375 0 1 0 12.375 3z"></path>
+<path fill="none" d="M0 0H24V24H0z"></path>
+</svg></span>
+<span class="b-product_returns-text">Returns are free</span>
+</div>
+<div class="b-product_returns-item">
+<span class="b-product_returns-icon"><svg role="img" class="i-icon i-icon-calendar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" focusable="false">
+<g fill="currentColor">
+<path d="M21.792 19.53a1.045 1.045 0 0 1-1.042 1.042H4.083a1.045 1.045 0 0 1-1.041-1.042V7.03H2v12.5a2.089 2.089 0 0 0 2.083 2.083H20.75a2.089 2.089 0 0 0 2.083-2.083V7.03h-1.041z" transform="translate(2.083 3.156) translate(-2 -2.863)"></path>
+<path d="M0 0H20.833V1.042H0z" transform="translate(2.083 3.156) translate(0 2.083)"></path>
+<path d="M0 0H3.125V1.042H0z" transform="translate(2.083 3.156) translate(2.083)"></path>
+<path d="M0 0H3.125V1.042H0z" transform="translate(2.083 3.156) translate(15.625)"></path>
+<path d="M6 15.322v1.042h3.125v2.083h1.042v-2.084h4.167v2.083h1.042v-2.083H18.5v-1.041h-3.125v-4.167H18.5v-1.042h-3.125V8.03h-1.042v2.083h-4.166V8.03H9.125v2.083H6v1.042h3.125v4.167zm4.167-4.167h4.167v4.167h-4.167z" transform="translate(2.083 3.156) translate(-1.833 -2.822)"></path>
+</g>
+</svg></span>
+<span class="b-product_returns-text">Not happy? You have 28 days to return</span>
+</div>
+<p>Click <b><a href="https://www.dorothyperkins.com/page/returns-refunds-cs.html">here</a></b> for our full returns policy.</p>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+</div>
