@@ -1,9 +1,4 @@
-import {
-  writeStoreCache,
-  assignToExtract,
-  zipParse,
-  separateCautiousProducts,
-} from '@affiliate-master/common';
+import { writeStoreCache, assignToExtract, zipParse } from '@affiliate-master/common';
 import { storeCache } from '@affiliate-master/store';
 import chunk from 'lodash/chunk';
 import shuffle from 'lodash/shuffle';
@@ -16,6 +11,7 @@ import messages from '../logger/logTypes';
 import Logger from '../logger/Logger';
 import BatchPipe from '../batching/BatchPipe';
 import { AFF_DATA_PATH, BATCH_LOG } from '../constants';
+import { separateCautiousProducts } from '../helpers';
 
 export default class FullCycle {
   constructor({
@@ -177,13 +173,8 @@ export default class FullCycle {
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
 
-    console.log('WORK TO ORDER CATS NEEDED');
-
-    return;
     this.orderProductCategories(concludedExtracts);
-
     await this.writeStoreToCache(concludedExtracts);
-
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');
 
     if (this.useTransmitStoreApi) {

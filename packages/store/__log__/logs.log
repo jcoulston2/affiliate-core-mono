@@ -1,52 +1,184 @@
-FOR: https://www.marksandspencer.com/, womens, dresses
-SUCCESS crawl PLP: /l/women/dresses#intid=gnav_women_clothing_dresses at https://www.marksandspencer.com
-SUCCESS crawl PLP (warnings: /gap/women/clothing/coats-and-jackets/ at https://www.gap.co.uk
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw4ff9d780/webcontent/0019/896/858/cn19896858.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw240e595f/webcontent/0020/345/643/cn20345643.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw4fa79314/webcontent/0019/796/953/cn19796953.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw2e16bb03/webcontent/0019/898/592/cn19898592.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw1ca54b30/webcontent/0019/708/118/cn19708118.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw706a6a16/webcontent/0019/932/972/cn19932972.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwee698f0e/webcontent/0020/419/126/cn20419126.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwf206e568/webcontent/0020/370/311/cn20370311.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dw38e4c40d/webcontent/0019/059/127/cn19059127.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true. 
- - WARNING: Filtered out invalid product info => img src https://www.gap.co.uk/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-gap-master-catalog/default/dwaaa03de9/webcontent/0019/173/597/cn19173597.jpg?sw=250&sh=500&sm=fit, isValidImage: true, isDuplicateImage: true.
-SUCCESS crawl PDP (warnings): /floral-round-neck-midaxi-waisted-dress/p/clp60516327?color=PINKMIX
- - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
-FOR: https://www.cosstores.com/, mens, accessories
-SUCCESS crawl PLP: /en_gbp/men/small-accessories.html at https://www.cosstores.com
-FOR: https://www.tedbaker.com/, womens, swimwear
-SUCCESS crawl PLP: /uk/Womens/Swimwear-and-Beachwear/c/beachwear-swimwear at https://www.tedbaker.com
-SUCCESS crawl PDP (warnings): /floral-puff-sleeve-midaxi-tea-dress/p/clp60518557?color=MULTI#intid=prodColourId-60518557
- - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
-SUCCESS crawl PDP: https://www.gap.co.uk/gap/100pct-recycled-quilted-jacket-/000614978.html?dwvar_000614978_color=000614978001&dwvar_000614978_fit=regular&cgid=68138
-SUCCESS crawl PLP (warnings: /w/womens-trousers-tights-2kq19z5e1x6 at https://www.nike.com/gb
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false. 
- - WARNING: Filtered out invalid product info => img src data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7, isValidImage: false, isDuplicateImage: false.
-SUCCESS crawl PDP (warnings): /polka-dot-puff-sleeve-midaxi-tea-dress/p/clp60518556?color=IVORYMIX
- - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
-SUCCESS crawl PDP: https://www.cosstores.com/en_gbp/men/accessories/product.leather-iphone-12-pouch-beige.0960168002.html
-SUCCESS crawl PDP: //www.tedbaker.com/uk/Womens/Accessories/Shoes/Sandals/SELANAS-Scalloped-wedge-espadrille-sandal-Pink/p/251801-PINK
-SUCCESS crawl PDP (warnings): /linen-animal-print-knee-length-shift-dress/p/clp60489041?color=CAMELMIX#intid=prodColourId-60489041
- - WARNING: Cannot get attribute: data-src for "images". Selector: ".container .image-grid .image-grid__item img".
-SUCCESS crawl PDP: https://www.gap.co.uk/gap/gap-and--jean-redesign-icon-denim-jacket-with-washwell/000631611.html?dwvar_000631611_color=000631611000&dwvar_000631611_fit=regular&cgid=68138
+FOR: https://www.dorothyperkins.com/, womens, blazers & formalwear
+SUCCESS crawl PLP: /womens/work-wear?start=160&sz=80 at https://www.dorothyperkins.com
+SUCCESS crawl PDP: /black-leather-bestie-snaffle-moccasin/AQQ00112.html
+SUCCESS crawl PDP: /navy-suede-bestie-snaffle-moccasin/AQQ00110.html
+SUCCESS crawl PDP: /tan-leather-bestie-snaffle-moccasin/AQQ00116.html
+SUCCESS crawl PDP: /blush-leather-bestie-snaffle-loafer-/AQQ00111.html
+SUCCESS crawl PDP: /navy-elastic-back-ankle-grazer-trousers/AQQ01604.html
+SUCCESS crawl PDP: /dusky-pink-elastic-back-ankle-grazer-trousers/AQQ01722.html
+SUCCESS crawl PDP: /cobalt-high-waisted-tailored-trousers/AQQ01582.html
+SUCCESS crawl PDP: /dusky-pink-high-waisted-tailored-trousers/AQQ01624.html
+SUCCESS crawl PDP: /navy-high-waisted-tailored-trousers/AQQ01626.html
+SUCCESS crawl PDP: /silver-grey-high-waisted-tailored-trouser/AQQ01603.html
+SUCCESS crawl PDP: /khaki-elastic-back-ankle-grazer-trousers/AQQ01721.html
+SUCCESS crawl PDP: /black-cobalt-floral-tailored-pencil-skirt/AQQ01622.html
+SUCCESS crawl PDP: /camel-high-waisted-tailored-trousers/AQQ01665.html
+SUCCESS crawl PDP: /silver-grey-tailored-pencil-skirt/AQQ01690.html
+SUCCESS crawl PDP: /navy-wide-leg-pull-on-trouser-/AQQ43424.html
+SUCCESS crawl PDP: /khaki-high-waisted-tailored-trousers-/AQQ01558.html
+SUCCESS crawl PDP: /red-elastic-back-ankle-grazer-trousers/AQQ01666.html
+SUCCESS crawl PDP: /khaki-crepe-midi-dress/AQQ03389.html
+SUCCESS crawl PDP: /petite-dusky-pink-high-waist-peg-trouser-/AQQ04061.html
+SUCCESS crawl PDP: /check-crop-wide-leg-trousers/AQQ06400.html
+SUCCESS crawl PDP: /petite-mint-naples-ankle-grazer-/AQQ02867.html
+SUCCESS crawl PDP: /khaki-ankle-grazer-trousers/AQQ13915.html
+SUCCESS crawl PDP: /black-d-ring-detail-trouser/AQQ16458.html
+SUCCESS crawl PDP: /camel-tailored-pencil-skirt/AQQ01623.html
+SUCCESS crawl PDP: /petite-khaki-elastic-back-ankle-grazer-/AQQ04064.html
+SUCCESS crawl PDP: /blue-boucle-blazer-/AQQ41114.html
+SUCCESS crawl PDP: /petite-black-high-waist-peg-trouser/AQQ04041.html
+SUCCESS crawl PDP: /khaki-tailored-pencil-skirt/AQQ01601.html
+SUCCESS crawl PDP: /petite-navy-high-waist-peg-trouser/AQQ04062.html
+SUCCESS crawl PDP: /petite-red-elastic-back-ankle-grazer/AQQ04113.html
+SUCCESS crawl PDP: /petite-soft-cobalt-high-waist-peg-trouser/AQQ04054.html
+SUCCESS crawl PDP: /petite-dusky-pink-elastic-back-ankle-grazer/AQQ04055.html
+SUCCESS crawl PDP: /petite-camel-high-waist-peg-trouser-/AQQ04058.html
+SUCCESS crawl PDP: /petite-navy-gingham-high-waist-trouser/AQQ04035-2.html
+SUCCESS crawl PDP: /petite-khaki-high-waist-peg-trouser-/AQQ04059.html
+SUCCESS crawl PDP: /petite-silver-grey-high-waist-peg-trouser/AQQ04040.html
+SUCCESS crawl PDP: /tall-park-check-formal-jogger/AQQ05636.html
+SUCCESS crawl PDP: /maternity-grey-leggings/AQQ18521.html
+SUCCESS crawl PDP: /khaki-bamboo-buckle-belted-trousers/AQQ02973.html
+SUCCESS crawl PDP: /black-pergola-mesh-square-toe-ballerina-/AQQ04080.html
+SUCCESS crawl PDP: /tall-black-ankle-grazer-trousers/AQQ39898.html
+SUCCESS crawl PDP: /petite-avenue-check-formal-jogger-/AQQ05990.html
+SUCCESS crawl PDP: /blush-pergola-mesh-square-toe-pump/AQQ04110.html
+SUCCESS crawl PDP: /petite-ochre-long-sleeve-shirred-top/AQQ05118.html
+SUCCESS crawl PDP: /petite-park-check-formal-jogger-/AQQ05989.html
+SUCCESS crawl PDP: /dark-stone-ruched-sleeve-jacket-/AQQ03027.html
+SUCCESS crawl PDP: /black-bamboo-buckle-belted-trousers/AQQ02981.html
+SUCCESS crawl PDP: /light-grey-ruched-sleeve-jacket-/AQQ02987.html
+SUCCESS crawl PDP: /black-bamboo-buckle-belted-sleeveless-jacket/AQQ03009-1.html
+SUCCESS crawl PDP: /khaki-suedette-waterfall-jacket/AQQ01488.html
+SUCCESS crawl PDP: /camel-tailored-shorts/AQQ03026.html
+SUCCESS crawl PDP: /tall-deegan-check-formal-jogger/AQQ05635.html
+SUCCESS crawl PDP: /grey-tailored-asymmetric-neckline-dress-/AQQ03024.html
+SUCCESS crawl PDP: /black-tailored-shorts/AQQ02992.html
+SUCCESS crawl PDP: /petite-ochre-ankle-grazer-trouser/AQQ05500.html
+SUCCESS crawl PDP: /petite-fuschia-naples-ankle-grazer/AQQ41688.html
+SUCCESS crawl PDP: /check-tailored-formal-joggers/AQQ06025.html
+SUCCESS crawl PDP: /check-tailored-formal-joggers/AQQ06028.html
+SUCCESS crawl PDP: /petite-pink-naples-ankle-grazer/AQQ41687.html
+SUCCESS crawl PDP: /khaki-ruched-sleeve-jacket/AQQ02982.html
+SUCCESS crawl PDP: /ruched-sleeve-blazer/AQQ02983-2.html
+SUCCESS crawl PDP: /ankle-grazer-trousers/AQQ02980-3.html
+SUCCESS crawl PDP: /beige-tailored-button-tab-dress/AQQ02985.html
+SUCCESS crawl PDP: /blue-ditsy-print-jogger/AQQ00432.html
+SUCCESS crawl PDP: /grey-check-button-peg-trousers/AQQ03005-1.html
+SUCCESS crawl PDP: /black-sleeveless-belted-longline-jacket/AQQ03006-1.html
+SUCCESS crawl PDP: /khaki-tailored-shorts/AQQ03007-1.html
+SUCCESS crawl PDP: /petite-ivory-poplin-shirt-/AQQ01366.html
+SUCCESS crawl PDP: /navy-tailored-shorts/AQQ02962.html
+SUCCESS crawl PDP: /animal-printed-jogger/AQQ00709.html
+SUCCESS crawl PDP: /petite-mono-gingham-top-with-contrast-collar-/AQQ01342.html
+SUCCESS crawl PDP: /petite-camel-naples-ankle-grazer-/AQQ41686.html
+SUCCESS crawl PDP: /petite-deegan-check-formal-jogger/AQQ05985.html
+SUCCESS crawl PDP: /woven-strap-detail-cross-body/AQQ01096.html
+SUCCESS crawl PDP: /wide-fit-black-pergola-mesh-pumps/AQQ04128.html
+SUCCESS crawl PDP: /black-legend-tassel-loafer/AQQ13331.html
+SUCCESS crawl PDP: /check-tailored-formal-joggers/AQQ06029.html
+SUCCESS crawl PDP: /ochre-ankle-grazer-trousers/AQQ14363.html
+SUCCESS crawl PDP: /grey-tape-tank-top/AQQ04791.html
+SUCCESS crawl PDP: /maternity-black-under-bump-naples-trouser/AQQ13999.html
+SUCCESS crawl PDP: /tall-khaki-roll-sleeve-shirt/AQQ07849.html
+SUCCESS crawl PDP: /grey-shawl-collar-coat/AQQ15384.html
+SUCCESS crawl PDP: /tall-ivory-roll-sleeve-shirt/AQQ07848.html
+SUCCESS crawl PDP: /dp-petite-white-crosshatch-blazer/AQQ14538.html
+SUCCESS crawl PDP: /black-skinny-zip-treggings/AQQ15210.html
+SUCCESS crawl PDP: /black-rib-button-dress/AQQ13238.html
+SUCCESS crawl PDP: /dp-petite-ivory-double-breasted-blazer/AQQ15179.html
+SUCCESS crawl PDP: /camel-sleeveless-bodycon-dress/AQQ15683.html
+SUCCESS crawl PDP: /ivory-linen-look-shirt/AQQ14395.html
+SUCCESS crawl PDP: /maternity-navy-ankle-grazer-trousers/AQQ16307.html
+SUCCESS crawl PDP: /navy-pencil-skirt/AQQ28297.html
+SUCCESS crawl PDP: /dark-grey-ankle-grazer-trousers/AQQ14684.html
+SUCCESS crawl PDP: /grey-pocket-detail-shorts/AQQ16542.html
+SUCCESS crawl PDP: /curve-grey-edge-to-edge-blazer/AQQ15948.html
+SUCCESS crawl PDP: /black-gingham-button-front-dress/AQQ13210.html
+SUCCESS crawl PDP: /petite-ivory-roll-sleeve-shirt/AQQ14989.html
+SUCCESS crawl PDP: /dp-petite-pink-blazer/AQQ15310.html
+SUCCESS crawl PDP: /petite-grey-check-ruched-sleeve-blazer/AQQ16509.html
+SUCCESS crawl PDP: /khaki-jersey-mock-double-breasted-blazer/AQQ16464.html
+SUCCESS crawl PDP: /khaki-sleeveless-bodycon-dress/AQQ15668.html
+SUCCESS crawl PDP: /petite-annabelle-check-ankle-grazer/AQQ16632.html
+SUCCESS crawl PDP: /curve-black-ankle-grazer-trouser/AQQ15321.html
+SUCCESS crawl PDP: /camel-ruched-sleeve-jacket/AQQ16653.html
+SUCCESS crawl PDP: /navy-sleeveless-bodycon-dress/AQQ15682.html
+SUCCESS crawl PDP: /pink-v-neck-pearl-button-cardigan/AQQ16437.html
+SUCCESS crawl PDP: /camel-scallop-collar-knitted-jumper/AQQ13991.html
+SUCCESS crawl PDP: /petite-camel-houndstooth-ankle-grazer/AQQ15870.html
+SUCCESS crawl PDP: /petites-black-pu-midi-skirt/AQQ15314.html
+SUCCESS crawl PDP: /navy-camisole-top/AQQ14880.html
+SUCCESS crawl PDP: /ivory-camisole-top/AQQ12692.html
+SUCCESS crawl PDP: /black-camisole-top/AQQ15975.html
+SUCCESS crawl PDP: /khaki-bamboo-buckle-sleeveless-jacket/AQQ03010.html
+SUCCESS crawl PDP: /turquoise-ankle-grazer-trousers/AQQ16465.html
+SUCCESS crawl PDP: /khaki-bamboo-belted-tailored-trousers/AQQ15211.html
+SUCCESS crawl PDP: /petite-black-check-print-square-neck-dress/AQQ16695.html
+SUCCESS crawl PDP: /grey-tailored-workwear-dress/AQQ16651.html
+SUCCESS crawl PDP: /grey-double-breasted-coat/AQQ14826.html
+SUCCESS crawl PDP: /petite-bengaline-pull-on/AQQ13205.html
+SUCCESS crawl PDP: /cornflower-belted-peg-leg-trouser/AQQ13073.html
+SUCCESS crawl PDP: /maternity-black-underbump-trousers/AQQ19059.html
+SUCCESS crawl PDP: /tall-blue-belted-tousers/AQQ08431.html
+SUCCESS crawl PDP: /petite-grey-edge-to-edge-blazer/AQQ16607.html
+SUCCESS crawl PDP: /grey-check-formal-joggers/AQQ16497.html
+SUCCESS crawl PDP: /khaki-formal-joggers/AQQ16496.html
+SUCCESS crawl PDP: /tall-grey-checked-trousers/AQQ07602.html
+SUCCESS crawl PDP: /ochre-check-ankle-grazer/AQQ02972.html
+SUCCESS crawl PDP: /petite-black-ruched-sleeve-blazer/AQQ16551.html
+SUCCESS crawl PDP: /petite-grey-ankle-grazer-trousers/AQQ16510.html
+SUCCESS crawl PDP: /petite-ivory-gold-button-blazer/AQQ16696.html
+SUCCESS crawl PDP: /navy-tailored-pencil-skirt/AQQ14316.html
+SUCCESS crawl PDP: /curve-black-edge-to-edge-blazer/AQQ14830.html
+SUCCESS crawl PDP: /petite-ivory-gold-button-trousers/AQQ16593.html
+SUCCESS crawl PDP: /black-ivy-side-zip-trainers/AQQ02177.html
+SUCCESS crawl PDP: /tall-black-blazer/AQQ08432.html
+SUCCESS crawl PDP: /black-check-ruched-sleeve-blazer/AQQ25743.html
+SUCCESS crawl PDP: /petite-silver-roll-sleeve-shirt/AQQ16684.html
+SUCCESS crawl PDP: /tall-blue-blazer/AQQ07797.html
+SUCCESS crawl PDP: /regular-black-textured-trouser/AQQ14378.html
+SUCCESS crawl PDP: /petites-dark-grey-ankle-grazer-trousers/AQQ14734.html
+SUCCESS crawl PDP: /curve-navy-elastic-back-ankle-grazer/AQQ15322.html
+SUCCESS crawl PDP: /maternity-black-over-bump-ankle-grazer/AQQ13457.html
+SUCCESS crawl PDP: /petite-navy-ruched-sleeve-blazer/AQQ14647.html
+SUCCESS crawl PDP: /petite-high-waist-trousers-/AQQ14948.html
+SUCCESS crawl PDP: /cobalt-2-button-roll-sleeve-shirt/AQQ15572.html
+SUCCESS crawl PDP: /seafoam-green-ruched-sleeve-jacket/AQQ16460.html
+SUCCESS crawl PDP: /regular-navy-textured-trouser/AQQ14639.html
+SUCCESS crawl PDP: /black-tailored-pencil-skirt/AQQ16536.html
+SUCCESS crawl PDP: /ivory-ankle-grazer/AQQ16545.html
+SUCCESS crawl PDP: /black-dash-courts/AQQ41094.html
+SUCCESS crawl PDP: /tall-navy-ankle-grazer-trousers/AQQ15795.html
+SUCCESS crawl PDP: /crimson-check-ankle-grazer/AQQ16654.html
+SUCCESS crawl PDP: /petites-black-bodycon-midi-dress/AQQ15008.html
+SUCCESS crawl PDP: /camel-ankle-grazer/AQQ16468.html
+SUCCESS crawl PDP: /tall-black-ruched-sleeve-blazer/AQQ15240.html
+SUCCESS crawl PDP: /navy-check-formal-jogger/AQQ16535.html
+SUCCESS crawl PDP: /black-textured-formal-jogger-trousers/AQQ16541.html
+SUCCESS crawl PDP: /gingham-skinny-trouser/AQQ15214.html
+SUCCESS crawl PDP: /seafoam-ankle-grazer/AQQ16647.html
+SUCCESS crawl PDP: /navy-high-waist-slim-leg-trousers/AQQ16471.html
+SUCCESS crawl PDP: /petites-camel-ankle-grazer-trousers/AQQ14733.html
+SUCCESS crawl PDP: /cornflower-single-breasted-jacket/AQQ14033.html
+SUCCESS crawl PDP: /tall-black-belted-trousers/AQQ07796.html
+SUCCESS crawl PDP: /regular-black-skinny-pocket-trousers/AQQ16527.html
+SUCCESS crawl PDP: /navy-ruched-sleeve-blazer/AQQ16529.html
+SUCCESS crawl PDP: /black-seam-detail-tregging/AQQ16493.html
+SUCCESS crawl PDP: /black-zip-detail-skinny-trouser/AQQ14807.html
+SUCCESS crawl PDP: /black-jersey-mock-double-breasted-blazer/AQQ16655.html
+SUCCESS crawl PDP: /petites-black-zip-bengaline-trouser/AQQ15172.html
+SUCCESS crawl PDP: /petites-khaki-midi-bodycon-dress/AQQ15173.html
+SUCCESS crawl PDP: /teal-ankle-grazer-trousers/AQQ15213.html
+SUCCESS crawl PDP: /coral-ankle-grazer/AQQ16530.html
+SUCCESS crawl PDP: /black-and-white-check-ankle-grazer/AQQ16652.html
+SUCCESS crawl PDP: /navy-skinny-trouser/AQQ15207.html
+SUCCESS crawl PDP: /coral-ruched-sleeve-blazer/AQQ16467.html
+SUCCESS crawl PDP: /petite-black-textured-trousers/AQQ15096.html
+SUCCESS crawl PDP: /black-sleeveless-bodycon-dress/AQQ13126.html
+SUCCESS crawl PDP: /black-high-waist-slim-leg-trousers/AQQ13360.html
+SUCCESS crawl PDP: /petites-khaki-ankle-grazer-trousers/AQQ14334.html
+SUCCESS crawl PDP: /short-black-skinny-trouser/AQQ14166.html
+SUCCESS crawl PDP: /petite-navy-naples-ankle-grazer/AQQ02872.html
+SUCCESS crawl PDP: /black-fit-and-flare-tailored-dress/AQQ02984.html
+Entering crawl delay - this will ony be a short while!
