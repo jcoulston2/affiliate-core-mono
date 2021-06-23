@@ -3,6 +3,7 @@ import FullCycle from './FullCycle';
 import { transmitLogsToSlack } from '../api';
 import commonSchema from '../mocks/schema-mocks/test-mocks/commonSchema';
 import extractResponse from '../mocks/response-mocks/cycle-response-mock';
+import multipleCategoriesResponse from '../mocks/response-mocks/multiple-categories-mock';
 
 jest.mock('../Extractor');
 jest.mock('../logger/Logger');
@@ -10,6 +11,14 @@ jest.mock('../api');
 jest.mock('../../store/__store-cache__/store-cache.json', () => ({
   store: global.mockZippedStore,
 }));
+jest.mock('../../config', () => {
+  return {
+    affiliateCategories: {
+      mens: ['Jeans', 'Shirts', 'Shorts', 'Tops'],
+      womens: ['Skirts', 'Shirts', 'Shorts', 'Tops'],
+    },
+  };
+});
 
 const mockPromise = () => new Promise((resolve) => resolve());
 const schemas = [
@@ -36,7 +45,7 @@ const setSpies = (Cycle) => {
   jest.spyOn(Cycle, 'sendSlackNotification').mockImplementation(() => mockPromise);
   jest.spyOn(Cycle, 'writeStoreToCache').mockImplementation((extracts) => mockPromise(extracts));
   transmitLogsToSlack.mockImplementation(() => mockPromise);
-  jest.spyOn(Cycle, 'writeStoreToCache');
+  jest.spyOn(Cycle, 'orderProductCategories');
   jest.spyOn(Cycle, 'setStopWatch');
   jest.spyOn(Cycle, 'sendSlackNotification');
   jest.spyOn(Cycle, 'combineExtracts');
@@ -146,6 +155,7 @@ describe('When initializing a full cycle with all schemas split into chunks', ()
     expect(Cycle.batchDataWithExistingStore).toHaveBeenCalled();
     expect(Cycle.logBatchMetrics).toHaveBeenCalled();
     expect(Cycle.shuffleProductFeeds).toHaveBeenCalled();
+    expect(Cycle.orderProductCategories).toHaveBeenCalled();
   });
 
   test('All Cycles give back results', () => {
@@ -183,7 +193,7 @@ describe('When there is no initial store or opting out of batching', () => {
   });
 });
 
-describe('When calling a product shuffle in a cycle', () => {
+describe('When invoking a product shuffle in a given cycle', () => {
   test('Products are correctly shuffled', async () => {
     const mockResponses = Array(10)
       .fill('')
@@ -194,5 +204,15 @@ describe('When calling a product shuffle in a cycle', () => {
       mockResponses.length;
 
     expect(productsAreShuffled).toBeTruthy();
+  });
+});
+
+describe('When invoking product ordering in a given cycle', () => {
+  test('Products are correctly ordered according to config', async () => {
+    const orderedProducts = Cycle.orderProductCategories(multipleCategoriesResponse);
+    const secOneData = orderedProducts[0].data;
+    const sectTwoData = orderedProducts[1].data;
+    expect(secOneData.map((o) => o.category)).toEqual(['Jeans', 'Shirts', 'Shorts', 'Tops']);
+    expect(sectTwoData.map((o) => o.category)).toEqual(['Skirts', 'Shirts', 'Shorts', 'Tops']);
   });
 });

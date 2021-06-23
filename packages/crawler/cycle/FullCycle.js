@@ -111,13 +111,19 @@ export default class FullCycle {
     return extracts;
   }
 
+  // Order product categories based on the affiliateCategories list in config. Categories with lower indexes will
+  // be prioitised.
   orderProductCategories(extracts) {
     extracts.forEach(({ data: secData, section }, secIndex) => {
-      const requiredOrder = affiliateCategories[section];
-      secData.forEach((catData) => {
-        const indexOrder = requiredOrder.indexOf(catData.category);
-        set(extracts, `[${secIndex}].data[${indexOrder}]`, catData);
-      });
+      const orderRefList = affiliateCategories[section];
+      if (orderRefList) {
+        let orderedCatData = [];
+        secData.forEach(
+          (catData) => (orderedCatData[orderRefList.indexOf(catData.category)] = catData)
+        );
+
+        set(extracts, `[${secIndex}].data`, orderedCatData);
+      }
     });
 
     return extracts;
@@ -145,9 +151,10 @@ export default class FullCycle {
   }
 
   async initFullCycle() {
+    let batchResponse;
+
     this.sendSlackNotification(messages.slackStartingCycle);
     this.setStopWatch('start');
-    let batchResponse;
     const cycleResults = await this.startCycleChunks();
     const { extracts, numberOfcrawledProducts, warnings, errors } =
       this.combineResults(cycleResults);
@@ -160,7 +167,7 @@ export default class FullCycle {
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
 
-    // this.orderProductCategories(concludedExtracts);
+    this.orderProductCategories(concludedExtracts);
     await this.writeStoreToCache(concludedExtracts);
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624478810131" clover="3.2.0">
-  <project timestamp="1624478810131" name="All files">
-    <metrics statements="647" coveredstatements="557" conditionals="334" coveredconditionals="248" methods="197" coveredmethods="164" elements="1178" coveredelements="969" complexity="0" loc="647" ncloc="647" packages="12" files="26" classes="26"/>
+<coverage generated="1624491145909" clover="3.2.0">
+  <project timestamp="1624491145910" name="All files">
+    <metrics statements="650" coveredstatements="566" conditionals="336" coveredconditionals="250" methods="197" coveredmethods="167" elements="1183" coveredelements="983" complexity="0" loc="650" ncloc="650" packages="12" files="27" classes="27"/>
     <package name="api">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="api.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/api/api.js">
@@ -122,7 +122,7 @@
       </file>
     </package>
     <package name="cycle">
-      <metrics statements="129" coveredstatements="110" conditionals="44" coveredconditionals="38" methods="48" coveredmethods="37"/>
+      <metrics statements="132" coveredstatements="119" conditionals="46" coveredconditionals="40" methods="48" coveredmethods="40"/>
       <file name="Cycle.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/cycle/Cycle.js">
         <metrics statements="61" coveredstatements="56" conditionals="20" coveredconditionals="19" methods="26" coveredmethods="21"/>
         <line num="9" count="1" type="stmt"/>
@@ -188,7 +188,7 @@
         <line num="171" count="4" type="stmt"/>
       </file>
       <file name="FullCycle.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/cycle/FullCycle.js">
-        <metrics statements="68" coveredstatements="54" conditionals="24" coveredconditionals="19" methods="22" coveredmethods="16"/>
+        <metrics statements="71" coveredstatements="63" conditionals="26" coveredconditionals="21" methods="22" coveredmethods="19"/>
         <line num="28" count="2" type="stmt"/>
         <line num="29" count="2" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
@@ -227,36 +227,39 @@
         <line num="106" count="32" type="stmt"/>
         <line num="107" count="32" type="stmt"/>
         <line num="111" count="12" type="stmt"/>
-        <line num="115" count="0" type="stmt"/>
-        <line num="116" count="0" type="stmt"/>
-        <line num="117" count="0" type="stmt"/>
-        <line num="118" count="0" type="stmt"/>
-        <line num="119" count="0" type="stmt"/>
-        <line num="123" count="0" type="stmt"/>
-        <line num="127" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="128" count="0" type="stmt"/>
-        <line num="129" count="0" type="stmt"/>
-        <line num="131" count="0" type="stmt"/>
-        <line num="136" count="0" type="stmt"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="10" type="stmt"/>
+        <line num="119" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="120" count="2" type="stmt"/>
+        <line num="121" count="2" type="stmt"/>
+        <line num="122" count="8" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+        <line num="129" count="3" type="stmt"/>
+        <line num="133" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
         <line num="137" count="0" type="stmt"/>
-        <line num="141" count="2" type="stmt"/>
-        <line num="142" count="8" type="stmt"/>
-        <line num="144" count="2" type="stmt"/>
-        <line num="148" count="2" type="stmt"/>
-        <line num="149" count="2" type="stmt"/>
-        <line num="151" count="2" type="stmt"/>
-        <line num="153" count="2" type="stmt"/>
-        <line num="155" count="2" type="stmt"/>
-        <line num="156" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="157" count="1" type="stmt"/>
-        <line num="160" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="161" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="164" count="2" type="stmt"/>
-        <line num="165" count="2" type="stmt"/>
-        <line num="167" count="2" type="stmt"/>
-        <line num="176" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="177" count="2" type="stmt"/>
-        <line num="179" count="2" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="147" count="2" type="stmt"/>
+        <line num="148" count="8" type="stmt"/>
+        <line num="150" count="2" type="stmt"/>
+        <line num="156" count="2" type="stmt"/>
+        <line num="157" count="2" type="stmt"/>
+        <line num="158" count="2" type="stmt"/>
+        <line num="160" count="2" type="stmt"/>
+        <line num="162" count="2" type="stmt"/>
+        <line num="163" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="167" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="168" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="170" count="2" type="stmt"/>
+        <line num="171" count="2" type="stmt"/>
+        <line num="172" count="2" type="stmt"/>
+        <line num="174" count="2" type="stmt"/>
+        <line num="183" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="184" count="2" type="stmt"/>
+        <line num="186" count="2" type="stmt"/>
       </file>
     </package>
     <package name="evaluation">
@@ -744,6 +747,9 @@
     <package name="mocks.response-mocks">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="cycle-response-mock.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/mocks/response-mocks/cycle-response-mock.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="multiple-categories-mock.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/mocks/response-mocks/multiple-categories-mock.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
