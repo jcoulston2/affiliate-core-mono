@@ -1,8 +1,7 @@
 import Extractor from '../extractor';
 import { normalizeSlackNotification } from '../helpers';
 import { transmitLogsToSlack } from '../api';
-import Logger from '../logger/Logger';
-import messages from '../logger/logTypes';
+import { Logger, messages } from '@affiliate-master/common';
 
 export default class ExtractorCycle {
   constructor(affilaiteSchemas, headless = true) {

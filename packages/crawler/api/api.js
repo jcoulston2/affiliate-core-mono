@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { SLACK_BOT_ENDPOINT } from '../constants';
-import Logger from '../logger/Logger';
-import messages from '../logger/logTypes';
+import { Logger, messages } from '@affiliate-master/common';
 
 export async function transmitLogsToSlack(logs) {
   try {

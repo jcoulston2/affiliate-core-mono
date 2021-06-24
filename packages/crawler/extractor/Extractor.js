@@ -2,8 +2,7 @@ import initPageEvaluation, { scrollPageBeforeExtract } from '../evaluation/evalu
 import * as Promise from 'bluebird';
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import Logger from '../logger/Logger';
-import messages from '../logger/logTypes';
+import { Logger, messages } from '@affiliate-master/common';
 import 'regenerator-runtime/runtime';
 import { assignToExtract, normalizeProductDetail, normalizeProductTopLevel } from '../helpers';
 

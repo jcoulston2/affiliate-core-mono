@@ -1,4 +1,4 @@
-import messages from '../logger/logTypes';
+import { messages } from '@affiliate-master/common';
 
 /**
  * @Info Normalize into a more readable slack message

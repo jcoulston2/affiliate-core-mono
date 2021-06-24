@@ -78,7 +78,7 @@ export function getCalculatedDiscount(wasPrice: ?string, nowPrice: ?string): ?nu
   const priceIntMatch = (int: any) => int.match(/\d+\.\d+|\d+/g)[0];
   const WasPriceInt = parseFloat(priceIntMatch(wasPrice));
   const nowPriceInt = parseFloat(priceIntMatch(nowPrice));
-  return Math.round(((WasPriceInt - nowPriceInt) / WasPriceInt) * 100);
+  return Math.floor(((WasPriceInt - nowPriceInt) / WasPriceInt) * 100);
 }
 
 export function getScrollTop(): ?number {

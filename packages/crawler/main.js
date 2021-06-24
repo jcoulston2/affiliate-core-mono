@@ -1,7 +1,6 @@
-import { getAffiliateSchema } from '@affiliate-master/common';
+import { getAffiliateSchema, Logger } from '@affiliate-master/common';
 import { crawlerConfig as config } from '@affiliate-master/config';
 import FullCycle from './cycle/FullCycle';
-import Logger from './logger/Logger';
 import { AFF_DATA, CRAWL_LOG } from './constants';
 
 const {

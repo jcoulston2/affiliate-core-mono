@@ -6,6 +6,7 @@ import {
   cleanOutput,
   createOutput,
   urlCase,
+  Logger,
 } from '@affiliate-master/common';
 import { affiliateCategories as affiliateCategoryList } from '@affiliate-master/config';
 import { INCORRECT_CATEGORY_SCHEMA, INCORRECT_SECTION_SCHEMA } from '../constants/errors';
@@ -22,12 +23,16 @@ function getStaticListingPaths() {
   return paths;
 }
 
+function commonLog(log) {
+  Logger.publicLog(log, 'cyan');
+}
+
 async function generateStaticListingPaths() {
   await cleanOutput(BUILD_STATIC_PATHS_OUTPUT);
   await createOutput(BUILD_STATIC_PATHS_OUTPUT);
   const pathsJson = getStaticListingPaths();
   await writeFileToOutput(`${BUILD_STATIC_PATHS_OUTPUT}static-paths.json`, pathsJson);
-  console.log('::: Built static paths :::');
+  commonLog('::: Built static paths :::');
 }
 
 function getCategoryLists() {
@@ -103,9 +108,9 @@ async function outputSchemaFiles(chunkedDataByBrand) {
     try {
       const brandSchemas = constructBrandSchemas(brand);
       await outputSchema(brandSchemas, BUILD_DATA_OUTPUT);
-      console.log(`Schema output built for: \n${prettyJson(brand.categories.meta)}\n`);
+      commonLog(`Schema output built for: \n${prettyJson(brand.categories.meta)}\n`);
     } catch (error) {
-      console.log(error);
+      commonLog(error);
     }
   });
 }
@@ -115,7 +120,7 @@ async function init() {
   const chunkedDataByBrand = chunkCategoriesAndSchema(affilaiteSchemas);
   await outputSchemaFiles(chunkedDataByBrand);
   await generateStaticListingPaths();
-  console.log(
+  commonLog(
     'Built affiliate definitions in packages/store. We will now need a package reboot to update dependencies'
   );
 }

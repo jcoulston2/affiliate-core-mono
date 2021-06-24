@@ -6,7 +6,6 @@ import extractResponse from '../mocks/response-mocks/cycle-response-mock';
 import multipleCategoriesResponse from '../mocks/response-mocks/multiple-categories-mock';
 
 jest.mock('../Extractor');
-jest.mock('../logger/Logger');
 jest.mock('../api');
 jest.mock('../../store/__store-cache__/store-cache.json', () => ({
   store: global.mockZippedStore,

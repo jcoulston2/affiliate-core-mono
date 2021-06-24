@@ -1,5 +1,5 @@
 import storeCache from '@affiliate-master/store';
-import { zipParse as parseStoreCache, lowerCase } from '@affiliate-master/common';
+import { zipParse as parseStoreCache, lowerCase, Logger } from '@affiliate-master/common';
 import { PREDICTIVE_SEARCH_OUTPUT } from '../constants/paths';
 import fs from 'fs';
 
@@ -86,6 +86,10 @@ const sections = [];
 const predictiveSearch = [];
 const brands = [];
 
+function commonLog(log) {
+  Logger.publicLog(log, 'cyan');
+}
+
 async function writePredictiveSearch(searchJson) {
   const searchJsonString = JSON.stringify(searchJson);
   return new Promise((resolve) =>
@@ -170,15 +174,15 @@ function generatePredictiveSearchTerms(commonSearchTerms) {
 }
 
 async function createPredictiveSearch() {
-  console.log('::: START BUILD SEARCH ::: ');
-  console.log('::: PARSED STORE ::: ');
+  commonLog('::: START BUILD SEARCH ::: ');
+  commonLog('::: PARSED STORE ::: ');
   const commonSearchTerms = getCommonKeyTerms();
-  console.log('::: GOT KEY TERMS ::: ');
-  console.log('::: GENERATING PREDICTIVE SEARCH (MAY TAKE A SHORT WHILE) ::: ');
+  commonLog('::: GOT KEY TERMS ::: ');
+  commonLog('::: GENERATING PREDICTIVE SEARCH (MAY TAKE A SHORT WHILE) ::: ');
   generatePredictiveSearchTerms(commonSearchTerms);
-  console.log('::: FINISHED BUILD SEARCH ::: ');
+  commonLog('::: FINISHED BUILD SEARCH ::: ');
   await writePredictiveSearch(predictiveSearch);
-  console.log('::: WRITE TO FILE SUCCESS ::: ');
+  commonLog('::: WRITE TO FILE SUCCESS ::: ');
 }
 
 createPredictiveSearch();

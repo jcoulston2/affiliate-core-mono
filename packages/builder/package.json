@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "new-schema": "babel-node scripts/new-schema.js",
-    "build-schemas": "babel-node scripts/build.js",
-    "build-predictive-search": "babel-node scripts/build-search.js",
-    "transmit-store": "babel-node test-fs-script.js"
+    "new-schema": "FORCE_COLOR=1 babel-node scripts/new-schema.js",
+    "build-schemas": "FORCE_COLOR=1 babel-node scripts/build.js",
+    "build-predictive-search": "FORCE_COLOR=1 babel-node scripts/build-search.js"
   },
   "repository": {
     "type": "git",

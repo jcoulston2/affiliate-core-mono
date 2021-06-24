@@ -1,6 +1,7 @@
 import fs from 'fs';
-import { createOutput } from '@affiliate-master/common';
+import { createOutput, Logger } from '@affiliate-master/common';
 import { AFF_DATA } from '../constants/errors';
+
 const templateSchema = {
   extracts: {
     topLevel: {
@@ -57,6 +58,10 @@ const templateSchema = {
   },
 };
 
+function commonLog(log) {
+  Logger.publicLog(log, 'cyan');
+}
+
 export async function writeSchemaFolder() {
   try {
     const brandName = process.argv[2];
@@ -79,13 +84,13 @@ export async function writeSchemaFolder() {
 
     return Promise.all(promises);
   } catch (error) {
-    console.log(':: ERROR ::', error);
+    commonLog(':: ERROR ::', error);
   }
 }
 
 async function init() {
   await writeSchemaFolder();
-  console.log(':::: CREATED NEW SCHEMA TEMPLATE ::::');
+  commonLog(':::: CREATED NEW SCHEMA TEMPLATE ::::');
 }
 
 init();

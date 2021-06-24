@@ -1,8 +1,6 @@
-import { fastClone as clone } from '@affiliate-master/common';
+import { fastClone as clone, Logger, messages } from '@affiliate-master/common';
 import set from 'lodash/set';
 import get from 'lodash/get';
-import Logger from '../logger/Logger';
-import messages from '../logger/logTypes';
 
 export default class Batch {
   constructor({ currentBatch, incomingBatch, persistOldProductsUntilRound }) {

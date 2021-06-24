@@ -12,7 +12,6 @@ let mockExtractorReturnValues = {
 
 // Mocks
 jest.mock('../Extractor');
-jest.mock('../logger/Logger');
 jest.mock('../helpers');
 jest.mock('../api');
 

@@ -1,4 +1,4 @@
-import { getAffiliateSchema, getFullSchemaUrl } from '@affiliate-master/common';
+import { getAffiliateSchema, getFullSchemaUrl, Logger } from '@affiliate-master/common';
 import { validateUrl } from './helper';
 import { mapSeries } from 'bluebird';
 
@@ -36,7 +36,9 @@ describe('For each section schema', () => {
   test('a valid url is present', async () => {
     const failedValidation = await validateUrls();
     if (failedValidation.length) {
-      failedValidation.forEach((url) => console.log(`:::::: VALIDATION FAILED FOR ${url}  ::::::`));
+      failedValidation.forEach((url) =>
+        Logger.publicLog(`:::::: VALIDATION FAILED FOR ${url}  ::::::`, 'red')
+      );
     }
     expect(failedValidation.length).toEqual(0);
   });

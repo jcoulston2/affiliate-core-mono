@@ -1,7 +1,5 @@
 import FullCycle from '../cycle/FullCycle';
-import Logger from '../logger/Logger';
-import messages from '../logger/logTypes';
-import { getAffiliateSchema } from '@affiliate-master/common';
+import { getAffiliateSchema, Logger, messages } from '@affiliate-master/common';
 import { MOCKS } from '../constants';
 
 function copyToClip(json) {
