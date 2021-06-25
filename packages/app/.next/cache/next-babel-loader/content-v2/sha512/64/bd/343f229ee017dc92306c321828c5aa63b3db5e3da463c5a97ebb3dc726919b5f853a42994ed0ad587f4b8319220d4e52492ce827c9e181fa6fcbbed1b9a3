@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useSelector } from 'react-redux';\nexport default function useBrandList() {\n  var brandList = useSelector(function (appState) {\n    var buildTimeState = appState.buildTimeState;\n    return buildTimeState.brands;\n  });\n  return brandList;\n}","map":null,"metadata":{},"sourceType":"module"}

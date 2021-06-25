@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const VIEW_MODE = {\n  GRID_MODE: 'grid-mode',\n  FLICK_MODE: 'flick-mode'\n};","map":null,"metadata":{},"sourceType":"module"}

@@ -13,6 +13,7 @@
     "crawler:test-e2e": "lerna run test-e2e --stream",
     "link": "lerna link",
     "dev": "lerna run dev --stream",
+    "start": "lerna run start --stream",
     "build": "lerna run build --stream"
   },
   "devDependencies": {
@@ -46,6 +47,6 @@
     "lerna": "^4.0.0",
     "nodemon": "^1.19.1",
     "prettier": "^2.2.1",
-    "styled-components": "^4.4.1"
+    "postcss": "^8.3.5"
   }
 }

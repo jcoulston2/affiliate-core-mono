@@ -1,0 +1,1 @@
+{"ast":null,"code":"import hook from '@containers/Pwa/hook';\nexport default hook;","map":null,"metadata":{},"sourceType":"module"}

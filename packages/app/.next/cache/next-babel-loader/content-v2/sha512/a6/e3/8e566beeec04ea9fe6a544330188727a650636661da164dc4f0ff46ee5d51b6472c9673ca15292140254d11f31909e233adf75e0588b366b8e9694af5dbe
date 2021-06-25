@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var INVALID_PRICE = 'WARNING: could not find a valid price to show';\nexport var INVALID_IMG = 'WARNING: could not find a valid img src';","map":null,"metadata":{},"sourceType":"module"}

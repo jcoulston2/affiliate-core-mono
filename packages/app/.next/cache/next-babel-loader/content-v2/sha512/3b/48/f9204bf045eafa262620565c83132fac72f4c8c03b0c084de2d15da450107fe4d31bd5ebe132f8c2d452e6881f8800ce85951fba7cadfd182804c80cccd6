@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { storeCache } from '@affiliate-master/store';\nimport { zipParse } from '@affiliate-master/common';\n\nfunction getStore() {\n  const store = storeCache.store;\n  const parsedStore = zipParse(store);\n  return parsedStore;\n}\n\nconst configuredStore = getStore();\nexport { configuredStore, getStore };","map":null,"metadata":{},"sourceType":"module"}

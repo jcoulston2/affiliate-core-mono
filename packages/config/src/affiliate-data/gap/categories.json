@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "brand": "Gap",
+    "domain": "https://www.gap.co.uk"
+  },
+  "categories": [
+    {
+      "urls": ["/gap/women/clothing/tees-and-tops/"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/shirts-and-blouses/"],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/dresses-and-jumpsuits/"],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/shorts/"],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/jeans/"],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/trousers/"],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/hoodies-and-sweatshirts/"],
+      "category": "hoodies & sweatshirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/joggers-and-sweatpants/"],
+      "category": "joggers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/jumpers-and-cardigans/"],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/coats-and-jackets/"],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/women/clothing/skirts/"],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/t-shirts/"],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/tank-tops/"],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/shorts/"],
+      "category": "shorts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/polos/"],
+      "category": "polos",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/hoodies-and-sweatshirts/"],
+      "category": "hoodies & sweatshirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/jeans/"],
+      "category": "jeans",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/trousers/"],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/shirts/"],
+      "category": "shirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/jackets-and-blazers/"],
+      "category": "jackets & coats",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/gap/men/clothing/sleepwear/"],
+      "category": "nightwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    }
+  ]
+}

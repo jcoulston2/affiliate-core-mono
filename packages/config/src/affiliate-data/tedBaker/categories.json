@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "brand": "Ted Baker",
+    "domain": "https://www.tedbaker.com"
+  },
+  "categories": [
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Dresses/c/category_womens_clothing_dresses"
+      ],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Jackets-and-Coats/c/category_womens_clothing_jackets-coats"
+      ],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Tops-and-T-shirts/c/category_womens_clothing_tops-t-shirts"
+      ],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Knitwear/c/category_womens_clothing_knitwear"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Jeans/c/category_womens_clothing_jeans"
+      ],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Lingerie-and-Nightwear/c/lingerie_nightwear"
+      ],
+      "category": "nightwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Skirts/c/category_womens_clothing_skirts"
+      ],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Trousers-and-Shorts/c/category_womens_clothing_trousers-shorts"
+      ],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Clothing/Jumpsuits-Playsuits/c/w_jumpsuits_and_playsuits"
+      ],
+      "category": "jumpsuits & playsuits",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Womens/Swimwear-and-Beachwear/c/beachwear-swimwear"
+      ],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Jackets-and-Coats/c/category_mens_clothing_jackets-coats"
+      ],
+      "category": "jackets & coats",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Tops-and-T-shirts/c/category_mens_clothing_tops-t-shirts"
+      ],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/mens/clothing/loungewear/c/casual-clothes-mens?int_cmpid=_m_mn_clothing_loungewear"
+      ],
+      "category": "loungewear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Shirts/c/category_mens_clothing_shirts"
+      ],
+      "category": "shirts",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Knitwear/c/category_mens_clothing_knitwear"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Trousers/c/category_mens_clothing_trousers"
+      ],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Suits/c/category_mens_clothing_suits"
+      ],
+      "category": "suits",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Blazers/c/category_mens_clothing_blazers"
+      ],
+      "category": "blazers & formalwear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Jeans/c/category_mens_clothing_jeans"
+      ],
+      "category": "jeans",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/uk/Mens/Clothing/Shorts/c/category_mens_clothing_shorts"
+      ],
+      "category": "shorts",
+      "section": "mens",
+      "label": "clothing"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "brand": "M&S",
+    "domain": "https://www.marksandspencer.com"
+  },
+  "categories": [
+    {
+      "urls": [
+        "/l/women/knitwear#intid=gnav_women_clothing_knitwear"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/coats-and-jackets#intid=gnav_women_clothing_coats%20jackets"
+      ],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/loungewear#intid=gnav_women_clothing_loungwear"
+      ],
+      "category": "loungwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/sportswear#intid=gnav_women_clothing_sportswear"
+      ],
+      "category": "sportswear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/trousers#intid=gnav_women_clothing_trousers"
+      ],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/jeans#intid=gnav_women_clothing_jeans"
+      ],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/trousers/fs5/leggings#intid=gnav_women_clothing_leggings"
+      ],
+      "category": "leggings",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/trousers/fs5/joggers#intid=gnav_women_clothing_joggers"
+      ],
+      "category": "joggers",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/dresses#intid=gnav_women_clothing_dresses"
+      ],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/tops#intid=gnav_women_clothing_tops"
+      ],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/tops/shirts-and-blouses#intid=gnav_women_clothing_shirts%20blouses"
+      ],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/coats-and-jackets/fs5/blazer#intid=gnav_women_clothing_blazers"
+      ],
+      "category": "blazers & formalwear",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/women/skirts#intid=gnav_women_clothing_skirts"
+      ],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-sportswear#intid=gnav_men_clothing_Sportswear"
+      ],
+      "category": "sportswear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-knitwear#intid=gnav_men_clothing_jumpers%20%26%20cardigans"
+      ],
+      "category": "jumpers & knitwear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-coats-and-jackets#intid=gnav_men_clothing_coats%20%26%20jackets"
+      ],
+      "category": "jackets & coats",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-hoodies-and-sweatshirts#intid=gnav_men_clothing_hoodies%20%26%20sweatshirts"
+      ],
+      "category": "hoodies & sweatshirts",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-joggers#intid=gnav_men_clothing_joggers"
+      ],
+      "category": "joggers",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/loungewear#intid=gnav_men_clothing_loungewear"
+      ],
+      "category": "loungewear",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-shirts/casual-shirts#intid=gnav_men_clothing_casual%20shirts"
+      ],
+      "category": "shirts",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-tops#intid=gnav_men_clothing_Tops"
+      ],
+      "category": "tops",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-tops/mens-tshirts#intid=gnav_men_clothing_Tshirts"
+      ],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-tops/mens-polo-shirts#intid=gnav_men_clothing_polos"
+      ],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-trousers/casual-trousers#intid=gnav_men_clothing_casualtrousers"
+      ],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-jeans#intid=gnav_men_clothing_jeans"
+      ],
+      "category": "jeans",
+      "section": "mens",
+      "label": "clothing"
+    },
+    {
+      "urls": [
+        "/l/men/mens-trousers/fs5/chinos#intid=gnav_men_clothing_chinos"
+      ],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing"
+    }
+  ]
+}

@@ -1,14 +1,8 @@
 {
-  "../../../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
-    "id": "../../node_modules/next/dist/client/dev/noop.js",
-    "files": [
-      "static/chunks/0.js"
-    ]
-  },
   "../helpers/cms/cms.js -> @affiliate-master/config": {
-    "id": "../config/dist/index.js",
+    "id": "hQVj",
     "files": [
-      "static/chunks/1.js"
+      "static/chunks/16.35bd15c3eaef5d4337e5.js"
     ]
   }
 }

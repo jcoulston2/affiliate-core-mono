@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport * as React from 'react';\nexport default function Form({\n  onSubmit,\n  children\n}) {\n  return __jsx(\"form\", {\n    onSubmit: onSubmit\n  }, \" \", children);\n}","map":null,"metadata":{},"sourceType":"module"}

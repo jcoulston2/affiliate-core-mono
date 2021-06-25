@@ -1,6 +1,8 @@
-# Making a new affiliate scrape locally and testing it:
+# Affiliate Crawler
 
-## Defining a schema
+The crawler package takes a schema config and runs a crawl on the sites defined. It will cycle through and collection information. It will then write to a store cache ready for the app to use statically.
+
+## A schema definition is as follows:
 
 - To extract our affiliate data, we need to define a following object structure:
 
@@ -232,85 +234,7 @@
 }
 ```
 
-## Integration testing:
-
-- When making a new affiliate and testing it, we should look in integration/setUpMocks.js and we should define a new object that contains the brand, domain and two model/representative pages that we can run an integration test on for a PLP and PDP for checking. The schema of how to do so is given below:
-
-```javascript
-  {
-
-    // the brand must match the brand name given in the new schema (refer to below point for setting up a schema)
-    brand: 'cos',
-
-    // The domain must match the domain given in the new schema
-    domain: 'https://www.cosstores.com',
-
-    // The following two params will be used to pull the HTML from the pages for use in tests
-    // ('npm run pull-mocks') to be precise - see point below
-    plpExample: '/en_gbp/women/dresses.html?themeName=Belted',
-    pdpExample:
-      '/en_gbp/women/womenswear/dresses/product.gathered-panel-cotton-dress-brown.0848610007.html',
-
-    // When running a test, we can't really run a 'true' cycle, as this would be incredibly resource intensive and time // consuming, so we mock the crawler instead. To mock the behaviour of the page goTo method and have it
-    // recognise to go to a PLP or a PDP, we need to match a key for for the relevant URL. As you can see here
-    // dresses.html matches with the plp above as this is a key word/phrase in the url.
-    topLevelTargetWord: 'dresses.html',
-
-
-    // Same goes for a PDP. One thing to note, our mocked HTML for PLP should contain a lot of PDP links per tile,
-    // our crawler uses these links identify a PDP. This means our key word/phrase needs to match all of the links
-    // in our PDP (not just the PdpExample). The pdp example link will be the HTMl mock that the crawler uses for
-    // every PDP crawl.
-    detailsTargetWord: 'product',
-
-    // To prevent huge page mock files, we can define a seclector to get HTML for that container, this cuts
-    // out unnecessary HTML that won't be needed, just make sure that these containers lie above the container
-    // selector we define in our schemas!
-    containerSelectorPlp: '#productContainer',
-    containerSelectorPdp: '#pdpContainer',
-  }
-```
-
-- Once the above has been defined, we can run `npm run pull-mocks`, this will run a script that pulls the HTML structure from what we defined as the 'representative' pages in the real-mocks directory (note we don't have to touch these files). Our representative pages for PLP and PDP should contain all the selectors that other pages have for getting page data, if pages do not follow a similar structure then this will be an issue for the integration tests, hopefully this will not happen often!
-- Next we will need to set up the schema, this will go in affiliate-data and we will need to define a new folder with the brand name, subfolders for the categories and subfolders for the product types etc, there will be existing structure to follow here.
-- When the above is done then we are ready to test, if we run the integration test through, it will cycle through all our schemas, if we want to test only the set up schema then (at the moment) we will have to look at our `integration/setUpMocks.js` file and comment out all the other schemas in the array so we only have the setup schema.
-- We can now run `npm run test:integration`. When the set up schema tests are passing, we can then add the others back to the array in `integration/setUpMocks.js` and run a full integration test for all brands.
-- In the future we can make this process more efficient as tests may take a while for lots of schemas and brands
-
-## What to do when a crawl breaks
-
-- TODO: npm run pull-mocks
-
-## Adding new properties to a affiliate schema
-
-- In most cases new data should be able to be obtained by specifying it in the affiliate schema, this will be part of the 'detailedData' or 'topLevelData', if however we need to add some more properties to the transferable data object, we will need to do a small bit of factoring in the code. For example, say we are adding another property to metaData, we would do the following:
-
-1. Refactor meta data in the extractor
-2. If this data is needed in the schema, add it in
-3. Assert the new data into the extractor.test and the integration test
-4. Go to core, add in the data prop as a new GQL schema
-5. Test in graphi http://localhost:3000/api/client/graphql/products
-6. if a new GQL schema is required, worth adding this into the cheat sheet
-7. Add the new data into the GQL query in the core api folder (in core repo)
-8. Hopefully that should be done!
-
-## Slack notifications
-
--
-
-# Deployment:
-
-Due to computing resources, the extracor only runs as a local service, therefore there is not too much concerning deployment. The only thing to bear in mind when running the extractor or testing the api, we will need to modify the `NODE_ENV` value in `.env` to the relevant environment when running along side core. e.g. when testing the api locally we can set the value to `dev` and when testing core in production we can set it to `production`
-
-## setting up a new extractor
-
-When setting up a new brand it will probably be a good idea to set up a new extractor! For each new extractor a set of production environment variables will need to be set up. For the values for the env vars, please refer to the drive documentation for these values and how to set up a crawler on an EC2 instance. All we need to do, once we are in the EC2 instance, is:
-
-- `touch .env`
-- `vi .env`
-- copy the production environment variables over and then save (we only need to do this once per cralwer / brand set up)
-
-## Example payload
+## Example payload output from the crawler
 
 ```javascript
 [

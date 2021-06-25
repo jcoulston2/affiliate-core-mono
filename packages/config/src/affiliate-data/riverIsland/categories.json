@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "brand": "River Island",
+    "domain": "https://www.riverisland.com"
+  },
+  "categories": [
+    {
+      "urls": ["/c/women/tops?f-cat=blouses&f-cat=shirts&icid=mu/women/blouses-shirts"],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/coats-and-jackets?icid=mu/women/coats---jackets"],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/dresses?icid=mu/women/dresses"],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/tops?f-cat=hoodies--sweatshirts&icid=mu/women/hoodies-sweats"],
+      "category": "hoodies & sweatshirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/denim?icid=mu/women/denim"],
+      "category": "denim",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/jeans?icid=mu/women/jeans"],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/knitwear?f-cat=cardigans&f-cat=jumpers&icid=mu/women/jumpers--cardigans"],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/coordinates-and-matching-sets?icid=mu/women/coordinates---matching-sets"],
+      "category": "co-ords & sets",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/trousers?f-cat=leggings&icid=mu/women/leggings"],
+      "category": "leggings",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/loungewear?icid=mu/women/loungewear-collections"],
+      "category": "loungewear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/playsuits-and-jumpsuits?icid=mu/women/playsuits---jumpsuits"],
+      "category": "jumpsuits & playsuits",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/skirts?icid=mu/women/skirts"],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/shorts?icid=mu/women/shorts"],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/tights--socks?icid=mu/women/socks-tights-clothing"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/swimwear--beachwear?icid=mu/women/swimwear---beachwear"],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/tops?f-cat=t-shirts&f-cat=vests&icid=mu/women/t-shirts---vests---sweats"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/tops?icid=mu/women/tops"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/women/trousers?icid=mu/women/trousers"],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": {
+        "queryString": "?pgsz=60&pg=",
+        "interval": 1,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "urls": ["/c/men/trousers?f-cat=chinos&icid=mu/men/chinos"],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/coats-and-jackets?icid=mu/men/coats--jackets"],
+      "category": "jackets & coats",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/hoodies-and-sweatshirts?icid=mu/men/hoodies--sweatshirts"],
+      "category": "hoodies & sweatshirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/jeans?icid=mu/men/jeans"],
+      "category": "jeans",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/joggers?icid=mu/men/joggers"],
+      "category": "joggers",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/jumpers-and-cardigans?icid=mu/men/jumpers--cardigans"],
+      "category": "jumpers & knitwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/loungewear-and-pyjamas?icid=mu/men/loungewear-pyjamas"],
+      "category": "nightwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/polo-shirts?icid=mu/men/polo-shirts"],
+      "category": "polos",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/shirts?icid=mu/men/shirts"],
+      "category": "shirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/shorts?icid=mu/men/shorts-swims"],
+      "category": "swimwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/suits?icid=mu/men/suits"],
+      "category": "suits",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/t-shirts-and-vests?icid=mu/men/t-shirts--vests"],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/trousers?icid=mu/men/trousers-chinos"],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    },
+    {
+      "urls": ["/c/men/underwear?icid=mu/men/underwear"],
+      "category": "underwear & socks",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": { "queryString": "?pgsz=60&pg=", "interval": 1, "start": 1, "end": 2 }
+    }
+  ]
+}

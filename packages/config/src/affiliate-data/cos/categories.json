@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "brand": "Cos",
+    "domain": "https://www.cosstores.com"
+  },
+  "categories": [
+    {
+      "urls": ["/en_gbp/women/activewear.html"],
+      "category": "sportswear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/dresses.html"],
+      "category": "dresses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/jumpsuits.html"],
+      "category": "jumpsuits & playsuits",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/tops.html"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/trousers.html"],
+      "category": "trousers",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/t-shirts.html"],
+      "category": "tops",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/shirts.html"],
+      "category": "shirts & blouses",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/skirts.html"],
+      "category": "skirts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/shorts.html"],
+      "category": "shorts",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/co-ords.html"],
+      "category": "co-ords & sets",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/jeans.html"],
+      "category": "jeans",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/coats-and-jackets.html"],
+      "category": "jackets & coats",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/knitwear.html"],
+      "category": "jumpers & knitwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/new-accessories.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/lifestyle-gifts.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/underwear.html"],
+      "category": "lingerie",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/shoes.html"],
+      "category": "shoes",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/bags.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/swimwear.html"],
+      "category": "swimwear",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/jewellery.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/socks-and-tights.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/hats-scarves-and-gloves.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/belts.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/women/hair-accessories.html"],
+      "category": "accessories",
+      "section": "womens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/t-shirts.html"],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/trousers.html"],
+      "category": "trousers",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/shorts.html"],
+      "category": "shorts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/shirts.html"],
+      "category": "shirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/polo-shirts.html"],
+      "category": "t-shirts & vests",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/sweatshirts.html"],
+      "category": "hoodies & sweatshirts",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/coats-and-jackets.html"],
+      "category": "jackets & coats",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/jeans.html"],
+      "category": "jeans",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/knitwear.html"],
+      "category": "jumpers & knitwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/suits.html"],
+      "category": "suits",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/leisurewear.html"],
+      "category": "sportswear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/new-accessories.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/lifestyle-gifts.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/shoes.html"],
+      "category": "shoes",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/hats-scarves-and-gloves.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/bags-and-wallets.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/swimwear.html"],
+      "category": "swimwear",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/underwear.html"],
+      "category": "underwear & socks",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/socks.html"],
+      "category": "underwear & socks",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/leather-accessories.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/belts.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    },
+    {
+      "urls": ["/en_gbp/men/small-accessories.html"],
+      "category": "accessories",
+      "section": "mens",
+      "label": "clothing",
+      "multipleUrls": null
+    }
+  ]
+}

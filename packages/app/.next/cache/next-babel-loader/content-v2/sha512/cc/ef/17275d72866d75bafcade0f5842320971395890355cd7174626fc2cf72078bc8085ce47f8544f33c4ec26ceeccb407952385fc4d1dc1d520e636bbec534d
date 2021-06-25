@@ -1,0 +1,1 @@
+{"ast":null,"code":"import config from './apiConfig';\nexport { config };","map":null,"metadata":{},"sourceType":"module"}
