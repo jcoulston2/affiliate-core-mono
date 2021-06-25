@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "builder:test-e2e": "jest",
     "new-schema": "FORCE_COLOR=1 babel-node scripts/new-schema.js",
     "build-schemas": "FORCE_COLOR=1 babel-node scripts/build.js",
     "build-predictive-search": "FORCE_COLOR=1 babel-node scripts/build-search.js"
@@ -22,6 +22,7 @@
   "dependencies": {
     "@affiliate-master/common": "^1.0.0",
     "@affiliate-master/config": "^1.0.0",
+    "@affiliate-master/store": "^1.0.0",    
     "axios": "^0.19.2",
     "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",

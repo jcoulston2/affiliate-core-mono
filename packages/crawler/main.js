@@ -29,5 +29,6 @@ export async function startFullCycle() {
     persistOldProductsUntilRound,
   });
 
-  Cycle.initFullCycle();
+  await Cycle.initFullCycle();
+  if (process) process.exit();
 }

@@ -10,7 +10,7 @@ import { StopWatch } from 'stopwatch-node';
 import { transmitLogsToSlack } from '../api';
 import { Logger, messages } from '@affiliate-master/common';
 import BatchPipe from '../batching/BatchPipe';
-import { AFF_DATA_PATH, BATCH_LOG } from '../constants';
+import { STORE_CACHE, BATCH_LOG } from '../constants';
 import { separateCautiousProducts, assignToExtract } from '../helpers';
 
 export default class FullCycle {
@@ -131,7 +131,7 @@ export default class FullCycle {
   async writeStoreToCache(extracts) {
     if (!this.writeStoreCache) return;
     try {
-      await writeStoreCache(AFF_DATA_PATH, extracts);
+      await writeStoreCache(STORE_CACHE, extracts);
     } catch (e) {
       Logger.publicLog(messages.writeStoreToCacheFail(e), 'red');
     }
@@ -181,7 +181,6 @@ export default class FullCycle {
 
     if (batchResponse) this.logBatchMetrics(batchResponse.metrics);
     Logger.publicLog(messages.fullCycleEnded, 'blue');
-
     return concludedExtracts;
   }
 }

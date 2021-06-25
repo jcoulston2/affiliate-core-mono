@@ -1,4 +1,4 @@
-import storeCache from '@affiliate-master/store';
+import storeCache from '../../store/__store-cache__/store-cache.json';
 import { zipParse as parseStoreCache, lowerCase, Logger } from '@affiliate-master/common';
 import { PREDICTIVE_SEARCH_OUTPUT } from '../constants/paths';
 import fs from 'fs';

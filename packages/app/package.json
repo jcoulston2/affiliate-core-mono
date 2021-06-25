@@ -53,9 +53,5 @@
     "styled-components": "^4.4.1",
     "sweetalert": "^2.1.2",
     "zipson": "^0.2.12"
-  },
-  "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
   }
 }

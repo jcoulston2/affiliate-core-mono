@@ -1,4 +1,4 @@
-import storeCache from '@affiliate-master/store';
+import { storeCache } from '@affiliate-master/store';
 import { zipParse as parseStoreCache } from '@affiliate-master/common';
 
 function logStoreCache() {

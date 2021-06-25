@@ -3,14 +3,6 @@
     "params": {
       "slug": [
         "womens",
-        "swimwear"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "womens",
         "tops"
       ]
     }
@@ -19,7 +11,39 @@
     "params": {
       "slug": [
         "womens",
+        "dresses"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "womens",
+        "jeans"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "womens",
         "trousers"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "womens",
+        "shorts"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "womens",
+        "skirts"
       ]
     }
   },
@@ -51,14 +75,6 @@
     "params": {
       "slug": [
         "womens",
-        "dresses"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "womens",
         "hoodies-and-sweatshirts"
       ]
     }
@@ -68,14 +84,6 @@
       "slug": [
         "womens",
         "jackets-and-coats"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "womens",
-        "jeans"
       ]
     }
   },
@@ -139,22 +147,6 @@
     "params": {
       "slug": [
         "womens",
-        "shorts"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "womens",
-        "skirts"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "womens",
         "accessories"
       ]
     }
@@ -210,6 +202,54 @@
   {
     "params": {
       "slug": [
+        "womens",
+        "swimwear"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "t-shirts-and-vests"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "tops"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "shorts"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "jeans"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "shirts"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
         "mens",
         "hoodies-and-sweatshirts"
       ]
@@ -220,14 +260,6 @@
       "slug": [
         "mens",
         "jackets-and-coats"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
-        "jeans"
       ]
     }
   },
@@ -267,31 +299,7 @@
     "params": {
       "slug": [
         "mens",
-        "shirts"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
         "suits"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
-        "swimwear"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
-        "t-shirts-and-vests"
       ]
     }
   },
@@ -308,14 +316,6 @@
       "slug": [
         "mens",
         "underwear-and-socks"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
-        "shorts"
       ]
     }
   },
@@ -363,14 +363,6 @@
     "params": {
       "slug": [
         "mens",
-        "tops"
-      ]
-    }
-  },
-  {
-    "params": {
-      "slug": [
-        "mens",
         "loungwear"
       ]
     }
@@ -380,6 +372,14 @@
       "slug": [
         "mens",
         "jerseys"
+      ]
+    }
+  },
+  {
+    "params": {
+      "slug": [
+        "mens",
+        "swimwear"
       ]
     }
   }
