@@ -3,13 +3,13 @@
 ## Setup
 
 - At root level: `npm i`
-- `npm run boot`: This will bootstrap all the packages
+- `npm run boot`: this will bootstrap all the packages
 
 ## Common commands
 
-- `npm run dev`: Will run the Front End in dev mode on port 3000
-- `npm run build-schemas`: Builds schemas ready for crawling after defining config
-- `npm run start-crawl`: Will start a crawl
+- `npm run dev`: will run the Front End in dev mode on port 3000
+- `npm run build-schemas`: builds schemas ready for crawling after defining config
+- `npm run start-crawl`: will start a crawl
 
 # Starting a scrape
 
