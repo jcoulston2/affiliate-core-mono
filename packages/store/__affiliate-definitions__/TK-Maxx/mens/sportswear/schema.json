@@ -1,0 +1,58 @@
+{
+  "urls": [
+    "/men/clothing/hoodies+sweatshirts/sports-hoodies+sweatshirts/c/02020602"
+  ],
+  "category": "sportswear",
+  "section": "mens",
+  "label": "clothing",
+  "multipleUrls": null,
+  "brand": "TK Maxx",
+  "domain": "https://www.tkmaxx.com/uk/en",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 15000,
+      "waitForNode": null,
+      "delay": 0,
+      "productsSelector": {
+        "selector": ".c-product-grid > .c-product-grid__item"
+      },
+      "data": {
+        "name": {
+          "selector": ".c-product-card__label",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".c-product-card__label + strong.u-font-bold",
+          "getDataFrom": "text"
+        },
+        "nowPrice": {
+          "selector": ".was-price-container .u-colour-xi",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "wasPrice": {
+          "selector": ".was-price-container .u-display-line-through",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": "a.c-product-card[href]",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": "img.c-product-card__thumbnail[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "data": {
+        "images": {
+          "selector": ".container.product-item-block .pdp-carousel .thumb_ .magic-zoom-image[src]",
+          "getDataFrom": "attr: src"
+        }
+      }
+    }
+  }
+}

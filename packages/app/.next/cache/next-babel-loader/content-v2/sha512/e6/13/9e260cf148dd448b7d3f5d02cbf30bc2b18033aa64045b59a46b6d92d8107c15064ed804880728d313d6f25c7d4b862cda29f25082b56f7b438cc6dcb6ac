@@ -1,1 +1,0 @@
-{"ast":null,"code":"export default {\n  user: {\n    notifications: true,\n    allowCookies: false,\n    name: '',\n    gender: null,\n    displayMode: 'light',\n    hasSeenUserIntroModal: false\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

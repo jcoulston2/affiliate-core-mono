@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useSelector } from 'react-redux';\nexport default function useCategoryData() {\n  const catData = useSelector(appState => {\n    const {\n      buildTimeState\n    } = appState;\n    return buildTimeState.navigationData;\n  });\n  return catData;\n}","map":null,"metadata":{},"sourceType":"module"}

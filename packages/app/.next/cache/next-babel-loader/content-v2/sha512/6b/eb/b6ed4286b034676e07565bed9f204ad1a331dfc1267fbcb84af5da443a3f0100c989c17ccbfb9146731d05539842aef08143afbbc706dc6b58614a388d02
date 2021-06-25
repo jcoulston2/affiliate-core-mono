@@ -1,1 +1,0 @@
-{"ast":null,"code":"export function getSavedPoductLinks(productData) {\n  return productData.map(function (_ref) {\n    var topLevelData = _ref.topLevelData;\n    return topLevelData === null || topLevelData === void 0 ? void 0 : topLevelData.link;\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Checkbox from '@material-ui/core/Checkbox';\nexport default function CustomCheckbox(checkboxProps) {\n  return __jsx(Checkbox, checkboxProps);\n}","map":null,"metadata":{},"sourceType":"module"}

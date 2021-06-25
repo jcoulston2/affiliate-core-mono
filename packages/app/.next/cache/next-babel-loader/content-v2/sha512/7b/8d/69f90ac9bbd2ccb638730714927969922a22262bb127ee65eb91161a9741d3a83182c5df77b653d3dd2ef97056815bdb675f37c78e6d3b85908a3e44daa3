@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useCmsContext } from '@cmsContext';\nexport default function useTheme() {\n  const context = useCmsContext();\n  return context === null || context === void 0 ? void 0 : context.theme;\n}","map":null,"metadata":{},"sourceType":"module"}

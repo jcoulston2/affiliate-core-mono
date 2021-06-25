@@ -1,0 +1,63 @@
+{
+  "urls": [
+    "/gap/men/clothing/trousers/"
+  ],
+  "category": "trousers",
+  "section": "mens",
+  "label": "clothing",
+  "multipleUrls": null,
+  "brand": "Gap",
+  "domain": "https://www.gap.co.uk",
+  "extracts": {
+    "topLevel": {
+      "scrollPage": true,
+      "scrollPageWaitTime": 5000,
+      "waitForNode": null,
+      "delay": 2000,
+      "productsSelector": {
+        "selector": ".product-tile"
+      },
+      "data": {
+        "name": {
+          "selector": ".name-link",
+          "getDataFrom": "text"
+        },
+        "price": {
+          "selector": ".product-pricing [title='Standard Price'] a",
+          "getDataFrom": "text"
+        },
+        "wasPrice": {
+          "selector": ".product-pricing .product-standard-price a",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "nowPrice": {
+          "selector": ".product-pricing .product-sales-price a",
+          "getDataFrom": "text",
+          "isConditional": true
+        },
+        "link": {
+          "selector": ".name-link",
+          "getDataFrom": "attr: href"
+        },
+        "image": {
+          "selector": ".product-image img",
+          "getDataFrom": "attr: src"
+        }
+      }
+    },
+    "details": {
+      "delay": 2000,
+      "data": {
+        "images": {
+          "selector": "#pdpMain .slick-track .thumb.selected.slick-current .product-photo--image",
+          "getDataFrom": "attr: src"
+        },
+        "selectedColor": {
+          "selector": ".selected-value.color-name",
+          "getDataFrom": "text"
+        }
+      }
+    }
+  }
+}

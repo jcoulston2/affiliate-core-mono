@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './wishList';","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/cms/wishList/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './wishList';\n"]},"metadata":{},"sourceType":"module"}

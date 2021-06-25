@@ -1,6 +1,6 @@
 {
   "urls": [
-    "/womens/swimwear"
+    "/womens/swimwear?start=160&sz=80"
   ],
   "category": "swimwear",
   "section": "womens",

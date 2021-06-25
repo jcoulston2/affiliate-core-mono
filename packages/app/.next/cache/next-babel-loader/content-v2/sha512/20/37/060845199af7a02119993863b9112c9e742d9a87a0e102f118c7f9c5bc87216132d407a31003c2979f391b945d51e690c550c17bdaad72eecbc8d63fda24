@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './marketing';","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/cms/marketing/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,aAAxB","sourcesContent":["export { default } from './marketing';\n"]},"metadata":{},"sourceType":"module"}

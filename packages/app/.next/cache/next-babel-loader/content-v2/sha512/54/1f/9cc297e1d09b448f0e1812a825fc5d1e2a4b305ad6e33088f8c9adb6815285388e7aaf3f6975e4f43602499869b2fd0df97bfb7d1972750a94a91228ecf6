@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './MarketingBanner';","map":{"version":3,"sources":["/Users/justincoulston/Desktop/affilaite-core-mono/packages/affiliate-app/components/units/MarketingBanner/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,mBAAxB","sourcesContent":["export { default } from './MarketingBanner';\n"]},"metadata":{},"sourceType":"module"}
