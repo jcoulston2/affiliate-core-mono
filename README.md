@@ -132,6 +132,8 @@ The extraction is integrated with slack, so be sure to check notifications on ho
 
 - the app is hosted in the vercel platform. Develop is hooked into the preview environment (we can call this staging even though technically it's not a staging env) and master is hooked into the production environment. To push to staging simple push to develop, and to deply to production, create a PR to merge develop into master. (https://vercel.com/fliik)
 
+- For the monorepo deployment to work in vercel, a custom install command needs to be configured, please refer to the `docs/vercel-project-settings` image for more details
+
 # More information on brands can be found here:
 
 https://docs.google.com/document/d/1vYYjcFCb3vAScBtT14cGk_tS2e12opxZwr-04CIb6mI/edit
