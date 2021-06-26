@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "boot": "lerna bootstrap --hoist && lerna run compile --stream",
-    "boot-and-install": "npm install && lerna bootstrap --hoist && lerna run compile --stream",
+    "prepare": "npm install && lerna bootstrap --hoist && lerna run compile --stream",
     "compile": "lerna run compile --stream",
     "build-schemas": "lerna run build-schemas --stream && npm run boot",
     "new-schema": "lerna run new-schema --stream",
