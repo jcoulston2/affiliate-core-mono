@@ -1,1 +1,0 @@
-{"ast":null,"code":"export default {\n  navigationData: [],\n  productFilters: {},\n  productSearchValues: {},\n  productData: {\n    section: '',\n    data: [{\n      category: '',\n      label: '',\n      data: []\n    }]\n  },\n  cmsData: {},\n  brands: []\n};","map":null,"metadata":{},"sourceType":"module"}

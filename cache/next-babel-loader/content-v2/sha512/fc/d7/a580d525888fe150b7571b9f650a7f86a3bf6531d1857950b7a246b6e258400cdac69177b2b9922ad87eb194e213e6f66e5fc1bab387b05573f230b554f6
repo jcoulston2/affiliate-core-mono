@@ -1,1 +1,0 @@
-{"ast":null,"code":"// NOTE - BE CAREFUL CHANGING THESE VALUES: They should exactly align the file name in the pages directory\n// and work with the page api call\nexport const PLP_PATH = 'product-listing';\nexport const SEARCH_PATH = 'search/params';\nexport const HOME_PATH = '/';","map":null,"metadata":{},"sourceType":"module"}

@@ -1,1 +1,0 @@
-{"ast":null,"code":"export function getImg(src) {\n  var imgContext = require.context('@images', true);\n\n  var imageSrc = imgContext(\"./\".concat(src))[\"default\"];\n  return imageSrc;\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { useSelector } from 'react-redux';\nexport default function useClientWidth() {\n  return useSelector(({\n    globalAppState\n  }) => globalAppState === null || globalAppState === void 0 ? void 0 : globalAppState.clientWidth);\n}","map":null,"metadata":{},"sourceType":"module"}

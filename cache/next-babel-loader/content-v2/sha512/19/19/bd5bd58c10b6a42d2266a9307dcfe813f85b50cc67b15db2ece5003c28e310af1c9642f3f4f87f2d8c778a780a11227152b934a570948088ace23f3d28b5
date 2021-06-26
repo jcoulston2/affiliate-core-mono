@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const selectors = {\n  animationContainer: () => '[data-ref=\"animation-container\"]',\n  animationIcon: direction => `[data-ref=\"animation-container\"] [data-ref=\"${direction}\"]`,\n  cardNode: index => `[data-ref=\"card-container\"] > *:nth-child(${index})`\n};","map":null,"metadata":{},"sourceType":"module"}

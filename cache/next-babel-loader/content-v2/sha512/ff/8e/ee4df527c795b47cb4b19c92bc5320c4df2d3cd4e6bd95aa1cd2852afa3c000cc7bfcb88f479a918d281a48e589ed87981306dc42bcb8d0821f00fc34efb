@@ -1,1 +1,0 @@
-{"ast":null,"code":"import ProductWishList from './ProductWishList';\nimport ProductWishListAction from './ProductWishListAction';\nexport { ProductWishList, ProductWishListAction };","map":null,"metadata":{},"sourceType":"module"}
