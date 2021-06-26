@@ -1,8 +1,8 @@
 const { promises: fs } = require('fs');
 const path = require('path');
 
-const NEXT_BUILD_DIR = `./packages/app/.next`;
-const ROOT = `./.next`;
+// const NEXT_BUILD_DIR = `./packages/app/.next`;
+// const ROOT = `./.next`;
 
 // NOTE: since we are using a monorepo, vercel makes it a little challenging to locate the .next
 // output since we are using the monorepo root level as the main directory for our build process.
@@ -22,7 +22,8 @@ function postBuildScript() {
     }
   }
 
-  copyDir(NEXT_BUILD_DIR, ROOT);
+  copyDir('./packages/app/.next', './.next');
+  copyDir('./packages/app/public', './public');
 
   console.log(`
     ::::: Post build script executed successfully :::::
