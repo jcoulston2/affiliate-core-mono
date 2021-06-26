@@ -1,4 +1,4 @@
-# Setting up repos:
+# Setting up repos
 
 ## Setup
 
