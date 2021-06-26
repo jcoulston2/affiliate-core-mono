@@ -1,0 +1,12 @@
+{
+  "/404": "pages/404.js",
+  "/[...cms]": "pages/[...cms].js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/predictive-search": "pages/api/predictive-search.js",
+  "/api/product/[...endpoint]": "pages/api/product/[...endpoint].js",
+  "/": "pages/index.js",
+  "/product-listing/[...slug]": "pages/product-listing/[...slug].js",
+  "/search/params": "pages/search/params.js",
+  "/_error": "pages/_error.js"
+}

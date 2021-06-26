@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function getImg(src) {\n  const imgContext = require.context('@images', true);\n\n  const imageSrc = imgContext(`./${src}`).default;\n  return imageSrc;\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport PageSkeleton from '@layouts';\nimport LandingContent from '@containers/LandingContent';\n\nvar Home = function Home() {\n  return __jsx(PageSkeleton, null, __jsx(LandingContent, null));\n};\n\nexport var __N_SSG = true;\nexport default Home;","map":null,"metadata":{},"sourceType":"module"}

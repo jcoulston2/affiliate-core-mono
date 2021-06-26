@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var FLICK_VIEW_QUERY = 'fliik-view';\nexport var CATEGORY_FILTER = 'category';","map":null,"metadata":{},"sourceType":"module"}

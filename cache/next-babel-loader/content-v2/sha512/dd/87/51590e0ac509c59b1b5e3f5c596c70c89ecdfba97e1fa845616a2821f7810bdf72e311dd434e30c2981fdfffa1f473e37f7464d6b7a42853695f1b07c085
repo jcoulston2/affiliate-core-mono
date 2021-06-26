@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { cms } from '@affiliate-master/config';\nimport { CmsJsonRequired } from '../customScalars';\nexport default function cmsResolver() {\n  return {\n    CmsJsonRequired,\n    cms: () => cms\n  };\n}","map":null,"metadata":{},"sourceType":"module"}
