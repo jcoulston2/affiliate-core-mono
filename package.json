@@ -16,7 +16,7 @@
     "link": "lerna link",
     "dev": "lerna run dev --stream",
     "start": "lerna run start --stream",
-    "build": "lerna run build --stream",
+    "build": "npm run boot && lerna run build --stream",
     "log-store-cache": "lerna run log-store-cache --stream"
   },
   "devDependencies": {
