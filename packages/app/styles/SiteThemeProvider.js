@@ -53,6 +53,10 @@ const SiteThemeProvider = createGlobalStyle`
   .MuiPaper-root.MuiDialog-paper {
     border-radius: ${(props) => props.modalTheme?.borderRadius}px;
   }
+  
+  .highlight {
+    font-weight: 500;
+  }
 
   p.cms-html {
     width: 100%; 
