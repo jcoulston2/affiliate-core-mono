@@ -1,4 +1,4 @@
-function testScrape(params = window.scrapeData) {
+export function evaluate(params = window.scrapeData) {
   let currentProductContainer;
   let currentProductSelector;
   let currentDataProp;
@@ -408,4 +408,4 @@ var data = {
     },
   },
 };
-testScrape(data);
+// evaluate(data);

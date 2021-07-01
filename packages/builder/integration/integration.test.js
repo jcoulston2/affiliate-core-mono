@@ -1,45 +1,91 @@
 import { getAffiliateSchema, getFullSchemaUrl, Logger } from '@affiliate-master/common';
 import { validateUrl } from './helper';
 import { mapSeries } from 'bluebird';
+import { BUILD_DATA_OUTPUT } from '../constants/paths';
 
 // Configure testOne to run only on brand (brand name prop), if setting this to null, the integration test
 // will cycle through and validate all the brands. To run a target schema, the name must match
 // the 'brand' property
-const testOne = '';
-let affilaiteSchemas;
-let validation;
+const testOne = 'Cos';
+let sampledSchemas;
+let validationResults;
 jest.setTimeout(1000000);
 
-async function validateUrls() {
-  const failedValidation = [];
-  await mapSeries(affilaiteSchemas, async (schema) => {
+function getSchemaSamples(affilaiteSchemas) {
+  const recordedBrands = [];
+  return affilaiteSchemas.filter((schema) => {
+    const { brand } = schema;
+    const isNewSample = !recordedBrands.includes(brand);
+    if (isNewSample) {
+      recordedBrands.push(brand);
+    }
+    return isNewSample;
+  });
+}
+
+async function validateSchemas() {
+  const validation = validateUrl();
+  await validation.setUpBrowser();
+  const failedRequiredPlpData = [];
+  const failedRequiredPdpData = [];
+  await mapSeries(sampledSchemas, async (schema) => {
     if (testOne && schema.brand !== testOne) return;
-    const hasTargetNode = await validation.testSchema(schema);
-    if (!hasTargetNode) failedValidation.push(getFullSchemaUrl(schema));
+
+    const plpUrl = getFullSchemaUrl(schema);
+    const plpParam = schema.extracts.topLevel;
+    const pdpParam = schema.extracts.details;
+
+    const { extractedDataItem: extractedDataPlp } = await validation.testSchema(plpParam, plpUrl);
+    let { link: crawledLink } = extractedDataPlp;
+    const { domain } = schema;
+    const link = Array.isArray(crawledLink) ? crawledLink[0] : crawledLink;
+    const pdpCrawlUrl = link.includes(domain) ? link : domain + link;
+    const { extractedDataItem: extractedDataPdp } = await validation.testSchema(
+      pdpParam,
+      pdpCrawlUrl
+    );
+
+    const { name, price, link: extractedLink, image, tags } = extractedDataPlp;
+    const { images: pdpImages } = extractedDataPdp;
+    const hasRequiredPlpData =
+      name?.length && price?.length && extractedLink?.length && image?.length && tags?.length;
+    const hasRequiredPdpData = pdpImages?.length;
+
+    if (!hasRequiredPlpData) failedRequiredPlpData.push(schema.brand);
+    if (!hasRequiredPdpData) failedRequiredPdpData.push(schema.brand);
   });
 
-  return failedValidation;
+  await validation.closeSession();
+
+  return { failedRequiredPlpData, failedRequiredPdpData };
 }
 
 beforeAll(async () => {
-  const buildDataOutput = __dirname + '/../../store/__affiliate-definitions__/';
-  affilaiteSchemas = await getAffiliateSchema(buildDataOutput, 'json');
-  validation = validateUrl();
-  await validation.setUpBrowser();
-});
-
-afterAll(async () => {
-  await validation.closeSession();
+  const affilaiteSchemas = await getAffiliateSchema(BUILD_DATA_OUTPUT, 'json');
+  sampledSchemas = getSchemaSamples(affilaiteSchemas);
+  validationResults = await validateSchemas();
 });
 
 describe('For each section schema', () => {
-  test('a valid url is present', async () => {
-    const failedValidation = await validateUrls();
-    if (failedValidation.length) {
-      failedValidation.forEach((url) =>
-        Logger.publicLog(`:::::: VALIDATION FAILED FOR ${url}  ::::::`, 'red')
+  test('required PLP data is obtained', async () => {
+    const { failedRequiredPlpData } = validationResults;
+    if (failedRequiredPlpData.length) {
+      failedRequiredPlpData.forEach((brand) =>
+        Logger.publicLog(`:::::: zVALIDATION PLP FAILED FOR ${brand}  ::::::`, 'red')
       );
     }
-    expect(failedValidation.length).toEqual(0);
+
+    expect(failedRequiredPlpData.length).toEqual(0);
+  });
+
+  test('required PDP data is obtained', async () => {
+    const { failedRequiredPdpData } = validationResults;
+    if (failedRequiredPdpData.length) {
+      failedRequiredPdpData.forEach((brand) =>
+        Logger.publicLog(`:::::: VALIDATION PDP FAILED FOR ${brand}  ::::::`, 'red')
+      );
+    }
+
+    expect(failedRequiredPdpData.length).toEqual(0);
   });
 });

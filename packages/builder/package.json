@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "builder:test-e2e": "jest",
+    "builder:test-e2e": "FORCE_COLOR=1 jest",
     "new-schema": "FORCE_COLOR=1 babel-node scripts/new-schema.js",
     "build-schemas": "FORCE_COLOR=1 babel-node scripts/build.js",
     "build-predictive-search": "FORCE_COLOR=1 babel-node scripts/build-search.js"

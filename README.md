@@ -75,7 +75,7 @@ Sometimes you might end up pulling in a lot of links you don't (e.g. if you usin
 
 6. Next thing we need to do is define our schema. Go to schema.json and start defining the relevant selectors. For this we will need to go to a PDP, we need to make sure are selectors are as specific as possible. Note for 'wasPrice' selectors, we will need to probably visit a sale page PLP.
 
-7. There are a few test phases we will need to do. For the first phase, a good idea to make sure we've defined the schema with the relevent selectors, is to open up the web console in dev tools with the `test-scrape.js` script defined in the web-console directory. This is an emulation of the actual evaluation script with the extractor. Navigate to a PLP of choice and paste the script in the console. Go to your schema and call `testScrape` with the `topLevelData` object defined in the schema, for example:
+7. There are a few test phases we will need to do. For the first phase, a good idea to make sure we've defined the schema with the relevent selectors, is to open up the web console in dev tools with the `helpers/evaluation-helper.js` script defined in the web-console directory. This is an emulation of the actual evaluation script with the extractor. Navigate to a PLP of choice and paste the script in the console. Go to your schema and call `evaluate` with the `topLevelData` object defined in the schema, for example:
 
 ```
 testScrape({
