@@ -6,7 +6,7 @@ import { BUILD_DATA_OUTPUT } from '../constants/paths';
 // Configure testOne to run only on brand (brand name prop), if setting this to null, the integration test
 // will cycle through and validate all the brands. To run a target schema, the name must match
 // the 'brand' property
-const testOne = 'Cos';
+const testOne = '';
 let sampledSchemas;
 let validationResults;
 jest.setTimeout(1000000);
@@ -29,30 +29,40 @@ async function validateSchemas() {
   const failedRequiredPlpData = [];
   const failedRequiredPdpData = [];
   await mapSeries(sampledSchemas, async (schema) => {
-    if (testOne && schema.brand !== testOne) return;
+    const brand = schema.brand;
+    if (testOne && brand !== testOne) return;
 
     const plpUrl = getFullSchemaUrl(schema);
     const plpParam = schema.extracts.topLevel;
     const pdpParam = schema.extracts.details;
 
-    const { extractedDataItem: extractedDataPlp } = await validation.testSchema(plpParam, plpUrl);
+    const { extractedDataItem: extractedDataPlp } = await validation.testSchema(
+      plpParam,
+      plpUrl,
+      brand
+    );
     let { link: crawledLink } = extractedDataPlp;
     const { domain } = schema;
     const link = Array.isArray(crawledLink) ? crawledLink[0] : crawledLink;
-    const pdpCrawlUrl = link.includes(domain) ? link : domain + link;
+    const pdpCrawlUrl = link?.includes(domain) ? link : domain + link;
     const { extractedDataItem: extractedDataPdp } = await validation.testSchema(
       pdpParam,
-      pdpCrawlUrl
+      pdpCrawlUrl,
+      brand
     );
 
-    const { name, price, link: extractedLink, image, tags } = extractedDataPlp;
+    const { name, price, nowPrice, link: extractedLink, image, tags } = extractedDataPlp;
     const { images: pdpImages } = extractedDataPdp;
     const hasRequiredPlpData =
-      name?.length && price?.length && extractedLink?.length && image?.length && tags?.length;
-    const hasRequiredPdpData = pdpImages?.length;
+      name?.length &&
+      (price?.length || nowPrice?.length) &&
+      extractedLink?.length &&
+      image?.length &&
+      tags?.length;
+    const hasRequiredPdpData = pdpImages?.length && pdpImages[0];
 
-    if (!hasRequiredPlpData) failedRequiredPlpData.push(schema.brand);
-    if (!hasRequiredPdpData) failedRequiredPdpData.push(schema.brand);
+    if (!hasRequiredPlpData) failedRequiredPlpData.push(brand);
+    if (!hasRequiredPdpData) failedRequiredPdpData.push(brand);
   });
 
   await validation.closeSession();
@@ -71,7 +81,7 @@ describe('For each section schema', () => {
     const { failedRequiredPlpData } = validationResults;
     if (failedRequiredPlpData.length) {
       failedRequiredPlpData.forEach((brand) =>
-        Logger.publicLog(`:::::: zVALIDATION PLP FAILED FOR ${brand}  ::::::`, 'red')
+        Logger.publicLog(`:::::: VALIDATION PLP FAILED FOR ${brand}  ::::::`, 'red')
       );
     }
 

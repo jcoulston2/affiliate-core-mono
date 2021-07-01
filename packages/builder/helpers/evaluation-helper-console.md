@@ -1,4 +1,7 @@
-export function evaluate(params = window.scrapeData) {
+```javascript
+// The below is just a quick shortcut for use in the console
+
+function evaluate(params = window.scrapeData) {
   let currentProductContainer;
   let currentProductSelector;
   let currentDataProp;
@@ -397,3 +400,17 @@ export function evaluate(params = window.scrapeData) {
 
   return getExtractData(params);
 }
+
+var data = {
+  delay: 2000,
+  data: {
+    images: {
+      selector:
+        '.product-details-container #gallery .gallery__main-image[data-src]:not(.slick-cloned)',
+      getDataFrom: 'attr: data-src',
+    },
+  },
+};
+
+evaluate(data);
+```

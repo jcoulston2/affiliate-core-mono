@@ -1,13 +1,13 @@
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import { Logger } from '@affiliate-master/common';
-
 import { evaluate } from '../helpers';
 
 function commonLog(msg, c) {
   Logger.publicLog(msg, c || 'cyan');
 }
 
+// This is just a light version of the crawler that we can use for integration tests
 export function validateUrl() {
   let browser;
   let page;
@@ -23,29 +23,34 @@ export function validateUrl() {
       commonLog('::::: set up browser :::::');
     },
 
-    testSchema: async (param, url, pageType) => {
+    testSchema: async (param, url, brand) => {
       const { delay } = param;
 
       commonLog(`validating URL: ${url}`);
       await page.goto(url);
       if (delay) await page.waitFor(delay);
 
-      // TODO below
       const extractedData = await page.evaluate(evaluate, param);
       const [extractedDataItem] = extractedData.data;
+
+      // Print outputs
       commonLog(
         `
-      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        ${Object.keys(extractedDataItem).reduce(
+          (acc, cur) => {
+            const value = extractedDataItem[cur];
+            return `
+        ${acc}         
+        ${cur.toUpperCase()}: ${Array.isArray(value) ? `[${value[0]}, ....]` : value}
+        `;
+          },
+          `
+        BRAND: ${brand}
 
-      ${url} validated
-      ${Object.keys(extractedDataItem).reduce((acc, cur) => {
-        const value = extractedDataItem[cur];
-        return `${acc} \n\n ${cur.toUpperCase()}: ${
-          Array.isArray(value) ? `[${value[0]}, ....]` : value
-        }`;
-      }, '')}
-
-      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        
+        URL: ${url} | validated
+        `
+        )}
             
       `,
         'green'
