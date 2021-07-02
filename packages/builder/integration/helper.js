@@ -2,6 +2,7 @@ import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import { Logger } from '@affiliate-master/common';
 import { evaluate } from '../helpers';
+import * as Promise from 'bluebird';
 
 function commonLog(msg, c) {
   Logger.publicLog(msg, c || 'cyan');
@@ -28,7 +29,7 @@ export function validateUrl() {
 
       commonLog(`validating URL: ${url}`);
       await page.goto(url);
-      if (delay) await page.waitFor(delay);
+      if (delay) await Promise.delay(delay);
 
       const extractedData = await page.evaluate(evaluate, param);
       const [extractedDataItem] = extractedData.data;
@@ -36,21 +37,24 @@ export function validateUrl() {
       // Print outputs
       commonLog(
         `
-        ${Object.keys(extractedDataItem).reduce(
-          (acc, cur) => {
-            const value = extractedDataItem[cur];
-            return `
+        ${
+          extractedDataItem &&
+          Object.keys(extractedDataItem).reduce(
+            (acc, cur) => {
+              const value = extractedDataItem[cur];
+              return `
         ${acc}         
         ${cur.toUpperCase()}: ${Array.isArray(value) ? `[${value[0]}, ....]` : value}
         `;
-          },
-          `
+            },
+            `
         BRAND: ${brand}
 
         
         URL: ${url} | validated
         `
-        )}
+          )
+        }
             
       `,
         'green'

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624645584427" clover="3.2.0">
-  <project timestamp="1624645584427" name="All files">
-    <metrics statements="597" coveredstatements="538" conditionals="302" coveredconditionals="232" methods="165" coveredmethods="148" elements="1064" coveredelements="918" complexity="0" loc="597" ncloc="597" packages="11" files="25" classes="25"/>
+<coverage generated="1625217689165" clover="3.2.0">
+  <project timestamp="1625217689165" name="All files">
+    <metrics statements="597" coveredstatements="539" conditionals="302" coveredconditionals="235" methods="165" coveredmethods="148" elements="1064" coveredelements="922" complexity="0" loc="597" ncloc="597" packages="11" files="25" classes="25"/>
     <package name="api">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="api.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/api/api.js">
@@ -545,7 +545,7 @@
       </file>
     </package>
     <package name="helpers">
-      <metrics statements="102" coveredstatements="97" conditionals="69" coveredconditionals="50" methods="29" coveredmethods="27"/>
+      <metrics statements="102" coveredstatements="98" conditionals="69" coveredconditionals="53" methods="29" coveredmethods="27"/>
       <file name="extractorHelpers.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/helpers/extractorHelpers.js">
         <metrics statements="50" coveredstatements="48" conditionals="36" coveredconditionals="26" methods="12" coveredmethods="12"/>
         <line num="16" count="46" type="cond" truecount="2" falsecount="0"/>
@@ -631,15 +631,15 @@
         <line num="65" count="5" type="stmt"/>
       </file>
       <file name="testingHelpers.js" path="/Users/justincoulston/Desktop/affilaite-core-mono/packages/crawler/helpers/testingHelpers.js">
-        <metrics statements="27" coveredstatements="25" conditionals="15" coveredconditionals="9" methods="11" coveredmethods="10"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="8" count="9" type="stmt"/>
-        <line num="10" count="9" type="stmt"/>
-        <line num="19" count="9" type="stmt"/>
+        <metrics statements="27" coveredstatements="26" conditionals="15" coveredconditionals="12" methods="11" coveredmethods="10"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
-        <line num="26" count="9" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
         <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="42" count="82" type="stmt"/>
@@ -652,12 +652,12 @@
         <line num="51" count="80" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
         <line num="60" count="1" type="stmt"/>
-        <line num="62" count="1" type="stmt"/>
-        <line num="64" count="1" type="cond" truecount="1" falsecount="2"/>
-        <line num="70" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="62" count="223" type="stmt"/>
+        <line num="64" count="223" type="cond" truecount="3" falsecount="0"/>
+        <line num="70" count="223" type="cond" truecount="4" falsecount="0"/>
         <line num="71" count="1" type="stmt"/>
         <line num="72" count="1" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
+        <line num="75" count="222" type="stmt"/>
         <line num="78" count="1" type="stmt"/>
       </file>
     </package>

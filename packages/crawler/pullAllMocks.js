@@ -49,7 +49,7 @@ async function pullPageMocks() {
   async function getPageContent(url, containerSelector, pageDelay, scrollPage) {
     await page.goto(url);
     await page.cookies();
-    if (pageDelay) await page.waitFor(pageDelay);
+    if (pageDelay) await Promise.delay(pageDelay);
     if (scrollPage) {
       console.log(`Scrolling page: ${url}`);
       await page.evaluate(scrollPageBeforeExtract);

@@ -41,10 +41,16 @@ async function validateSchemas() {
       plpUrl,
       brand
     );
-    let { link: crawledLink } = extractedDataPlp;
+    let { link: crawledLink } = extractedDataPlp || {};
     const { domain } = schema;
     const link = Array.isArray(crawledLink) ? crawledLink[0] : crawledLink;
     const pdpCrawlUrl = link?.includes(domain) ? link : domain + link;
+
+    if (!link) {
+      failedRequiredPdpData.push('PDP crawl is undefined');
+      return;
+    }
+
     const { extractedDataItem: extractedDataPdp } = await validation.testSchema(
       pdpParam,
       pdpCrawlUrl,
