@@ -121,7 +121,11 @@ export default class FullCycle {
           (catData) => (orderedCatData[orderRefList.indexOf(catData.category)] = catData)
         );
 
-        set(extracts, `[${secIndex}].data`, orderedCatData);
+        set(
+          extracts,
+          `[${secIndex}].data`,
+          orderedCatData.filter((notNull) => notNull)
+        );
       }
     });
 
@@ -166,7 +170,8 @@ export default class FullCycle {
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
 
-    this.orderProductCategories(concludedExtracts);
+    concludedExtracts = this.orderProductCategories(concludedExtracts);
+
     await this.writeStoreToCache(concludedExtracts);
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');
 

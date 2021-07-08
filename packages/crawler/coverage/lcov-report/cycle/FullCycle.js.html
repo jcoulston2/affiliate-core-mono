@@ -22,9 +22,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.84% </span>
+                <span class="strong">88% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>65/74</span>
+                <span class='fraction'>66/75</span>
             </div>
         
             
@@ -36,16 +36,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">86.36% </span>
+                <span class="strong">86.96% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>19/22</span>
+                <span class='fraction'>20/23</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.73% </span>
+                <span class="strong">88.89% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>63/71</span>
+                <span class='fraction'>64/72</span>
             </div>
         
             
@@ -242,7 +242,12 @@
 <a name='L184'></a><a href='#L184'>184</a>
 <a name='L185'></a><a href='#L185'>185</a>
 <a name='L186'></a><a href='#L186'>186</a>
-<a name='L187'></a><a href='#L187'>187</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L187'></a><a href='#L187'>187</a>
+<a name='L188'></a><a href='#L188'>188</a>
+<a name='L189'></a><a href='#L189'>189</a>
+<a name='L190'></a><a href='#L190'>190</a>
+<a name='L191'></a><a href='#L191'>191</a>
+<a name='L192'></a><a href='#L192'>192</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -368,6 +373,10 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -411,6 +420,7 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -440,7 +450,7 @@ import { StopWatch } from 'stopwatch-node';
 import { transmitLogsToSlack } from '../api';
 import { Logger, messages } from '@affiliate-master/common';
 import BatchPipe from '../batching/BatchPipe';
-import { AFF_DATA_PATH, BATCH_LOG } from '../constants';
+import { STORE_CACHE, BATCH_LOG } from '../constants';
 import { separateCautiousProducts, assignToExtract } from '../helpers';
 &nbsp;
 export default class FullCycle {
@@ -551,7 +561,11 @@ export default class FullCycle {
           (catData) =&gt; (orderedCatData[orderRefList.indexOf(catData.category)] = catData)
         );
 &nbsp;
-        set(extracts, `[${secIndex}].data`, orderedCatData);
+        set(
+          extracts,
+          `[${secIndex}].data`,
+          orderedCatData.filter((notNull) =&gt; notNull)
+        );
       }
     });
 &nbsp;
@@ -561,7 +575,7 @@ export default class FullCycle {
 <span class="fstat-no" title="function not covered" >  as</span>ync writeStoreToCache(extracts) {
 <span class="cstat-no" title="statement not covered" >    if (!this.writeStoreCache) <span class="cstat-no" title="statement not covered" >return;</span></span>
 <span class="cstat-no" title="statement not covered" >    try {</span>
-<span class="cstat-no" title="statement not covered" >      await writeStoreCache(AFF_DATA_PATH, extracts);</span>
+<span class="cstat-no" title="statement not covered" >      await writeStoreCache(STORE_CACHE, extracts);</span>
     } catch (e) {
 <span class="cstat-no" title="statement not covered" >      Logger.publicLog(messages.writeStoreToCacheFail(e), 'red');</span>
     }
@@ -596,7 +610,8 @@ export default class FullCycle {
     let concludedExtracts = batchResponse ? batchResponse.updatedBatch : extracts;
     <span class="missing-if-branch" title="else path not taken" >E</span>if (this.shuffleFeeds) concludedExtracts = this.shuffleProductFeeds(concludedExtracts);
 &nbsp;
-    this.orderProductCategories(concludedExtracts);
+    concludedExtracts = this.orderProductCategories(concludedExtracts);
+&nbsp;
     await this.writeStoreToCache(concludedExtracts);
     Logger.publicLog(messages.writeStoreToCacheSuccess, 'blue');
 &nbsp;
@@ -621,7 +636,7 @@ export default class FullCycle {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Fri Jun 25 2021 19:26:24 GMT+0100 (British Summer Time)
+                at Wed Jul 07 2021 11:06:36 GMT+0100 (British Summer Time)
             </div>
         </div>
         <script src="../prettify.js"></script>

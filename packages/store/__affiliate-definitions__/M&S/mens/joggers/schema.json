@@ -36,7 +36,7 @@
           "isConditional": true
         },
         "link": {
-          "selector": "a.product[href]",
+          "selector": ".product > a[href]",
           "getDataFrom": "attr: href"
         },
         "image": {
@@ -50,7 +50,7 @@
       "data": {
         "images": {
           "selector": ".container .image-grid .image-grid__item img",
-          "getDataFrom": "attr: data-src"
+          "getDataFrom": "attr: src"
         },
         "selectedColor": {
           "selector": ".colour-picker__information .colour-picker__name",

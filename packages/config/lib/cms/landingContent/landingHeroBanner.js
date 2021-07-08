@@ -37,7 +37,7 @@ export default {
       },
 
       copy: {
-        text: `Bringing high street fashion together online in one place
+        text: `Your virtual high street for clothes
         <a
           href="/motivation"
           style="
