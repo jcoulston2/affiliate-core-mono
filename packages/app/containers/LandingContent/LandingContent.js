@@ -16,12 +16,8 @@ type LandingContentProps = {
 };
 
 const LandingContent = ({ navigationData }: LandingContentProps) => {
-  const {
-    landingHeroBanner,
-    landingActionCards,
-    landingInfoCards,
-    landingSplitContentInfo,
-  } = useCms('landingContent');
+  const { landingHeroBanner, landingActionCards, landingInfoCards, landingSplitContentInfo } =
+    useCms('landingContent');
 
   const [quickFinderOpen, setQuickFinderOpen] = useState(false);
   const cmsEventMappings = {

@@ -1,7 +1,14 @@
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import { getFullSchemaUrl } from '@affiliate-master/common';
+import { Logger } from '@affiliate-master/common';
+import { evaluate } from '../helpers';
+import * as Promise from 'bluebird';
 
+function commonLog(msg, c) {
+  Logger.publicLog(msg, c || 'cyan');
+}
+
+// This is just a light version of the crawler that we can use for integration tests
 export function validateUrl() {
   let browser;
   let page;
@@ -10,34 +17,55 @@ export function validateUrl() {
     setUpBrowser: async () => {
       await puppeteer.use(StealthPlugin());
       browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
       });
       page = await browser.newPage();
       await page.setDefaultNavigationTimeout(0);
-      console.log('::::: set up browser :::::');
+      commonLog('::::: set up browser :::::');
     },
 
-    testSchema: async (schema) => {
-      const url = getFullSchemaUrl(schema);
-      const {
-        delay,
-        productsSelector: { selector: testNode },
-      } = schema?.extracts?.topLevel;
-      console.log(`::::: validating URL: ${url} :::::`);
+    testSchema: async (param, url, brand) => {
+      const { delay } = param;
+
+      commonLog(`validating URL: ${url}`);
       await page.goto(url);
-      if (delay) await page.waitFor(delay);
+      if (delay) await Promise.delay(delay);
 
-      const hasTestNode = await page.evaluate((testNode) => {
-        return !!document.querySelector(testNode);
-      }, testNode);
+      const extractedData = await page.evaluate(evaluate, param);
+      const [extractedDataItem] = extractedData.data;
 
-      console.log(`::::: ${url} validated :::::`);
-      return hasTestNode;
+      // Print outputs
+      commonLog(
+        `
+        ${
+          extractedDataItem &&
+          Object.keys(extractedDataItem).reduce(
+            (acc, cur) => {
+              const value = extractedDataItem[cur];
+              return `
+        ${acc}         
+        ${cur.toUpperCase()}: ${Array.isArray(value) ? `[${value[0]}, ....]` : value}
+        `;
+            },
+            `
+        BRAND: ${brand}
+
+        
+        URL: ${url} | validated
+        `
+          )
+        }
+            
+      `,
+        'green'
+      );
+
+      return { extractedDataItem };
     },
 
     closeSession: async () => {
       await browser.close();
-      console.log('::::: closed browser :::::');
+      commonLog('::::: closed browser :::::');
     },
   };
 }

@@ -11,12 +11,12 @@
     "pull-page-mocks": "lerna run pull-page-mocks --stream",
     "test": "lerna run test --stream",
     "app:gen-site-map": "lerna run gen-site-map --stream",
-    "builder:test-e2e": "lerna run test-e2e --stream",
+    "builder:test-e2e": "lerna run builder:test-e2e --stream",
     "crawler:test-e2e": "lerna run test-e2e --stream",
     "link": "lerna link",
     "dev": "lerna run dev --stream",
     "start": "lerna run start --stream",
-    "build": "lerna run build --stream",
+    "build": "npm run boot && lerna run build --stream",
     "log-store-cache": "lerna run log-store-cache --stream"
   },
   "devDependencies": {

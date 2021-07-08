@@ -96,7 +96,7 @@ export default class Extractor {
     await this.gotoPage(url, pageTimeout);
     if (param.waitForCookies) await this.page.cookies();
     if (param.waitForNode) await this.page.waitForSelector(param.waitForNode);
-    if (param.delay) await this.page.waitFor(param.delay);
+    if (param.delay) await Promise.delay(param.delay);
     if (param.scrollPage) {
       await this.page.evaluate(scrollPageBeforeExtract);
       await Promise.delay(param.scrollPageWaitTime || 5000);

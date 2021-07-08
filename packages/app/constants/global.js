@@ -1,11 +1,9 @@
 // Env
 export const NEXT_PUBLIC_PORT = process.env.NEXT_PUBLIC_PORT;
 export const NEXT_PUBLIC_HOST = process.env.NEXT_PUBLIC_HOST;
-export const DEV_LIGHT_MODE = process.env.DEV_LIGHT_MODE;
 export const NODE_ENV = process.env.NODE_ENV;
 export const IS_DEV = NODE_ENV !== 'production';
 export const IS_PROD = NODE_ENV === 'production';
-export const IS_DEV_LIGHT_MODE = DEV_LIGHT_MODE === 'true';
 export const ALLOW_GOOGLE_INDEXING = process.env.NEXT_PUBLIC_ALLOW_GOOGLE_INDEXING;
 export const URL = IS_PROD ? NEXT_PUBLIC_HOST : `${NEXT_PUBLIC_HOST}:${NEXT_PUBLIC_PORT}`;
 

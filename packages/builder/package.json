@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "builder:test-e2e": "jest",
+    "builder:test-e2e": "FORCE_COLOR=1 jest",
     "new-schema": "FORCE_COLOR=1 babel-node scripts/new-schema.js",
     "build-schemas": "FORCE_COLOR=1 babel-node scripts/build.js",
     "build-predictive-search": "FORCE_COLOR=1 babel-node scripts/build-search.js"
@@ -34,10 +34,9 @@
     "glob": "^7.1.6",
     "modern-random-ua": "^1.0.3",
     "pretty-ms": "^7.0.0",
-    "puppeteer": "^5.2.1",
-    "puppeteer-extra": "^3.1.9",
-    "puppeteer-extra-plugin-aws": "^1.0.2",
-    "puppeteer-extra-plugin-stealth": "^2.5.0",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
     "regenerator-runtime": "^0.13.3",
     "require-context": "^1.1.0",
     "stopwatch-node": "^1.0.2"
