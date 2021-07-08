@@ -47,7 +47,7 @@ async function validateSchemas() {
     const pdpCrawlUrl = link?.includes(domain) ? link : domain + link;
 
     if (!link) {
-      failedRequiredPdpData.push('PDP crawl is undefined');
+      failedRequiredPdpData.push(brand);
       return;
     }
 

@@ -34,10 +34,9 @@
     "glob": "^7.1.6",
     "modern-random-ua": "^1.0.3",
     "pretty-ms": "^7.0.0",
-    "puppeteer": "^5.2.1",
-    "puppeteer-extra": "^3.1.9",
-    "puppeteer-extra-plugin-aws": "^1.0.2",
-    "puppeteer-extra-plugin-stealth": "^2.5.0",
+    "puppeteer": "^10.1.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
     "regenerator-runtime": "^0.13.3",
     "require-context": "^1.1.0",
     "stopwatch-node": "^1.0.2"
