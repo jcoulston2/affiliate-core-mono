@@ -70,15 +70,16 @@ export default function Navigation({
   const [navigationExpandedLevel, setNavigationExpandedLevel] = useState(0);
   const [mobileNavigationActiveTitleIndex, setMobileNavigationActiveTitleIndex] = useState(null);
   const [navigationBreadCrumb, setNavigationBreadCrumb] = useState({
-    1: null,
-    2: null,
+    '1': null,
+    '2': null,
   });
+
   const handleNavigationBack = () => {
     if (navigationExpandedLevel) {
       setNavigationExpandedLevel(navigationExpandedLevel - 1);
     } else {
       // If on the first level, reset breadcrumbs
-      setNavigationBreadCrumb({ 1: null, 2: null });
+      setNavigationBreadCrumb({ '1': null, '2': null });
     }
   };
 

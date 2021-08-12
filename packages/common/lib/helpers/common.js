@@ -115,7 +115,9 @@ export function getLocalStorage(key: string): any {
 export function setLocalStorage(key: string, value: any): void {
   try {
     localStorage.setItem(key, JSON.stringify(value));
-  } catch (e) {}
+  } catch (e) {
+    //
+  }
 }
 
 export function getNode(selector: string): any {
@@ -198,6 +200,6 @@ export function deDupeArray(ar: Array<any>): Array<any> {
   return [...new Set(ar)];
 }
 
-export function lowerCase(str) {
+export function lowerCase(str: string): string {
   return str.length ? str.toLowerCase() : str;
 }

@@ -1,8 +1,7 @@
 //@flow
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Image from '@units/Image';
-import { type Filters as FilterType } from '@types/product';
 import { type FiltersComponentProps } from './types';
 import Card from '@units/Card';
 import Input from '@units/Input';
@@ -20,24 +19,20 @@ import HelpIcon from '@material-ui/icons/Info';
 import { CenterVertical } from '@styles/CommonStyledComponents';
 import Button from '@units/Button';
 import { useRouter } from 'next/router';
-import { PLP_PATH, SEARCH_PATH } from '@constants';
 import {
   createUrlFilters,
-  normalizeFilters,
   getNumberOfFiltersSelected,
   getCategoryFilters,
   getSectionFilters,
   sortSelectedCheckboxes,
   isSearch,
 } from './helper';
-import { stringifySafe, toArrayNullable, keyWordsToString, urlCase } from '@helpers/common';
-import { getFilterPlpBasePath, pushFilterPlpBasePath, getFiltersFromUrl } from '@helpers/page';
-import ClearIcon from '@material-ui/icons/Clear';
+import { keyWordsToString, urlCase } from '@helpers/common';
+import { getFilterPlpBasePath, pushFilterPlpBasePath } from '@helpers/page';
 import Drawer from '@units/Drawer';
 import { TooltopContent, ClearFilters, FilterNotification } from './styles';
 import { useBrandList, useCategoryData } from '@hooks';
 import FilterItem from './FilterItem';
-import isEmpty from 'lodash/isEmpty';
 import capitalize from 'lodash/capitalize';
 
 export default function Filters({
@@ -58,7 +53,6 @@ export default function Filters({
   setSaleThreshold,
   setFilterDrawOpen,
   setHasTouchedSlider,
-  hasSetDefaultFilters,
   triggerFilterRefresh,
   filterDrawOpen,
   priceSort,
@@ -69,7 +63,6 @@ export default function Filters({
   filterRefresh,
   priceThreshold,
   normalizedFilters,
-  useFilterSelectedNotifcation,
   productFiltersContent: cms,
 }: FiltersComponentProps) {
   const router = useRouter();
@@ -89,15 +82,15 @@ export default function Filters({
     cb(event.target.value);
   };
 
-  const handleCheckBoxChange = (stateVale: Array<any>, stateSetter: Function) => (
-    value: string
-  ): void => {
-    if (stateVale.includes(value)) {
-      stateSetter(stateVale.filter((item) => urlCase(item) !== value));
-    } else {
-      stateSetter([...stateVale, value]);
-    }
-  };
+  const handleCheckBoxChange =
+    (stateVale: Array<any>, stateSetter: Function) =>
+    (value: string): void => {
+      if (stateVale.includes(value)) {
+        stateSetter(stateVale.filter((item) => urlCase(item) !== value));
+      } else {
+        stateSetter([...stateVale, value]);
+      }
+    };
 
   const restoreDefaultFilters = (): void => {
     setFilterDrawOpen(false);
@@ -182,8 +175,9 @@ export default function Filters({
                       name="section"
                       value={section}
                       onChange={handleInputChange(setSection)}>
-                      {sectionFilters.map((sectionFilter: string) => (
+                      {sectionFilters.map((sectionFilter: string, index: number) => (
                         <FormControlLabel
+                          key={index}
                           value={sectionFilter}
                           control={<RadioButton />}
                           label={capitalize(sectionFilter)}

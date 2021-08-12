@@ -12,7 +12,7 @@ type ProductCtaProps = {
 };
 
 export default function ProductCta({ primaryCta, brand, productLink }: ProductCtaProps) {
-  const buttonBrandedText = `${primaryCta.text} ${brand}`;
+  const buttonBrandedText = primaryCta?.text && `${primaryCta.text} ${brand}`;
   return (
     <Grid item xs>
       <Button

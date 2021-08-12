@@ -127,7 +127,7 @@ export function getCategoryFilters(section: string, categoryData: NavigationData
     const sectionData = categoryData.find((sec) => sec.title === section);
     return sectionData?.subNav[0]?.subNavItems.map((item) => item.title) || [];
   } else {
-    const allItems = categoryData?.map(
+    const allItems: any = categoryData?.map(
       (sec) => sec?.subNav && sec?.subNav[0]?.subNavItems.map((item) => item.title)
     );
     return deDupeArray(allItems?.flat() || []);
@@ -138,11 +138,8 @@ export function getSectionFilters(section: string, categoryData: NavigationData)
   return categoryData?.map((sec) => sec.title) || [];
 }
 
-export function sortSelectedCheckboxes(
-  fullList: Array<string>,
-  selectedList: Array<string>
-): Array<string> {
-  return fullList.sort((item) => {
+export function sortSelectedCheckboxes(fullList: any, selectedList: Array<string>): Array<string> {
+  return fullList.sort((item: any) => {
     if (selectedList.includes(urlCase(item))) {
       return -1;
     }
