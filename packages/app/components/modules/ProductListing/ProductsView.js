@@ -127,6 +127,7 @@ export default function ProductFlickView({
           <ProductListingItem
             hasWishListAction
             onCardClick={openCardActionMemo(product)}
+            //$FlowFixMe
             {...product}
             {...listingItemProps}
             key={index}

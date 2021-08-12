@@ -1,4 +1,5 @@
 //@flow
+/* eslint no-console: */
 import React, { useEffect, useState, useCallback } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Button from '@units/Button';
@@ -195,7 +196,9 @@ export default function ProductListing({
           }}
           {...listingItemProps}
         />
-        {!numberOfProducts && <NoMoreProductsIndicator text={!loading && noSearchResultText} />}
+        {!numberOfProducts && (
+          <NoMoreProductsIndicator text={(!loading && noSearchResultText) || ''} />
+        )}
         <ListingInformation container justify="center">
           {!isFlickView && (
             <Grid item lg={5}>

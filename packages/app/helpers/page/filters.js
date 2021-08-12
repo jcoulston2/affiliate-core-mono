@@ -8,7 +8,7 @@ import camelCase from 'lodash/camelCase';
 import { type Router } from '@types/next';
 
 type SearchAndFilters = {
-  ...SearchUrlCase,
+  ...$Exact<SearchUrlCase>,
   ...Filters,
 };
 
@@ -53,7 +53,7 @@ export function getFilterValues(filterkey: ?'filter', filterValues: ?string): Ob
 }
 
 export function getFilterValuesFromSearchUrl(searchTerms: SearchAndFilters): ?Filters {
-  return Object.keys(searchTerms).reduce<Object>((acc, cur) => {
+  return Object.keys(searchTerms).reduce<Object>((acc, cur: any) => {
     const value = normalizeFilterValue(searchTerms[cur]);
     return validFilters.includes(cur) ? { ...acc, [camelCase(cur)]: value } : acc;
   }, {});

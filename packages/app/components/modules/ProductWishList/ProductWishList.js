@@ -86,6 +86,7 @@ export default function WishList({ savedProducts }: WishListProps) {
               hasWishListAction
               onCardClick={() => wishListCardClick(product)}
               key={index}
+              //$FlowFixMe
               {...product}
               {...{
                 productTileCardDetails,

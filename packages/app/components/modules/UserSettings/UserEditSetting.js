@@ -45,6 +45,7 @@ function UserEditSetting({
           onChange={({ target }) => {
             setUserSettings({
               ...user,
+              //$FlowFixMe
               [property]: target.value,
             });
           }}
@@ -62,6 +63,7 @@ function UserEditSetting({
           onChange={({ target }) => {
             setUserSettings({
               ...user,
+              //$FlowFixMe
               [property]: target.value,
             });
           }}>
@@ -87,6 +89,7 @@ function UserEditSetting({
           onChange={({ target }) => {
             setUserSettings({
               ...user,
+              //$FlowFixMe
               [property]: target.checked,
             });
           }}
@@ -104,6 +107,7 @@ function UserEditSetting({
           onChange={({ target }) => {
             setUserSettings({
               ...user,
+              //$FlowFixMe
               [property]: target.checked,
             });
           }}

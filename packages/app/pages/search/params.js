@@ -30,7 +30,7 @@ const SearchPage = () => {
 export const getServerSideProps = wrapper.getServerSideProps(
   async ({ store, req, query }: WrapperParamsServerSideProps): Promise<any> => {
     const homeCmsQuery = 'listingContent, productViewContent';
-    const searchValues: PredictiveSearch = getSearchValues(query || req.query, req);
+    const searchValues: $Exact<PredictiveSearch> = getSearchValues(query || req.query, req);
     const searchFilters: Filters = getFilterValuesFromSearchUrl(query || req.query);
     const productCountStart = 0;
     const productCountEnd = 100;
