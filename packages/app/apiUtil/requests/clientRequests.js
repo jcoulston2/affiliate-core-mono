@@ -1,5 +1,4 @@
 //@flow
-import gql from 'graphql-tag';
 import { PRODUCTS_API_END_POINT, PREDICTIVE_SEARCH_API_END_POINT } from '@constants';
 import { productQuery, searchQuery } from '../../graphQL/graphqlQueries';
 import { type ProductApiQuery, type Search } from '@types/apiQueries';

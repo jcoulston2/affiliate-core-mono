@@ -1,5 +1,4 @@
 //@flow
-//@flow
 import React from 'react';
 import Typography from '@units/Typography';
 import { Spacer } from '@styles/CommonStyledComponents';

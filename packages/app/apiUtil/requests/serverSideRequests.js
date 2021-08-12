@@ -1,5 +1,4 @@
 //@flow
-import axios from 'axios';
 import gql from 'graphql-tag';
 import {
   searchQuery,
@@ -11,7 +10,6 @@ import { productSchema, cmsSchema } from '../../graphQL/schemas';
 import { storeController, cmsController } from '../controller';
 import {
   type ProductSearchApiQuery,
-  type ProductApiQuery,
   type NavigationApiQuery,
   type CmsApiQuery,
   type BrandListApiQuery,
@@ -23,7 +21,7 @@ import { type PredictiveSearch } from '@types/search';
 // TODO: this should really be an axios call.
 export default {
   getSearchData: (
-    searchValues: PredictiveSearch,
+    searchValues: $Exact<PredictiveSearch>,
     productCountStart: number,
     productCountEnd: number,
     filters?: Filters

@@ -1,4 +1,5 @@
 //@flow
+/*eslint no-unused-vars:*/
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
@@ -85,6 +86,7 @@ export default function BrandButton({
       defaultFontWeight={buttonTheme.defaultFontWeight}
       disableHover={disableHover}
       square={square}
+      // $FlowFixMe
       {...rest}
       {...eventMap}>
       {(copy && (

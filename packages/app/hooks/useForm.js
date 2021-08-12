@@ -1,6 +1,8 @@
-//@flow
 import { useState } from 'react';
 import isEmpty from 'lodash/isEmpty';
+
+//@flow
+/* eslint no-unused-vars:*/
 
 export default function useForm(
   initialValues: { [string]: any },

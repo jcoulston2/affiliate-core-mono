@@ -1,7 +1,6 @@
 //@flow
 import * as React from 'react';
 import Chip from '@units/Chip';
-import Grid from '@material-ui/core/Grid';
 import { type NormalizeFiltersOutput } from './types';
 import { useTheme } from '@hooks';
 import { Highlight } from '@styles/CommonStyledComponents';
@@ -22,7 +21,7 @@ type ChipsRestProps = $Exact<{
 
 type FilterChipsProps = {
   ...ChipsRestProps,
-  ...NormalizeFiltersOutput,
+  ...$Exact<NormalizeFiltersOutput>,
 };
 
 export default function FilterChips({
@@ -128,7 +127,7 @@ export default function FilterChips({
   return (
     <FilterChipWrapper container>
       {chipValues.map(
-        ({ name, label, onDelete, defaultVisibility }, index) =>
+        ({ label, onDelete, defaultVisibility }, index) =>
           !!(defaultVisibility && label) && renderCommonChip(label, onDelete, index)
       )}
     </FilterChipWrapper>
